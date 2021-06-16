@@ -27,7 +27,7 @@ msgctxt "published dates for organic results"
 msgid "%s days ago"
 msgstr "%s dies a oe"
 
-#. An indication that inputted text was detected to be in this language
+#. An indication that inputted text was detected to be in this language. E.g.: Italian detected.
 msgctxt "translations_module"
 msgid "%s detected"
 msgstr ""
@@ -3694,10 +3694,13 @@ msgstr "Chircas acapiadas"
 msgid "Related Topics"
 msgstr "Temas acapiados"
 
+msgid "Remember my choice (this can be changed in %s%s%sSettings%s)"
+msgstr ""
+
 msgid "Remember my choice (this can be changed in %s%sSettings%s)"
 msgstr ""
-"Regorda sa seletzione mia (custu podet èssere modificadu dae "
-"%s%sCunfiguratziones%s)"
+"Regorda sa seletzione mia (custu podet èssere modificadu dae %s"
+"%sCunfiguratziones%s)"
 
 msgctxt "ads"
 msgid "Report Ad"
