@@ -35,7 +35,7 @@ msgctxt "published dates for organic results"
 msgid "%s days ago"
 msgstr "%s lá ó shin"
 
-#. An indication that inputted text was detected to be in this language
+#. An indication that inputted text was detected to be in this language. E.g.: Italian detected.
 msgctxt "translations_module"
 msgid "%s detected"
 msgstr ""
@@ -3655,6 +3655,9 @@ msgstr "Ábhair Ghaolmhara"
 msgid "Remember my choice (this can be changed in %s%s%sSettings%s)"
 msgstr "Cuimhnigh ar mo rogha (is féidir seo a athrú sna %s%s%sSocruithe%s)"
 
+msgid "Remember my choice (this can be changed in %sSettings%s)"
+msgstr ""
+
 msgctxt "ads"
 msgid "Report Ad"
 msgstr "Tuairiscigh an Fógra"
@@ -5299,7 +5302,9 @@ msgstr "Sea, úsáideoir nua!"
 msgctxt "cloudsave"
 msgid ""
 "Yes, we throw away data when you’re done with it, and it cannot be recovered."
-msgstr "Caithimid uainn sonraí an tráth a bhíonn tú críochnaithe leo, agus ní féidir iad a fháil ar ais arís"
+msgstr ""
+"Caithimid uainn sonraí an tráth a bhíonn tú críochnaithe leo, agus ní féidir "
+"iad a fháil ar ais arís"
 
 #. Option for the filter-by-date search.
 msgid "Yesterday"

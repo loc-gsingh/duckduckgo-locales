@@ -33,7 +33,7 @@ msgctxt "published dates for organic results"
 msgid "%s days ago"
 msgstr "antaŭ %s tagoj"
 
-#. An indication that inputted text was detected to be in this language
+#. An indication that inputted text was detected to be in this language. E.g.: Italian detected.
 msgctxt "translations_module"
 msgid "%s detected"
 msgstr ""
@@ -3615,6 +3615,9 @@ msgstr "Rilataj temoj"
 
 msgid "Remember my choice (this can be changed in %s%s%sSettings%s)"
 msgstr "Memori mian elekton (oni povas ŝanĝi ĉi tion en %s%s%sAgordoj%s)"
+
+msgid "Remember my choice (this can be changed in %sSettings%s)"
+msgstr ""
 
 msgctxt "ads"
 msgid "Report Ad"
