@@ -2844,6 +2844,12 @@ msgid "Khmer"
 msgstr ""
 
 # smartling.placeholder_format=C
+#. The name of the Klingon language
+msgctxt "language_name"
+msgid "Klingon"
+msgstr ""
+
+# smartling.placeholder_format=C
 #. The name of the Klingon (Latin) language
 msgctxt "language_name"
 msgid "Klingon (Latin)"
