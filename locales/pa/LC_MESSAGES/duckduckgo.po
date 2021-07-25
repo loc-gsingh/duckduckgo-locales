@@ -5,12 +5,13 @@ msgstr ""
 "Last-Translator: Community\n"
 "Language-Team: DuckDuckGo Community <community@duckduckgo.com>\n"
 "POT-Creation-Date: 2019-01-16 23:42-0500\n"
-"PO-Revision-Date: 2019-01-16 23:42-0500\n"
-"Language: Panjabi\n"
+"PO-Revision-Date: 2021-07-25 12:30+0530\n"
+"Language: panjabi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 3.0\n"
 
 # smartling.placeholder_format=C
 msgid "!Bang Search Shortcuts"
@@ -103,7 +104,7 @@ msgstr ""
 # smartling.placeholder_format=C
 msgctxt "frontpage"
 msgid "%sLearn More%s."
-msgstr ""
+msgstr "%sਹੋਰ ਜਾਣੋ%s।"
 
 # smartling.placeholder_format=C
 msgctxt "precise_user_location"
@@ -129,18 +130,18 @@ msgstr ""
 #. We realise this is the incorrect way to handle plurals. Sorry, we are working on a fix.
 msgctxt "published dates for organic results"
 msgid "1 day ago"
-msgstr ""
+msgstr "1 ਦਿਨ ਪਹਿਲਾਂ"
 
 # smartling.placeholder_format=C
 #. We realise this is the incorrect way to handle plurals. Sorry, we are working on a fix.
 msgctxt "published dates for organic results"
 msgid "1 hour ago"
-msgstr ""
+msgstr "1 ਘੰਟਾ ਪਹਿਲਾਂ"
 
 # smartling.placeholder_format=C
 msgctxt "install-extension"
 msgid "1. Open %sDownloads%s"
-msgstr ""
+msgstr "1. %sਡਾਊਨਲੋਡ%s ਖੋਲ੍ਹੋ"
 
 # smartling.placeholder_format=C
 msgctxt "install-extension"
@@ -182,7 +183,7 @@ msgstr ""
 
 # smartling.placeholder_format=C
 msgid "About Us"
-msgstr ""
+msgstr "ਸਾਡੇ ਬਾਰੇ"
 
 # smartling.placeholder_format=C
 #. Ad like 'advertisement'
