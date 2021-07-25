@@ -6,11 +6,11 @@ msgstr ""
 "Language-Team: DuckDuckGo Community <community@duckduckgo.com>\n"
 "POT-Creation-Date: 2019-01-16 23:42-0500\n"
 "PO-Revision-Date: 2019-01-16 23:42-0500\n"
-"Language: US English\n"
+"Language: Panjabi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
 
 # smartling.placeholder_format=C
 msgid "!Bang Search Shortcuts"
@@ -29,13 +29,13 @@ msgstr ""
 #. We realise this is the incorrect way to handle plurals. Sorry, we are working on a fix.
 msgctxt "published dates for organic results"
 msgid "%s days ago"
-msgstr ""
+msgstr "%s ਦਿਨ ਪਹਿਲਾਂ"
 
 # smartling.placeholder_format=C
 #. An indication that inputted text was detected to be in this language. E.g.: Italian detected.
 msgctxt "translations_module"
 msgid "%s detected"
-msgstr ""
+msgstr "%s ਦੀ ਪਛਾਣ ਹੋਈ"
 
 # smartling.placeholder_format=C
 #. in https://duckduckgo.com/params. multiple fors
