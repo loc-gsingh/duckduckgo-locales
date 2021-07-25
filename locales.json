@@ -476,6 +476,12 @@
       "name_in_local" : "ଓଡ଼ିଆ (ଭାରତ)",
       "rtl" : 0
    },
+    "pa" : {
+      "locale" : "pa",
+      "name_in_english" : "ਪੰਜਾਬੀ",
+      "name_in_local" : "ਪੰਜਾਬੀ",
+      "rtl" : 0
+   },
    "pl_PL" : {
       "locale" : "pl_PL",
       "name_in_english" : "Polish (Poland)",
