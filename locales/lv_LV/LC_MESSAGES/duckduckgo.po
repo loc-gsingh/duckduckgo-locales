@@ -117,9 +117,49 @@ msgctxt "install-extension"
 msgid "1. Open %sDownloads%s"
 msgstr "1. Atver %1$slejupielādes%2$s"
 
+#. Disclaimer text for the stocks module
+msgctxt "Stocks module"
+msgid "15 minutes delayed"
+msgstr "Ar 15 minūšu aizkavi"
+
+#. Button label for selecting chart of today's prices (needs to be short on mobile devices)
+msgctxt "Stocks module"
+msgid "1D"
+msgstr "1D"
+
+#. Button label for selecting chart of prices over the last month
+msgctxt "Stocks module"
+msgid "1M"
+msgstr "1M"
+
+#. Button label for selecting chart of prices over the last year
+msgctxt "Stocks module"
+msgid "1Y"
+msgstr "1G"
+
 msgctxt "install-extension"
 msgid "2. Double-click %sduckduckgo.safariextz%s"
 msgstr "2. Izdari dubultklikšķi uz %1$sduckduckgo.safariextz%2$s"
+
+#. The highest price over the previous 52 weeks
+msgctxt "Stocks module"
+msgid "52wk High"
+msgstr "52n augstākā"
+
+#. The lowest price over the previous 52 weeks
+msgctxt "Stocks module"
+msgid "52wk Low"
+msgstr "52n zemākā"
+
+#. Button label for selecting chart of prices over the last 5 days
+msgctxt "Stocks module"
+msgid "5D"
+msgstr "5D"
+
+#. Button label for selecting chart of prices over the last five years
+msgctxt "Stocks module"
+msgid "5Y"
+msgstr "5G"
 
 #. https://duckduckgo.com/params in the end under " Source:"
 msgid "A string to identify the source."
@@ -150,6 +190,11 @@ msgstr "Par DuckDuckGo"
 
 msgid "About Us"
 msgstr "Par mums"
+
+#. This is an option for a user setting. It refers to showing the URL for a result ABOVE the TITLE of the result -- Example image: https://i.imgur.com/bTm8PCc.png
+msgctxt "settingsvalue"
+msgid "Above Title"
+msgstr "Virs virsraksta"
 
 #. Ad like 'advertisement'
 msgid "Ad"
@@ -218,6 +263,10 @@ msgstr "Adrese"
 msgid "Address bar:"
 msgstr "Adrešu josla:"
 
+msgctxt "feedback form"
+msgid "Address is incorrect"
+msgstr "Adrese ir nepareiza"
+
 #. as in multiple advertisements
 msgid "Ads"
 msgstr "Reklāmas"
@@ -252,6 +301,11 @@ msgctxt "language_name"
 msgid "Albanian"
 msgstr "Albāņu"
 
+msgid "All"
+msgstr "Viss"
+
+#. Button label for selecting chart showing all historical prices
+msgctxt "Stocks module"
 msgid "All"
 msgstr "Viss"
 
@@ -421,6 +475,11 @@ msgctxt "language_name"
 msgid "Armenian"
 msgstr "Armēņu"
 
+#. Indicates when the data was last updated e.g. 'As of 12:37 PM EST'
+msgctxt "Stocks module"
+msgid "As of"
+msgstr "No"
+
 msgid ""
 "As per our privacy policy, we do not collect or share any personal "
 "information ourselves. All of this privacy protection happens on your device."
@@ -464,10 +523,20 @@ msgctxt "homepage ATB social proof"
 msgid "Average rating: %s out of 5"
 msgstr "Vidējais vērtējums: %1$s no 5"
 
+#. The average volume traded for a particular stock
+msgctxt "Stocks module"
+msgid "Avg Vol"
+msgstr "Vid. apjoms"
+
 #. The name of the Azerbaijani language
 msgctxt "language_name"
 msgid "Azerbaijani"
 msgstr "Azerbaidžāņu"
+
+#. Abbreviate billions in a number. E.g. 1,000,000,000 becomes 1B
+msgctxt "Stocks module"
+msgid "B"
+msgstr "mljrd."
 
 msgctxt "homepage onboarding"
 msgid "Back to search"
@@ -508,6 +577,16 @@ msgstr "Beļģija (fr)"
 
 msgid "Belgium (nl)"
 msgstr "Beļģija (nl)"
+
+#. This is an option for a user setting. It refers to showing the URL for a result BELOW the SNIPPET (description) of the result -- Example image: https://i.imgur.com/lnP77q4.png
+msgctxt "settingsvalue"
+msgid "Below Snippet"
+msgstr "Zem fragmenta"
+
+#. This is an option for a user setting. It refers to showing the URL for a result BELOW the TITLE of the result -- Example image: https://i.imgur.com/3cb6xx0.png
+msgctxt "settingsvalue"
+msgid "Below Title"
+msgstr "Zem virsraksta"
 
 msgctxt "settingsvalue"
 msgid "Best available"
@@ -677,18 +756,15 @@ msgctxt "settings"
 msgid "Center Alignment"
 msgstr "Noregulēt centrā"
 
-#. One of the option in DuckDuckGo Search Settings under appearance tab.
-#. http://i.imgur.com/CklQ1Ku.png
+#. This is the description of a user setting -- Example image: https://i.imgur.com/yihFekW.png
 msgctxt "settings"
-msgid "Center-aligns the results page (instead of left-aligned)"
-msgstr "Rezultātu lapu līdzināt centrā (nevis kreisajā pusē)"
+msgid "Changes how result URLs are displayed"
+msgstr "Maina rezultātu URL parādīšanas veidu"
 
-#. http://i.imgur.com/oO0X6Pt.png
+#. This is the description of a user setting
 msgctxt "settings"
-msgid ""
-"Changes how much space the header takes up and what happens to it when you "
-"scroll"
-msgstr "Cik daudz vietas mājaslapas augšpuse aizņem un kas notiks ja Tu patīsi mājaslapu uz leju"
+msgid "Changes how the header is displayed and its behavior as you scroll"
+msgstr "Maina galvenes parādīšanas veidu un tās darbību ritinot"
 
 #. http://i.imgur.com/mcZdcaF.png
 msgctxt "settings"
@@ -700,25 +776,46 @@ msgctxt "settings"
 msgid "Changes the background color across the entire site"
 msgstr "Maina fona krāsu visā vietnē"
 
+#. This is the description of a user setting
+msgctxt "settings"
+msgid ""
+"Changes the background color of results on hover, modules, and dropdown menus"
+msgstr "Maina rezultātu fona krāsu kursoram, moduļiem un nolaižamajām izvēlnēm"
+
 #. http://i.imgur.com/NdpkbY0.png
 msgctxt "settings"
 msgid "Changes the background color when hovering over a result"
 msgstr "Maina fona krāsu kad iezīmē rezultātu"
 
-#. http://i.imgur.com/awVlAoo.png
+#. This is the description of a user setting
 msgctxt "settings"
-msgid "Changes the color of the result URL"
-msgstr "Maina krāsu rezultāta lapas adresei"
+msgid "Changes the color of result URLs"
+msgstr "Maina rezultātu URL krāsu"
 
-#. http://i.imgur.com/epUhcrA.png
+#. This is the description of a user setting
 msgctxt "settings"
-msgid "Changes the color of the result description text"
-msgstr "Maina rezultātu apraksta krāsu"
+msgid "Changes the color of result snippets"
+msgstr "Maina rezultātu fragmentu krāsu"
+
+#. This is the description of a user setting
+msgctxt "settings"
+msgid "Changes the color of result titles"
+msgstr "Maina rezultātu nosaukumu krāsu"
+
+#. This is the description of a user setting
+msgctxt "settings"
+msgid "Changes the color of titles for results you've visited"
+msgstr "Maina apmeklēto rezultātu virsrakstu krāsu"
 
 #. http://i.imgur.com/kE1ZsM9.png
 msgctxt "settings"
 msgid "Changes the font across the entire site"
 msgstr "Mainīs fontu visā mājaslapā"
+
+#. This is the description of a user setting
+msgctxt "settings"
+msgid "Changes the font of result titles"
+msgstr "Maina rezultātu virsrakstu fontu"
 
 #. http://i.imgur.com/ftpln8q.png
 msgctxt "settings"
@@ -736,29 +833,15 @@ msgctxt "settings"
 msgid "Changes the language across the entire site"
 msgstr "Tiks nomainīta mājas lapas valoda"
 
-msgctxt "settings"
-msgid "Changes the result hover, module, and dropdown background color"
-msgstr "Maina rezultāta kursora, moduļa un nolaižamās izvēlnes fona krāsu"
-
-#. http://i.imgur.com/f1bLTY1.png
-#. Description for "Result Title Color" which changes the color of the results.
-msgctxt "settings"
-msgid "Changes the title link color for each result"
-msgstr "Maina nosaukuma saites krāsu katram rezultātam"
-
-#. http://i.imgur.com/5IQda6g.png
-msgctxt "settings"
-msgid "Changes the title link font for each result"
-msgstr "Maina fontu katrai virsraksta saitei rezultātos"
-
 #. http://i.imgur.com/auITACf.png
 msgctxt "settings"
 msgid "Changes what happens when you click on a video thumbnail"
 msgstr "Izmaiņas kas notiek kad tu uzklikšķini uz videoklipa attēlu"
 
+#. This is the description of a user setting -- Example image: https://i.imgur.com/ALGzzZr.png
 msgctxt "settings"
-msgid "Changes whether the visited checkmark is visible"
-msgstr "Maina to, vai apmeklētās vietas atzīme ir redzama"
+msgid "Changes where result URLs are displayed"
+msgstr "Maina rezultātu URL parādīšanas vietu"
 
 msgid "Chat"
 msgstr "Čats"
@@ -1117,6 +1200,15 @@ msgstr "Kopiena"
 msgid "Concerts"
 msgstr "Koncerti"
 
+#. Heading for the table column indicating how many confirmed cases there have been in that location
+msgctxt "Covid 19 module"
+msgid "Confirmed"
+msgstr "Apstiprināti"
+
+msgctxt "Covid 19 module"
+msgid "Confirmed Cases"
+msgstr "Apstiprināti gadījumi"
+
 msgid "Congratulations!"
 msgstr "Apsveicam!"
 
@@ -1153,6 +1245,10 @@ msgstr "Kopēt tulkojumu"
 msgctxt "Report image modal"
 msgid "Copyright violation"
 msgstr "Autortiesību pārkāpums"
+
+msgctxt "Covid 19 module"
+msgid "Coronavirus Disease (COVID-19)"
+msgstr "Koronavīrusa slimība (Covid-19)"
 
 #. Instant Answer Tab Name
 msgid "Coupons"
@@ -1228,6 +1324,11 @@ msgctxt "theme"
 msgid "Dark"
 msgstr "Tumšs"
 
+#. Attribution text for the stocks module
+msgctxt "Stocks module"
+msgid "Data provided by IEX Cloud"
+msgstr "Datus nodrošina IEX Cloud"
+
 #. Instant Answer tab name
 msgid "Date"
 msgstr "Randiņš"
@@ -1239,6 +1340,11 @@ msgstr "Datumu filtri"
 msgctxt "feedback form"
 msgid "Date filters"
 msgstr "Datumu filtri"
+
+#. Heading for the table column indicating how many deaths there have been in that location
+msgctxt "Covid 19 module"
+msgid "Deaths"
+msgstr "Nāves gadījumi"
 
 #. A theme name in the theme menu:
 #. https://duck.co/media/files/theme.png
@@ -1310,6 +1416,26 @@ msgstr "Nerādīt"
 
 msgid "Dismiss forever"
 msgstr "Nerādīt"
+
+#. This is the description of a user setting
+msgctxt "settings"
+msgid "Displays a checkmark to the left of results you've visited"
+msgstr "Parāda atzīmi tavu apmeklēto rezultātu kreisajā pusē"
+
+#. This is the description of a user setting
+msgctxt "settings"
+msgid "Displays favicons for each result"
+msgstr "Parāda izlases ikonu katram rezultātam"
+
+#. This is the description of a user setting
+msgctxt "settings"
+msgid "Displays results in the center of the page"
+msgstr "Parāda rezultātus lapas centrā"
+
+#. This is an option for a user setting. It refers to showing only the domain for a website URL (e.g. domain.com) -- Example image: https://i.imgur.com/KkBcFcQ.png
+msgctxt "settingsvalue"
+msgid "Domains Only"
+msgstr "Tikai domēni"
 
 msgctxt "SERP footer content"
 msgid "Don't Track Us"
@@ -1737,6 +1863,16 @@ msgctxt "new user poll"
 msgid "Friend or family"
 msgstr "Draugs vai ģimenes loceklis"
 
+#. This is an option for a user setting. It refers to showing the full URL for a website, including the url path, but made to look like the breadcrumbs of a website (e.g. website.com > this > is > the > path) -- Example image: https://i.imgur.com/roiQBYz.png
+msgctxt "settingsvalue"
+msgid "Full URLs (Breadcrumbs)"
+msgstr "Pilni URL (atpakaļceļi)"
+
+#. This is an option for a user setting. It refers to showing the full URL for a website, including the url path (e.g. website.com/this/is/this/path) -- Example image: https://i.imgur.com/SxYWf9o.png
+msgctxt "settingsvalue"
+msgid "Full URLs (Slashes)"
+msgstr "Pilni URL (slīpsvītras)"
+
 #. http://i.imgur.com/tGau0Vx.png
 msgctxt "settings"
 msgid "GET Requests"
@@ -1791,6 +1927,10 @@ msgstr "Sāciet vietnē Duck.com"
 msgid ""
 "Get seamless privacy protection on your browser for free with one download:"
 msgstr "Iegūsti vienotu privātuma aizsardzību savā pārlūkprogrammā bez maksas, ar vienu lejupielādi:"
+
+msgctxt "Covid 19 module"
+msgid "Get the latest information:"
+msgstr "Uzzini jaunāko informāciju:"
 
 msgid "Get the non-JS version %s"
 msgstr "Piekļūsti ne-JS versijai %1$s"
@@ -1959,6 +2099,11 @@ msgctxt "settings"
 msgid "Hides search term from being shown in browser tab/history"
 msgstr "Nodrošina, ka meklētais vienums netiek parādīts pārlūkprogrammas cilnē/vēsturē"
 
+#. The highest stock price in a day
+msgctxt "Stocks module"
+msgid "High"
+msgstr "Augstākā"
+
 #. Shown in video filtering. https://duckduckgo.com/?q=videos+of+cats&iax=videos&ia=videos
 msgctxt "video-resolution"
 msgid "High definition"
@@ -1968,6 +2113,11 @@ msgstr "Augsta izšķirtspēja"
 msgctxt "language_name"
 msgid "Hindi"
 msgstr "Hindu"
+
+#. Indicate that we have no chart data for prices of the current stock
+msgctxt "Stocks module"
+msgid "Historical prices not available"
+msgstr "Vēsturiskās cenas nav pieejamas"
 
 #  Chrome default search engine instruction
 msgid ""
@@ -1996,6 +2146,19 @@ msgstr "Honkonga"
 msgctxt "maps_places"
 msgid "Hours"
 msgstr "Darba laiks"
+
+msgctxt "feedback form"
+msgid "Hours are incorrect"
+msgstr "Darba laiks nav pareizs"
+
+msgctxt "feedback form"
+msgid "Hours are missing"
+msgstr "Trūkst darba laika"
+
+#. This is the name of a user setting
+msgctxt "settings"
+msgid "Hover, Module, and Dropdown Background Color"
+msgstr "Kursora, moduļa un nolaižamās izvēlnes fona krāsa"
 
 msgctxt "SERP footer content"
 msgid "How We Are Profitable"
@@ -2108,6 +2271,12 @@ msgstr "Attēlu fragmenti"
 #. Used in the !bang dropdown.
 msgid "Images"
 msgstr "Attēli"
+
+#. This is the description of a user setting -- Example image: https://i.imgur.com/IqBhHpM.png
+msgctxt "settings"
+msgid ""
+"Improves result legibility with updated URL format, placement, and color"
+msgstr "Uzlabo rezultātu salasāmību, izmantojot atjauninātu URL formātu, izvietojumu un krāsu"
 
 msgid "In partnership with"
 msgstr "Sadarbībā ar"
@@ -2322,6 +2491,11 @@ msgstr "Klaviatūras īsceļi"
 msgctxt "language_name"
 msgid "Khmer"
 msgstr "Khmeru"
+
+#. The name of the Klingon language
+msgctxt "language_name"
+msgid "Klingon"
+msgstr "Klingoniešu"
 
 #. The name of the Klingon (Latin) language
 msgctxt "language_name"
@@ -2548,6 +2722,11 @@ msgctxt "settings"
 msgid "Loads more results when scrolling"
 msgstr "Parādīt vairāk rezultātus kad meklē"
 
+#. Heading for the table column indicating the country or region for which the data applies
+msgctxt "Covid 19 module"
+msgid "Location"
+msgstr "Atrašanās vieta"
+
 msgctxt "settings"
 msgid "Location"
 msgstr "Atrašanās vieta"
@@ -2555,6 +2734,10 @@ msgstr "Atrašanās vieta"
 msgctxt "precise_user_location"
 msgid "Location information is stored only on your device."
 msgstr "Informācija par atrašanās vietu tiek saglabāta tikai jūsu ierīcē."
+
+msgctxt "feedback form"
+msgid "Location on map is wrong"
+msgstr "Atrašanās vieta kartē ir nepareiza"
 
 msgctxt "video-duration"
 msgid "Long"
@@ -2568,6 +2751,16 @@ msgstr "Noformējuma iestatījumi"
 msgctxt "spread_badge"
 msgid "Love DuckDuckGo?"
 msgstr "Patīk DuckDuckGo?"
+
+#. The lowest stock price in a day
+msgctxt "Stocks module"
+msgid "Low"
+msgstr "Zemākā"
+
+#. Abbreviate millions in a number. E.g. 1,000,000 becomes 1M
+msgctxt "Stocks module"
+msgid "M"
+msgstr "milj."
 
 msgctxt "noresults"
 msgid "Make sure all words are spelled correctly."
@@ -2680,6 +2873,11 @@ msgctxt "placement"
 msgid "Middle"
 msgstr "Vidū"
 
+#. The market capitalization of the currently selected stock
+msgctxt "Stocks module"
+msgid "Mkt Cap"
+msgstr "Tirgus kapitalizācija"
+
 msgctxt "settings"
 msgid "Mobile Instructions (not displayed on settings page)"
 msgstr "Norādījumi mobilajām ierīcēm (netiek rādīti iestatījumu lapā)"
@@ -2779,6 +2977,10 @@ msgctxt "additional_info_at"
 msgid "More results"
 msgstr "Vairāk rezultātu"
 
+msgctxt "Covid 19 module"
+msgid "More statistics"
+msgstr "Vairāk statistikas"
+
 msgctxt "video-duration"
 msgid "More than 20 minutes"
 msgstr "Vairāk kā 20 minūtes"
@@ -2852,6 +3054,11 @@ msgstr "Nīderlande"
 msgctxt "settings"
 msgid "New Tab Page Most Visited Sites"
 msgstr "Visapmeklētākās vietnes jaunas cilnes lapā"
+
+#. This is the name of a user setting -- Example image: https://i.imgur.com/LRuNuA8.png
+msgctxt "settings"
+msgid "New URL Style"
+msgstr "Jauns URL stils"
 
 msgid "New Zealand"
 msgstr "Jaunzēlande"
@@ -3058,6 +3265,11 @@ msgid ""
 "again later."
 msgstr "Ak, vai! Tulkojot šo tekstu, radās neparedzēta kļūda. Lūdzu, mēģini vēlreiz vēlāk."
 
+#. The price the markets opens at
+msgctxt "Stocks module"
+msgid "Open"
+msgstr "Atvērt"
+
 msgctxt "maps_places"
 msgid "Open"
 msgstr "Atvērt"
@@ -3200,6 +3412,16 @@ msgctxt "maps_places"
 msgid "Overview"
 msgstr "Pārskats"
 
+#. Placeholder can be Apple Maps, TripAdvisor, or Foursquare
+msgctxt "feedback form"
+msgid "Own this business? Manage on %s"
+msgstr "Vai tev pieder šis uzņēmums? Pārvaldīt pakalpojumā %1$s"
+
+#. The price / earnings multiple for the currently selected stock
+msgctxt "Stocks module"
+msgid "P/E"
+msgstr "P/E"
+
 #. Instant Answer Tab Name
 msgid "Packages"
 msgstr "Pakas"
@@ -3303,6 +3525,14 @@ msgctxt "maps_places"
 msgid "Phone Number"
 msgstr "Tālruņa numurs"
 
+msgctxt "feedback form"
+msgid "Phone number is incorrect"
+msgstr "Tālruņa numurs nav pareizs"
+
+msgctxt "feedback form"
+msgid "Phone number is missing"
+msgstr "Trūkst tālruņa numura"
+
 msgctxt "image-type"
 msgid "Photograph"
 msgstr "Fotogrāfija"
@@ -3349,6 +3579,34 @@ msgctxt "new user poll"
 msgid "Please select one option."
 msgstr "Lūdzu, izvēlies vienu opciju."
 
+msgctxt "feedback form"
+msgid "Please suggest the correct address"
+msgstr "Lūdzu, iesaki pareizo adresi"
+
+msgctxt "feedback form"
+msgid "Please suggest the correct hours of operation"
+msgstr "Lūdzu, iesaki pareizo darba laiku"
+
+msgctxt "feedback form"
+msgid "Please suggest the correct phone number"
+msgstr "Lūdzu, iesaki pareizo tālruņa numuru"
+
+msgctxt "feedback form"
+msgid "Please suggest the correct website URL"
+msgstr "Lūdzu, iesaki pareizo vietnes URL"
+
+msgctxt "feedback form"
+msgid "Please suggest the hours of operation"
+msgstr "Lūdzu, iesaki darba laiku"
+
+msgctxt "feedback form"
+msgid "Please suggest the phone number"
+msgstr "Lūdzu, iesaki tālruņa numuru"
+
+msgctxt "feedback form"
+msgid "Please suggest the website URL"
+msgstr "Lūdzu, iesaki vietnes URL"
+
 #  https://duckduckgo.com/?e=1
 msgid "Please try again"
 msgstr "Lūdzu mēģiniet vēlreiz"
@@ -3392,6 +3650,11 @@ msgstr "Nospiediet %1$sIzvēlne> Pievienot sākuma ekrānam> Pievienot%2$s!"
 
 msgid "Press Kit"
 msgstr "Presei"
+
+#. The price the stock previously closed at
+msgctxt "Stocks module"
+msgid "Prev Close"
+msgstr "Iepriekšējais noslēgums"
 
 msgid "Preview"
 msgstr "Priekšskatījums"
@@ -3636,7 +3899,7 @@ msgid "Related Topics"
 msgstr "Saistītas tēmas"
 
 msgid "Remember my choice (this can be changed in %s%s%sSettings%s)"
-msgstr "Atcerēties manu izvēli (ir iespējams mainīt %1$s%2$s%3$sIestatījumos%4$s)"
+msgstr "Atcerēties manu izvēli (to var mainīt sadaļā %1$s%2$s%3$sIestatījumi%4$s)"
 
 msgctxt "ads"
 msgid "Report Ad"
@@ -3645,6 +3908,15 @@ msgstr "Ziņot par reklāmu"
 msgctxt "Report image modal"
 msgid "Report this image"
 msgstr "Ziņot par šo attēlu"
+
+#. Placeholder can be Apple Maps, TripAdvisor, and/or Foursquare
+msgctxt "feedback form"
+msgid ""
+"Reports are anonymous and sent to DuckDuckGo to help improve our search "
+"service. Your anonymous feedback is also shared with %s to help improve "
+"their services."
+msgstr "Ziņojumi ir anonīmi un tiek nosūtīti DuckDuckGo, lai palīdzētu uzlabot mūsu meklēšanas pakalpojumu. Tavas anonīmās atsauksmes tiek kopīgotas arī ar %1$s,"
+" lai palīdzētu uzlabot viņu pakalpojumus."
 
 msgctxt "settings dropdown"
 msgid "Reset"
@@ -3660,62 +3932,18 @@ msgctxt "settings"
 msgid "Reset All Settings"
 msgstr "Noņemt visas izmaiņas iestatījumos"
 
-#. http://i.imgur.com/t65r7D9.png
-#. changes the color of the result descriptions like this: http://i.imgur.com/UOdZYpf.png
-msgctxt "settings"
-msgid "Result Description Color"
-msgstr "Meklējuma rezultāta apraksta krāsa"
-
-msgctxt "settings"
-msgid "Result Full URLs"
-msgstr "Parādīt pilnos URL"
-
 #. http://i.imgur.com/kqN8dPT.png
 msgctxt "settings"
 msgid "Result Highlight Color"
 msgstr "Krāsa rezultātu izcelšanai"
 
-msgctxt "settings"
-msgid "Result Hover, Module, and Dropdown Background Color"
-msgstr "Rezultāts \"Kursora, moduļa un nolaižamās izvēlnes fona krāsa\""
-
 #. in https://duckduckgo.com/params in the top. it is the first header
 msgid "Result Settings"
 msgstr "Rezultātu iestatījumi"
 
-#. http://i.imgur.com/M5H3oSv.png
-#. Changes the color of the results.
-msgctxt "settings"
-msgid "Result Title Color"
-msgstr "Rezultāta teksta krāsa"
-
-#. http://i.imgur.com/MTrwCtj.png
-msgctxt "settings"
-msgid "Result Title Font"
-msgstr "Rezultātu virsrakstu fonts"
-
-#. http://i.imgur.com/YTYuj72.png
-msgctxt "settings"
-msgid "Result Title Underline"
-msgstr "Rezultāta virsraksta apakšlīnija"
-
-#. http://i.imgur.com/fsnijIZ.png
-msgctxt "settings"
-msgid "Result URL Color"
-msgstr "Rezultāta adreses krāsa"
-
-msgctxt "settings"
-msgid "Result URLs Above Snippet"
-msgstr "Rezultāts “Vietrāži URL virs fragmenta”"
-
 msgctxt "settings"
 msgid "Result Visited Checkmark"
 msgstr "Rezultāts “Apmeklētās vietas atzīme”"
-
-#. http://i.imgur.com/nRnQruy.png
-msgctxt "settings"
-msgid "Result Visited Title Color"
-msgstr "Rezultāts apmeklēt teksta krāsu"
 
 #. In the top menu under Settings
 msgid "Results"
@@ -3918,6 +4146,11 @@ msgstr "Meklēšanas lodziņš"
 #. Le terme apparait en survolant le terme "More from ..." sur la page de résultats.
 msgid "Search domain %s"
 msgstr "Meklēt domēnā %1$s"
+
+#. Placeholder text for a text-based language filter
+msgctxt "translations_module"
+msgid "Search languages"
+msgstr "Meklēt valodas"
 
 msgid "Search only for %s?"
 msgstr "Meklēt tikai %1$s?"
@@ -4247,10 +4480,6 @@ msgid "Shows"
 msgstr "Parādīt"
 
 msgctxt "settings"
-msgid "Shows favicons for each result"
-msgstr "Parāda izlases ikonu katram rezultātam"
-
-msgctxt "settings"
 msgid "Shows horizontal lines at result page breaks"
 msgstr "Parāda horizontālas līnijas rezultātu lapu pārtraukumos"
 
@@ -4289,16 +4518,8 @@ msgid "Shows suggestions under the search box as you type"
 msgstr "Rāda ieteikumus zem meklēšanas lodziņa, kamēr tu raksti"
 
 msgctxt "settings"
-msgid "Shows the full URL for each result"
-msgstr "Rāda pilno URL katram rezultātam"
-
-msgctxt "settings"
 msgid "Shows the privacy benefits of using DuckDuckGo on the homepage"
 msgstr "Rāda privātuma ieguvumus DuckDuckGo sākumlapā"
-
-msgctxt "settings"
-msgid "Shows the result URL line above the snippet text"
-msgstr "Rāda rezultātu URL līniju virs teksta fragmenta"
 
 #. Discontinued, don't translate
 msgctxt "settings"
@@ -4354,6 +4575,11 @@ msgctxt "size"
 msgid "Small"
 msgstr "Mazs"
 
+#. This is the name of a user setting
+msgctxt "settings"
+msgid "Snippet Color"
+msgstr "Fragmenta krāsa"
+
 msgid "Social"
 msgstr "Sociāls"
 
@@ -4405,6 +4631,11 @@ msgstr "Standarta izšķirtspēja"
 
 msgid "Start searching!"
 msgstr "Sāc meklēt!"
+
+#. Label for statistics tab
+msgctxt "Covid 19 module"
+msgid "Statistics"
+msgstr "Statistika"
 
 msgctxt "SERP footer content"
 msgid "Stay Informed"
@@ -4459,6 +4690,11 @@ msgctxt "noresults"
 msgid "Suggestions:"
 msgstr "Ieteikumi:"
 
+#. Label for summary tab
+msgctxt "Covid 19 module"
+msgid "Summary"
+msgstr "Kopsavilkums"
+
 #. http://i.imgur.com/FczLkAL.png
 msgctxt "settingsvalue"
 msgid "Super Wide"
@@ -4505,6 +4741,16 @@ msgstr "Šveice (fr)"
 
 msgid "Switzerland (it)"
 msgstr "Šveice (it)"
+
+#. Label for symptoms tab
+msgctxt "Covid 19 module"
+msgid "Symptoms"
+msgstr "Simptomi"
+
+#. Abbreviate trillions in a number. E.g. 1,000,000,000,000 becomes 1T
+msgctxt "Stocks module"
+msgid "T"
+msgstr "trlj."
 
 msgid "TV"
 msgstr "TV"
@@ -4654,6 +4900,14 @@ msgstr "Tam ir vairākas priekšrocības:"
 msgid "This page requires Javascript to function."
 msgstr "Šai lapai nepieciešams Javascript, lai tā darbotos."
 
+msgctxt "feedback form"
+msgid "This place is permanently closed"
+msgstr "Šī vieta ir slēgta pavisam"
+
+msgctxt "feedback form"
+msgid "This place is too far away"
+msgstr "Šī vieta ir pārāk tālu"
+
 #. User feedback indicating that a translation is helpful
 msgctxt "translations_module"
 msgid "This translation is helpful"
@@ -4690,8 +4944,28 @@ msgctxt "language_name"
 msgid "Tigrinya"
 msgstr "Tigriņu"
 
+#. Label for tips tab
+msgctxt "Covid 19 module"
+msgid "Tips"
+msgstr "Padomi"
+
 msgid "Tired of being tracked online? %sWe can help.%s"
 msgstr "Apnikusi izsekošana tiešsaistē? %1$sMēs varam palīdzēt!%2$s"
+
+#. This is the name of a user setting
+msgctxt "settings"
+msgid "Title Color"
+msgstr "Nosaukuma krāsa"
+
+#. This is the name of a user setting
+msgctxt "settings"
+msgid "Title Font"
+msgstr "Nosaukuma fonts"
+
+#. This is the name of a user setting
+msgctxt "settings"
+msgid "Title Underline"
+msgstr "Nosaukuma pasvītrojums"
 
 msgctxt "directions"
 msgid ""
@@ -4699,6 +4973,11 @@ msgid ""
 "print.%sClick the print icon.%s"
 msgstr "Lai izdrukātu norādes:%1$sAtgriezies kartē.%2$sAtlasi maršrutu, kuru vēlies izdrukāt.%3$sNoklikšķini uz drukas ikonas.%4$s"
 
+msgid "Today"
+msgstr "Šodien"
+
+#. Button label for selecting chart of today's prices
+msgctxt "Stocks module"
 msgid "Today"
 msgstr "Šodien"
 
@@ -4805,11 +5084,26 @@ msgstr "Pirmajā %3$sveidlapas laukā ieraksti %1$sDuckDuckGo%2$s"
 msgid "Type %sduckduckgo.com%s in the %ssecond form field"
 msgstr "%3$sotrajā veidlapas laukā ieraksti %1$sduckduckgo.com%2$s"
 
+#. This is the name of a user setting
+msgctxt "settings"
+msgid "URL Color"
+msgstr "URL krāsa"
+
+#. This is the name of a user setting -- Example image: https://i.imgur.com/icuYX4J.png
+msgctxt "settings"
+msgid "URL Format"
+msgstr "URL formāts"
+
 #. 1. in https://duckduckgo.com/settings near the bottom by clicking "Bookmarklet and settings data" under "Your settings as a URL parameter bookmarklet:" in the sentence "see the URL Parameters page for detailed descriptions"
 #. 2. in https://duckduckgo.com/settings near the bottom under "Cloud Save" by clicking "What's this" under "What information gets saved?". It is a link
 #. 3. in https://duckduckgo.com/params in the top. It is a header
 msgid "URL Parameters"
 msgstr "URL Parametri"
+
+#. This is the name of a user setting -- Example image: https://i.imgur.com/0tyrveK.png
+msgctxt "settings"
+msgid "URL Placement"
+msgstr "URL izvietojums"
 
 #. https://duckduckgo.com/params under "Color Settings"
 msgid "URLs:"
@@ -4876,12 +5170,10 @@ msgstr "Sadaļā \"Meklēšana\" noklikšķini uz nolaižamās izvēlnes un atla
 msgid "Underline:"
 msgstr "Pasvītro:"
 
-#. http://i.imgur.com/7M5ogIs.png
-#. If, "On" --it will add an underline to result titles like this: http://i.imgur.com/VRFC6VQ.png
-#. If, "Off" --there will be no underline, like this: http://i.imgur.com/6MyezXn.png
+#. This is the description of a user setting
 msgctxt "settings"
-msgid "Underlines the title link for each result"
-msgstr "Pasvītro nosaukuma saiti katram rezultātam"
+msgid "Underlines result titles"
+msgstr "Pasvītro rezultātu nosaukumus"
 
 #. Instant Answer tab name
 msgid "Unicode"
@@ -4943,6 +5235,11 @@ msgstr "Izmantot iekš Firefox"
 msgid "Use in Safari"
 msgstr "Izmantot Safari"
 
+#. Label for vaccines tab
+msgctxt "Covid 19 module"
+msgid "Vaccines"
+msgstr "Vakcīnas"
+
 msgctxt "directions"
 msgid "Via"
 msgstr "Caur"
@@ -4985,6 +5282,15 @@ msgid ""
 "Visit %sDuckDuckGo.com%s on your tablet or phone and follow the provided "
 "instructions."
 msgstr "Savā planšetdatorā vai tālrunī apmeklē vietni %1$sDuckDuckGo.com%2$s un izpildi sniegtos norādījumus."
+
+msgctxt "settings"
+msgid "Visited Checkmark"
+msgstr "Apmeklētās vietas atzīme"
+
+#. This is the name of a user setting
+msgctxt "settings"
+msgid "Visited Title Color"
+msgstr "Apmeklētās vietas nosaukuma krāsa"
 
 #. https://duckduckgo.com/params under "Color Settings" header
 msgid "Visited links:"
@@ -5112,6 +5418,14 @@ msgctxt "feedback form"
 msgid "We use feedback like this to improve DuckDuckGo."
 msgstr "Mēs izmantojam šādas atsauksmes, lai uzlabotu DuckDuckGo."
 
+#. Placeholder can be Apple Maps, TripAdvisor, and/or Foursquare
+msgctxt "feedback form"
+msgid ""
+"We use feedback like this to improve DuckDuckGo. Suggestions will be "
+"incorporated at the discretion of %s. Corrections may not show up in results "
+"right away."
+msgstr "Mēs izmantojam šādas atsauksmes, lai uzlabotu DuckDuckGo. Ieteikumi tiks iekļauti pēc %1$s ieskatiem. Labojumi var neparādīties rezultātos uzreiz."
+
 msgctxt "new user poll"
 msgid "We're honored to have you on the Duck Side"
 msgstr "Mēs esam pagodināti, ka esi mūsu pusē"
@@ -5127,6 +5441,14 @@ msgstr "Tīmekļa saites"
 msgctxt "maps_places"
 msgid "Website"
 msgstr "Tīmekļa vietne"
+
+msgctxt "feedback form"
+msgid "Website is incorrect"
+msgstr "Vietne ir nepareiza"
+
+msgctxt "feedback form"
+msgid "Website is missing"
+msgstr "Trūkst vietnes"
 
 msgctxt "settings"
 msgid "Welcome Message"
@@ -5226,6 +5548,23 @@ msgstr "Informācija no Wikipedia"
 msgctxt "forecast"
 msgid "Wind"
 msgstr "Vējš"
+
+msgctxt "Covid 19 module"
+msgid "World"
+msgstr "Pasaule"
+
+msgctxt "Covid 19 module"
+msgid "Worldwide Coverage Map"
+msgstr "Vispasaules pārklājuma karte"
+
+msgctxt "feedback form"
+msgid "Wrong place is shown"
+msgstr "Parādīta nepareiza vieta"
+
+#. Button label for selecting chart of prices for the year to date
+msgctxt "Stocks module"
+msgid "YTD"
+msgstr "Š.g."
 
 #. https://duckduckgo.com/params under "Color Settings" under "Highlight: "
 msgid "Yellow"
@@ -5394,6 +5733,11 @@ msgstr "h"
 msgctxt "nonjsversion"
 msgid "here"
 msgstr "šeit"
+
+#. Abbreviate 1000s in a number. E.g. 1,000 becomes 1k
+msgctxt "Stocks module"
+msgid "k"
+msgstr "tk."
 
 #. An abbreviated form of "minute" that can be displayed in a small space e.g. "1m"
 msgctxt "published date for videos"

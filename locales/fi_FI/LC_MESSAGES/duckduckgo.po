@@ -117,9 +117,49 @@ msgctxt "install-extension"
 msgid "1. Open %sDownloads%s"
 msgstr "1. Avaa %1$sLataukset%2$s"
 
+#. Disclaimer text for the stocks module
+msgctxt "Stocks module"
+msgid "15 minutes delayed"
+msgstr "15 minuuttia myöhässä"
+
+#. Button label for selecting chart of today's prices (needs to be short on mobile devices)
+msgctxt "Stocks module"
+msgid "1D"
+msgstr "1 vrk"
+
+#. Button label for selecting chart of prices over the last month
+msgctxt "Stocks module"
+msgid "1M"
+msgstr "1 kk"
+
+#. Button label for selecting chart of prices over the last year
+msgctxt "Stocks module"
+msgid "1Y"
+msgstr "1 v"
+
 msgctxt "install-extension"
 msgid "2. Double-click %sduckduckgo.safariextz%s"
 msgstr "2. Tuplaklikkaa %1$sduckduckgo.safariextz%2$s"
+
+#. The highest price over the previous 52 weeks
+msgctxt "Stocks module"
+msgid "52wk High"
+msgstr "52 viikon korkein"
+
+#. The lowest price over the previous 52 weeks
+msgctxt "Stocks module"
+msgid "52wk Low"
+msgstr "52 viikon alhaisin"
+
+#. Button label for selecting chart of prices over the last 5 days
+msgctxt "Stocks module"
+msgid "5D"
+msgstr "5 vrk"
+
+#. Button label for selecting chart of prices over the last five years
+msgctxt "Stocks module"
+msgid "5Y"
+msgstr "5 v"
 
 #. https://duckduckgo.com/params in the end under " Source:"
 msgid "A string to identify the source."
@@ -150,6 +190,11 @@ msgstr "Tietoa DuckDuckGo:sta"
 
 msgid "About Us"
 msgstr "Meistä"
+
+#. This is an option for a user setting. It refers to showing the URL for a result ABOVE the TITLE of the result -- Example image: https://i.imgur.com/bTm8PCc.png
+msgctxt "settingsvalue"
+msgid "Above Title"
+msgstr "Otsikon yläpuolella"
 
 #. Ad like 'advertisement'
 msgid "Ad"
@@ -218,6 +263,10 @@ msgstr "Osoite"
 msgid "Address bar:"
 msgstr "Osoitekenttä"
 
+msgctxt "feedback form"
+msgid "Address is incorrect"
+msgstr "Osoite on väärä"
+
 #. as in multiple advertisements
 msgid "Ads"
 msgstr "Mainokset"
@@ -252,6 +301,11 @@ msgctxt "language_name"
 msgid "Albanian"
 msgstr "Albania"
 
+msgid "All"
+msgstr "Kaikki"
+
+#. Button label for selecting chart showing all historical prices
+msgctxt "Stocks module"
 msgid "All"
 msgstr "Kaikki"
 
@@ -421,6 +475,11 @@ msgctxt "language_name"
 msgid "Armenian"
 msgstr "Armenia"
 
+#. Indicates when the data was last updated e.g. 'As of 12:37 PM EST'
+msgctxt "Stocks module"
+msgid "As of"
+msgstr "Päivitetty"
+
 msgid ""
 "As per our privacy policy, we do not collect or share any personal "
 "information ourselves. All of this privacy protection happens on your device."
@@ -463,10 +522,20 @@ msgctxt "homepage ATB social proof"
 msgid "Average rating: %s out of 5"
 msgstr "Keskimääräinen arvio: %1$s/5"
 
+#. The average volume traded for a particular stock
+msgctxt "Stocks module"
+msgid "Avg Vol"
+msgstr "Keskimäärin"
+
 #. The name of the Azerbaijani language
 msgctxt "language_name"
 msgid "Azerbaijani"
 msgstr "Azeri"
+
+#. Abbreviate billions in a number. E.g. 1,000,000,000 becomes 1B
+msgctxt "Stocks module"
+msgid "B"
+msgstr "mrd."
 
 msgctxt "homepage onboarding"
 msgid "Back to search"
@@ -507,6 +576,16 @@ msgstr "Belgia (ranska)"
 
 msgid "Belgium (nl)"
 msgstr "Belgia (hollanti)"
+
+#. This is an option for a user setting. It refers to showing the URL for a result BELOW the SNIPPET (description) of the result -- Example image: https://i.imgur.com/lnP77q4.png
+msgctxt "settingsvalue"
+msgid "Below Snippet"
+msgstr "Kuvauksen alapuolella"
+
+#. This is an option for a user setting. It refers to showing the URL for a result BELOW the TITLE of the result -- Example image: https://i.imgur.com/3cb6xx0.png
+msgctxt "settingsvalue"
+msgid "Below Title"
+msgstr "Otsikon alapuolella"
 
 msgctxt "settingsvalue"
 msgid "Best available"
@@ -673,18 +752,15 @@ msgctxt "settings"
 msgid "Center Alignment"
 msgstr "Keskitys"
 
-#. One of the option in DuckDuckGo Search Settings under appearance tab.
-#. http://i.imgur.com/CklQ1Ku.png
+#. This is the description of a user setting -- Example image: https://i.imgur.com/yihFekW.png
 msgctxt "settings"
-msgid "Center-aligns the results page (instead of left-aligned)"
-msgstr "Keskittää hakutulossivun (vasemmalle kohdistamisen sijasta)"
+msgid "Changes how result URLs are displayed"
+msgstr "Muuttaa tuloksen URL-osoitteiden näyttötapaa"
 
-#. http://i.imgur.com/oO0X6Pt.png
+#. This is the description of a user setting
 msgctxt "settings"
-msgid ""
-"Changes how much space the header takes up and what happens to it when you "
-"scroll"
-msgstr "Säädä, paljonko osoitin liikkuu ja mitä tapahtuu, kun sinä vierität sivua"
+msgid "Changes how the header is displayed and its behavior as you scroll"
+msgstr "Muuttaa otsikon näyttötapaa ja sen käyttäytymistä vieritettäessä"
 
 #. http://i.imgur.com/mcZdcaF.png
 msgctxt "settings"
@@ -696,25 +772,46 @@ msgctxt "settings"
 msgid "Changes the background color across the entire site"
 msgstr "Muuttaa koko sivuston taustavärin"
 
+#. This is the description of a user setting
+msgctxt "settings"
+msgid ""
+"Changes the background color of results on hover, modules, and dropdown menus"
+msgstr "Muuttaa osoittimen, moduulien ja pudotusvalikoiden tulosten taustaväriä"
+
 #. http://i.imgur.com/NdpkbY0.png
 msgctxt "settings"
 msgid "Changes the background color when hovering over a result"
 msgstr "Muuttaa tuloksen taustavärin kun kursori viedään tuloksen kohdalle"
 
-#. http://i.imgur.com/awVlAoo.png
+#. This is the description of a user setting
 msgctxt "settings"
-msgid "Changes the color of the result URL"
-msgstr "Muuttaa tuloksen URL-osoitteen värin"
+msgid "Changes the color of result URLs"
+msgstr "Muuttaa tuloksen URL-osoitteiden väriä"
 
-#. http://i.imgur.com/epUhcrA.png
+#. This is the description of a user setting
 msgctxt "settings"
-msgid "Changes the color of the result description text"
-msgstr "Muuttaa tuloksen kuvaustekstin värin"
+msgid "Changes the color of result snippets"
+msgstr "Muuttaa tuloksen kuvausten väriä"
+
+#. This is the description of a user setting
+msgctxt "settings"
+msgid "Changes the color of result titles"
+msgstr "Muuttaa tuloksen otsikkojen väriä"
+
+#. This is the description of a user setting
+msgctxt "settings"
+msgid "Changes the color of titles for results you've visited"
+msgstr "Muuttaa vierailtujen tulosten otsikoiden väriä"
 
 #. http://i.imgur.com/kE1ZsM9.png
 msgctxt "settings"
 msgid "Changes the font across the entire site"
 msgstr "Vaihda sivuston fontti"
+
+#. This is the description of a user setting
+msgctxt "settings"
+msgid "Changes the font of result titles"
+msgstr "Muuttaa tulosten otsikkojen fonttia"
 
 #. http://i.imgur.com/ftpln8q.png
 msgctxt "settings"
@@ -732,29 +829,15 @@ msgctxt "settings"
 msgid "Changes the language across the entire site"
 msgstr "Vaihtaa koko sivuston kieltä"
 
-msgctxt "settings"
-msgid "Changes the result hover, module, and dropdown background color"
-msgstr "Muuttaa tuloksen osoittimen, moduulin ja alasvetovalikon väriä"
-
-#. http://i.imgur.com/f1bLTY1.png
-#. Description for "Result Title Color" which changes the color of the results.
-msgctxt "settings"
-msgid "Changes the title link color for each result"
-msgstr "Muuttaa jokaisen hakutuloksen otsikkolinkin värin"
-
-#. http://i.imgur.com/5IQda6g.png
-msgctxt "settings"
-msgid "Changes the title link font for each result"
-msgstr "Muuttaa jokaisen hakutuloksen otsikkolinkin fontin"
-
 #. http://i.imgur.com/auITACf.png
 msgctxt "settings"
 msgid "Changes what happens when you click on a video thumbnail"
 msgstr "Määritä, mitä tapahtuu, kun painat videon kuvaketta"
 
+#. This is the description of a user setting -- Example image: https://i.imgur.com/ALGzzZr.png
 msgctxt "settings"
-msgid "Changes whether the visited checkmark is visible"
-msgstr "Vaihtaa vierailluiden linkkien merkin näkyvyyttä"
+msgid "Changes where result URLs are displayed"
+msgstr "Muuttaa tuloksen URL-osoitteiden näytön sijaintia"
 
 msgid "Chat"
 msgstr "Keskustelu"
@@ -1113,6 +1196,15 @@ msgstr "Yhteisö"
 msgid "Concerts"
 msgstr "Konsertit"
 
+#. Heading for the table column indicating how many confirmed cases there have been in that location
+msgctxt "Covid 19 module"
+msgid "Confirmed"
+msgstr "Vahvistettu"
+
+msgctxt "Covid 19 module"
+msgid "Confirmed Cases"
+msgstr "Vahvistetut tapaukset"
+
 msgid "Congratulations!"
 msgstr "Onnittelut!"
 
@@ -1149,6 +1241,10 @@ msgstr "Kopioi käännös"
 msgctxt "Report image modal"
 msgid "Copyright violation"
 msgstr "Tekijänoikeusrikkomus"
+
+msgctxt "Covid 19 module"
+msgid "Coronavirus Disease (COVID-19)"
+msgstr "Koronavirustauti (COVID-19)"
 
 #. Instant Answer Tab Name
 msgid "Coupons"
@@ -1224,6 +1320,11 @@ msgctxt "theme"
 msgid "Dark"
 msgstr "Tumma"
 
+#. Attribution text for the stocks module
+msgctxt "Stocks module"
+msgid "Data provided by IEX Cloud"
+msgstr "Tiedot tarjoaa IEX Cloud"
+
 #. Instant Answer tab name
 msgid "Date"
 msgstr "Päivämäärä"
@@ -1235,6 +1336,11 @@ msgstr "Päiväys"
 msgctxt "feedback form"
 msgid "Date filters"
 msgstr "Päiväys"
+
+#. Heading for the table column indicating how many deaths there have been in that location
+msgctxt "Covid 19 module"
+msgid "Deaths"
+msgstr "Kuolemat"
 
 #. A theme name in the theme menu:
 #. https://duck.co/media/files/theme.png
@@ -1306,6 +1412,26 @@ msgstr "Ohita"
 
 msgid "Dismiss forever"
 msgstr "Hylkää ikuisesti"
+
+#. This is the description of a user setting
+msgctxt "settings"
+msgid "Displays a checkmark to the left of results you've visited"
+msgstr "Näyttää valintamerkin vierailtujen tulosten vasemmalla puolella"
+
+#. This is the description of a user setting
+msgctxt "settings"
+msgid "Displays favicons for each result"
+msgstr "Näyttää suosikkikuvakkeet jokaiselle tulokselle"
+
+#. This is the description of a user setting
+msgctxt "settings"
+msgid "Displays results in the center of the page"
+msgstr "Näyttää tulokset sivun keskellä"
+
+#. This is an option for a user setting. It refers to showing only the domain for a website URL (e.g. domain.com) -- Example image: https://i.imgur.com/KkBcFcQ.png
+msgctxt "settingsvalue"
+msgid "Domains Only"
+msgstr "Vain verkkotunnukset"
 
 msgctxt "SERP footer content"
 msgid "Don't Track Us"
@@ -1732,6 +1858,16 @@ msgctxt "new user poll"
 msgid "Friend or family"
 msgstr "Ystävä vai perhe"
 
+#. This is an option for a user setting. It refers to showing the full URL for a website, including the url path, but made to look like the breadcrumbs of a website (e.g. website.com > this > is > the > path) -- Example image: https://i.imgur.com/roiQBYz.png
+msgctxt "settingsvalue"
+msgid "Full URLs (Breadcrumbs)"
+msgstr "Täydet URL-osoitteet (murupolku)"
+
+#. This is an option for a user setting. It refers to showing the full URL for a website, including the url path (e.g. website.com/this/is/this/path) -- Example image: https://i.imgur.com/SxYWf9o.png
+msgctxt "settingsvalue"
+msgid "Full URLs (Slashes)"
+msgstr "Täydet URL-osoitteet (kauttaviivat)"
+
 #. http://i.imgur.com/tGau0Vx.png
 msgctxt "settings"
 msgid "GET Requests"
@@ -1786,6 +1922,10 @@ msgstr "Aloita Duck.comin käyttö"
 msgid ""
 "Get seamless privacy protection on your browser for free with one download:"
 msgstr "Saat saumattoman yksityisyydensuojan selaimeesi ilmaiseksi yhdellä latauksella:"
+
+msgctxt "Covid 19 module"
+msgid "Get the latest information:"
+msgstr "Vastaanota uusimmat tiedot:"
 
 msgid "Get the non-JS version %s"
 msgstr "Hanki JS-vapaa versio %1$s"
@@ -1954,6 +2094,11 @@ msgctxt "settings"
 msgid "Hides search term from being shown in browser tab/history"
 msgstr "Piilottaa hakusanat selaimen välilehdellä/historiassa"
 
+#. The highest stock price in a day
+msgctxt "Stocks module"
+msgid "High"
+msgstr "Korkein"
+
 #. Shown in video filtering. https://duckduckgo.com/?q=videos+of+cats&iax=videos&ia=videos
 msgctxt "video-resolution"
 msgid "High definition"
@@ -1963,6 +2108,11 @@ msgstr "Teräväpiirto"
 msgctxt "language_name"
 msgid "Hindi"
 msgstr "Hindi"
+
+#. Indicate that we have no chart data for prices of the current stock
+msgctxt "Stocks module"
+msgid "Historical prices not available"
+msgstr "Historiallisia kurssitietoja ei saatavilla"
 
 #  Chrome default search engine instruction
 msgid ""
@@ -1991,6 +2141,19 @@ msgstr "Hongkong"
 msgctxt "maps_places"
 msgid "Hours"
 msgstr "Tunti"
+
+msgctxt "feedback form"
+msgid "Hours are incorrect"
+msgstr "Aukioloaika on väärä"
+
+msgctxt "feedback form"
+msgid "Hours are missing"
+msgstr "Aukioloaika puuttuu"
+
+#. This is the name of a user setting
+msgctxt "settings"
+msgid "Hover, Module, and Dropdown Background Color"
+msgstr "Osoittimen, moduulin ja pudotusvalikon taustaväri"
 
 msgctxt "SERP footer content"
 msgid "How We Are Profitable"
@@ -2102,6 +2265,12 @@ msgstr "Kuvan otsikot"
 #. Used in the !bang dropdown.
 msgid "Images"
 msgstr "Kuvat"
+
+#. This is the description of a user setting -- Example image: https://i.imgur.com/IqBhHpM.png
+msgctxt "settings"
+msgid ""
+"Improves result legibility with updated URL format, placement, and color"
+msgstr "Parantaa tulosten luettavuutta päivitetyllä URL-muodolla, sijoittelulla ja värillä"
 
 msgid "In partnership with"
 msgstr "Yhteistyössä"
@@ -2316,6 +2485,11 @@ msgstr "Pikanäppäimet"
 msgctxt "language_name"
 msgid "Khmer"
 msgstr "Khmer"
+
+#. The name of the Klingon language
+msgctxt "language_name"
+msgid "Klingon"
+msgstr "Klingon"
 
 #. The name of the Klingon (Latin) language
 msgctxt "language_name"
@@ -2542,6 +2716,11 @@ msgctxt "settings"
 msgid "Loads more results when scrolling"
 msgstr "Lataa lisää tuloksia, kun sivua vieritetään"
 
+#. Heading for the table column indicating the country or region for which the data applies
+msgctxt "Covid 19 module"
+msgid "Location"
+msgstr "Sijainti"
+
 msgctxt "settings"
 msgid "Location"
 msgstr "Sijainti"
@@ -2549,6 +2728,10 @@ msgstr "Sijainti"
 msgctxt "precise_user_location"
 msgid "Location information is stored only on your device."
 msgstr "Sijaintitiedot tallennetaan vain laitteellesi."
+
+msgctxt "feedback form"
+msgid "Location on map is wrong"
+msgstr "Sijainti kartalla on väärä"
 
 msgctxt "video-duration"
 msgid "Long"
@@ -2562,6 +2745,16 @@ msgstr "Ulkoasu- ja tuntuma-asetukset"
 msgctxt "spread_badge"
 msgid "Love DuckDuckGo?"
 msgstr "Rakastatko DuckDuckGo:ta?"
+
+#. The lowest stock price in a day
+msgctxt "Stocks module"
+msgid "Low"
+msgstr "Alhaisin"
+
+#. Abbreviate millions in a number. E.g. 1,000,000 becomes 1M
+msgctxt "Stocks module"
+msgid "M"
+msgstr "milj."
 
 msgctxt "noresults"
 msgid "Make sure all words are spelled correctly."
@@ -2674,6 +2867,11 @@ msgctxt "placement"
 msgid "Middle"
 msgstr "Keskellä"
 
+#. The market capitalization of the currently selected stock
+msgctxt "Stocks module"
+msgid "Mkt Cap"
+msgstr "Markkina-arvo"
+
 msgctxt "settings"
 msgid "Mobile Instructions (not displayed on settings page)"
 msgstr "Mobiiliohjeet (ei näytetä asetussivulla)"
@@ -2773,6 +2971,10 @@ msgctxt "additional_info_at"
 msgid "More results"
 msgstr "Enemmän tuloksia"
 
+msgctxt "Covid 19 module"
+msgid "More statistics"
+msgstr "Lisää tilastoja"
+
 msgctxt "video-duration"
 msgid "More than 20 minutes"
 msgstr "Enemmän kuin 20 minuuttia"
@@ -2846,6 +3048,11 @@ msgstr "Alankomaat"
 msgctxt "settings"
 msgid "New Tab Page Most Visited Sites"
 msgstr "Suosituimmat sivustot uudella välilehdellä"
+
+#. This is the name of a user setting -- Example image: https://i.imgur.com/LRuNuA8.png
+msgctxt "settings"
+msgid "New URL Style"
+msgstr "Uusi URL-tyyli"
 
 msgid "New Zealand"
 msgstr "Uusi-Seelanti"
@@ -3052,6 +3259,11 @@ msgid ""
 "again later."
 msgstr "Tekstiä käännettäessä tapahtui odottamaton virhe. Yritä myöhemmin uudelleen."
 
+#. The price the markets opens at
+msgctxt "Stocks module"
+msgid "Open"
+msgstr "Avaa"
+
 msgctxt "maps_places"
 msgid "Open"
 msgstr "Avaa"
@@ -3193,6 +3405,16 @@ msgctxt "maps_places"
 msgid "Overview"
 msgstr "Yleiskatsaus"
 
+#. Placeholder can be Apple Maps, TripAdvisor, or Foursquare
+msgctxt "feedback form"
+msgid "Own this business? Manage on %s"
+msgstr "Omistatko tämän yrityksen? Hallinnoi sivustossa %1$s"
+
+#. The price / earnings multiple for the currently selected stock
+msgctxt "Stocks module"
+msgid "P/E"
+msgstr "P/E"
+
 #. Instant Answer Tab Name
 msgid "Packages"
 msgstr "Paketit"
@@ -3296,6 +3518,14 @@ msgctxt "maps_places"
 msgid "Phone Number"
 msgstr "Puhelinnumero"
 
+msgctxt "feedback form"
+msgid "Phone number is incorrect"
+msgstr "Puhelinnumero on väärä"
+
+msgctxt "feedback form"
+msgid "Phone number is missing"
+msgstr "Puhelinnumero puuttuu"
+
 msgctxt "image-type"
 msgid "Photograph"
 msgstr "Valokuva"
@@ -3342,6 +3572,34 @@ msgctxt "new user poll"
 msgid "Please select one option."
 msgstr "Valitse yksi vaihtoehto."
 
+msgctxt "feedback form"
+msgid "Please suggest the correct address"
+msgstr "Ehdota oikeaa osoitetta"
+
+msgctxt "feedback form"
+msgid "Please suggest the correct hours of operation"
+msgstr "Ehdota oikeita aukioloaikoja"
+
+msgctxt "feedback form"
+msgid "Please suggest the correct phone number"
+msgstr "Ehdota oikeaa puhelinnumeroa"
+
+msgctxt "feedback form"
+msgid "Please suggest the correct website URL"
+msgstr "Ehdota oikeaa verkkosivuston URL-osoitetta"
+
+msgctxt "feedback form"
+msgid "Please suggest the hours of operation"
+msgstr "Ehdota aukioloaikoja"
+
+msgctxt "feedback form"
+msgid "Please suggest the phone number"
+msgstr "Ehdota puhelinnumeroa"
+
+msgctxt "feedback form"
+msgid "Please suggest the website URL"
+msgstr "Ehdota verkkosivuston URL-osoitetta"
+
 #  https://duckduckgo.com/?e=1
 msgid "Please try again"
 msgstr "Ole hyvä ja yritä uudelleen"
@@ -3385,6 +3643,11 @@ msgstr "Klikkaa %1$sMenu > Lisää kotinäytölle > Add%2$s!"
 
 msgid "Press Kit"
 msgstr "Tietoa medialle"
+
+#. The price the stock previously closed at
+msgctxt "Stocks module"
+msgid "Prev Close"
+msgstr "Ed. päätöskurssi"
 
 msgid "Preview"
 msgstr "Esikatselu"
@@ -3629,7 +3892,7 @@ msgid "Related Topics"
 msgstr "Luetuimmat aiheet"
 
 msgid "Remember my choice (this can be changed in %s%s%sSettings%s)"
-msgstr "Muista valintani (tämän voi vaihtaa %1$s%2$s%3$sAsetuksista%4$s)"
+msgstr "Muista valintani (tätä voi muuttaa %1$s %2$s %3$sasetuksissa%4$s)"
 
 msgctxt "ads"
 msgid "Report Ad"
@@ -3638,6 +3901,15 @@ msgstr "Ilmoita mainoksesta"
 msgctxt "Report image modal"
 msgid "Report this image"
 msgstr "Raportoi tämä kuva"
+
+#. Placeholder can be Apple Maps, TripAdvisor, and/or Foursquare
+msgctxt "feedback form"
+msgid ""
+"Reports are anonymous and sent to DuckDuckGo to help improve our search "
+"service. Your anonymous feedback is also shared with %s to help improve "
+"their services."
+msgstr "Raportit ovat anonyymeja ja lähetetään DuckDuckGolle hakupalvelumme parantamiseksi. Anonyymi palautteesi jaetaan myös sovelluksen %1$s kanssa sen tarjoamien"
+" palveluiden parantamiseksi."
 
 msgctxt "settings dropdown"
 msgid "Reset"
@@ -3653,62 +3925,18 @@ msgctxt "settings"
 msgid "Reset All Settings"
 msgstr "Palauta oletusasetukset"
 
-#. http://i.imgur.com/t65r7D9.png
-#. changes the color of the result descriptions like this: http://i.imgur.com/UOdZYpf.png
-msgctxt "settings"
-msgid "Result Description Color"
-msgstr "Tuloksen kuvauksen väri"
-
-msgctxt "settings"
-msgid "Result Full URLs"
-msgstr "Tuloksen koko URL-osoite"
-
 #. http://i.imgur.com/kqN8dPT.png
 msgctxt "settings"
 msgid "Result Highlight Color"
 msgstr "Tuloksen korostusväri"
 
-msgctxt "settings"
-msgid "Result Hover, Module, and Dropdown Background Color"
-msgstr "Tuloksen osoittimen, moduulin ja alasvetovalikon väri"
-
 #. in https://duckduckgo.com/params in the top. it is the first header
 msgid "Result Settings"
 msgstr "Hakutulosasetukset"
 
-#. http://i.imgur.com/M5H3oSv.png
-#. Changes the color of the results.
-msgctxt "settings"
-msgid "Result Title Color"
-msgstr "Tuloksen otsikkoväri"
-
-#. http://i.imgur.com/MTrwCtj.png
-msgctxt "settings"
-msgid "Result Title Font"
-msgstr "Tuloksen otsikon fontti"
-
-#. http://i.imgur.com/YTYuj72.png
-msgctxt "settings"
-msgid "Result Title Underline"
-msgstr "Tuloksen otsikon alleviivaus"
-
-#. http://i.imgur.com/fsnijIZ.png
-msgctxt "settings"
-msgid "Result URL Color"
-msgstr "Tuloksen URL-osoitteen väri"
-
-msgctxt "settings"
-msgid "Result URLs Above Snippet"
-msgstr "URL-tulosten koodi"
-
 msgctxt "settings"
 msgid "Result Visited Checkmark"
 msgstr "Tulos Vierailtu Valintamerkki"
-
-#. http://i.imgur.com/nRnQruy.png
-msgctxt "settings"
-msgid "Result Visited Title Color"
-msgstr "Vieraillun tuloksen otsikkoväri"
 
 #. In the top menu under Settings
 msgid "Results"
@@ -3911,6 +4139,11 @@ msgstr "Hakukenttä"
 #. Le terme apparait en survolant le terme "More from ..." sur la page de résultats.
 msgid "Search domain %s"
 msgstr "Hae sivustossa %1$s"
+
+#. Placeholder text for a text-based language filter
+msgctxt "translations_module"
+msgid "Search languages"
+msgstr "Hae kieliä"
 
 msgid "Search only for %s?"
 msgstr "Etsi vain %1$s?"
@@ -4239,10 +4472,6 @@ msgid "Shows"
 msgstr "Esitykset"
 
 msgctxt "settings"
-msgid "Shows favicons for each result"
-msgstr "Näyttää kuvakkeet jokaiselle tulokselle"
-
-msgctxt "settings"
 msgid "Shows horizontal lines at result page breaks"
 msgstr "Näyttää poikittaisviivat tulosten sivunvaihdoissa"
 
@@ -4281,16 +4510,8 @@ msgid "Shows suggestions under the search box as you type"
 msgstr "Näyttää kirjoitettaessa ehdotuksia hakulaatikon alla"
 
 msgctxt "settings"
-msgid "Shows the full URL for each result"
-msgstr "Näyttää jokaisen hakutuloksen koko URL-osoitteen"
-
-msgctxt "settings"
 msgid "Shows the privacy benefits of using DuckDuckGo on the homepage"
 msgstr "Näyttää DuckDuckGon käytöstä tulevat tietosuojahyödyt"
-
-msgctxt "settings"
-msgid "Shows the result URL line above the snippet text"
-msgstr "Näyttää tuloksen URL-osoitteen tekstinäytteen yläpuolella"
 
 #. Discontinued, don't translate
 msgctxt "settings"
@@ -4346,6 +4567,11 @@ msgctxt "size"
 msgid "Small"
 msgstr "Pieni"
 
+#. This is the name of a user setting
+msgctxt "settings"
+msgid "Snippet Color"
+msgstr "Kuvauksen väri"
+
 msgid "Social"
 msgstr "Sosiaalinen"
 
@@ -4397,6 +4623,11 @@ msgstr "Vakiopiirto"
 
 msgid "Start searching!"
 msgstr "Aloita hakeminen!"
+
+#. Label for statistics tab
+msgctxt "Covid 19 module"
+msgid "Statistics"
+msgstr "Tilastot"
 
 msgctxt "SERP footer content"
 msgid "Stay Informed"
@@ -4451,6 +4682,11 @@ msgctxt "noresults"
 msgid "Suggestions:"
 msgstr "Ehdotuksia:"
 
+#. Label for summary tab
+msgctxt "Covid 19 module"
+msgid "Summary"
+msgstr "Yhteenveto"
+
 #. http://i.imgur.com/FczLkAL.png
 msgctxt "settingsvalue"
 msgid "Super Wide"
@@ -4497,6 +4733,16 @@ msgstr "Sveitsi (ranska)"
 
 msgid "Switzerland (it)"
 msgstr "Sveitsi (italia)"
+
+#. Label for symptoms tab
+msgctxt "Covid 19 module"
+msgid "Symptoms"
+msgstr "Oireet"
+
+#. Abbreviate trillions in a number. E.g. 1,000,000,000,000 becomes 1T
+msgctxt "Stocks module"
+msgid "T"
+msgstr "bilj."
 
 msgid "TV"
 msgstr "TV"
@@ -4646,6 +4892,14 @@ msgstr "Tästä seuraa muutamia hyötyjä:"
 msgid "This page requires Javascript to function."
 msgstr "Tämä sivusto vaatii Javascriptin toimiakseen."
 
+msgctxt "feedback form"
+msgid "This place is permanently closed"
+msgstr "Tämä paikka on suljettu pysyvästi"
+
+msgctxt "feedback form"
+msgid "This place is too far away"
+msgstr "Tämä paikka on liian kaukana"
+
 #. User feedback indicating that a translation is helpful
 msgctxt "translations_module"
 msgid "This translation is helpful"
@@ -4682,8 +4936,28 @@ msgctxt "language_name"
 msgid "Tigrinya"
 msgstr "Tigrinja"
 
+#. Label for tips tab
+msgctxt "Covid 19 module"
+msgid "Tips"
+msgstr "Vinkkejä"
+
 msgid "Tired of being tracked online? %sWe can help.%s"
 msgstr "Etkö halua, että sinua seurataan verkossa? %1$sMe voimme auttaa.%2$s"
+
+#. This is the name of a user setting
+msgctxt "settings"
+msgid "Title Color"
+msgstr "Otsikon väri"
+
+#. This is the name of a user setting
+msgctxt "settings"
+msgid "Title Font"
+msgstr "Otsikon fontti"
+
+#. This is the name of a user setting
+msgctxt "settings"
+msgid "Title Underline"
+msgstr "Otsikon alleviivaus"
 
 msgctxt "directions"
 msgid ""
@@ -4691,6 +4965,11 @@ msgid ""
 "print.%sClick the print icon.%s"
 msgstr "Ohjeiden tulostaminen:%1$sSiirry takaisin karttaan.%2$sValitse reitti, jonka haluat tulostaa.%3$sNapsauta tulostuskuvaketta.%4$s"
 
+msgid "Today"
+msgstr "Tänään"
+
+#. Button label for selecting chart of today's prices
+msgctxt "Stocks module"
 msgid "Today"
 msgstr "Tänään"
 
@@ -4797,11 +5076,26 @@ msgstr "Syötä %1$sDuckDuckGo%2$s ensimmäiseen %3$slomakkeen kenttään"
 msgid "Type %sduckduckgo.com%s in the %ssecond form field"
 msgstr "Syötä %1$sduckduckgo.com%2$s %3$sseuraavaan lomakkeen kenttään"
 
+#. This is the name of a user setting
+msgctxt "settings"
+msgid "URL Color"
+msgstr "URL-osoitteen väri"
+
+#. This is the name of a user setting -- Example image: https://i.imgur.com/icuYX4J.png
+msgctxt "settings"
+msgid "URL Format"
+msgstr "URL-osoitteen muoto"
+
 #. 1. in https://duckduckgo.com/settings near the bottom by clicking "Bookmarklet and settings data" under "Your settings as a URL parameter bookmarklet:" in the sentence "see the URL Parameters page for detailed descriptions"
 #. 2. in https://duckduckgo.com/settings near the bottom under "Cloud Save" by clicking "What's this" under "What information gets saved?". It is a link
 #. 3. in https://duckduckgo.com/params in the top. It is a header
 msgid "URL Parameters"
 msgstr "URL-Parametrit"
+
+#. This is the name of a user setting -- Example image: https://i.imgur.com/0tyrveK.png
+msgctxt "settings"
+msgid "URL Placement"
+msgstr "URL-osoitteen sijoittelu"
 
 #. https://duckduckgo.com/params under "Color Settings"
 msgid "URLs:"
@@ -4868,12 +5162,10 @@ msgstr "Haun alla klikkaa pudotusvalikkoa ja valitse %1$sDuckDuckGo%2$s"
 msgid "Underline:"
 msgstr "Alleviivaus:"
 
-#. http://i.imgur.com/7M5ogIs.png
-#. If, "On" --it will add an underline to result titles like this: http://i.imgur.com/VRFC6VQ.png
-#. If, "Off" --there will be no underline, like this: http://i.imgur.com/6MyezXn.png
+#. This is the description of a user setting
 msgctxt "settings"
-msgid "Underlines the title link for each result"
-msgstr "Alleviivaa jokaisen hakutuloksen otsikkolinkin"
+msgid "Underlines result titles"
+msgstr "Alleviivaa tulosotsikot"
 
 #. Instant Answer tab name
 msgid "Unicode"
@@ -4935,6 +5227,11 @@ msgstr "Käytä Firefoxissa"
 msgid "Use in Safari"
 msgstr "Käytä Safarissa"
 
+#. Label for vaccines tab
+msgctxt "Covid 19 module"
+msgid "Vaccines"
+msgstr "Rokotteet"
+
 msgctxt "directions"
 msgid "Via"
 msgstr "Kautta"
@@ -4977,6 +5274,15 @@ msgid ""
 "Visit %sDuckDuckGo.com%s on your tablet or phone and follow the provided "
 "instructions."
 msgstr "Käy %1$sDuckDuckGo.com%2$s-sivustossa tablettitietokoneellasi, tai puhelimellasi ja noudata annettuja ohjeita."
+
+msgctxt "settings"
+msgid "Visited Checkmark"
+msgstr "Vierailtu – Valintamerkki"
+
+#. This is the name of a user setting
+msgctxt "settings"
+msgid "Visited Title Color"
+msgstr "Vierailtu – Otsikon väri"
 
 #. https://duckduckgo.com/params under "Color Settings" header
 msgid "Visited links:"
@@ -5104,6 +5410,15 @@ msgctxt "feedback form"
 msgid "We use feedback like this to improve DuckDuckGo."
 msgstr "Käytämme palautetta DuckDuckGon parantamiseen."
 
+#. Placeholder can be Apple Maps, TripAdvisor, and/or Foursquare
+msgctxt "feedback form"
+msgid ""
+"We use feedback like this to improve DuckDuckGo. Suggestions will be "
+"incorporated at the discretion of %s. Corrections may not show up in results "
+"right away."
+msgstr "Käytämme palautetta DuckDuckGon tarjoaman palvelun parantamiseen. %1$s ottaa ehdotukset huomioon oman harkintansa mukaan. Korjaukset eivät välttämättä"
+" näy tuloksissa heti."
+
 msgctxt "new user poll"
 msgid "We're honored to have you on the Duck Side"
 msgstr "Olemme kunnioitettuja saada sinut mukaan Duckin puolelle"
@@ -5119,6 +5434,14 @@ msgstr "Linkit"
 msgctxt "maps_places"
 msgid "Website"
 msgstr "Verkkosivusto"
+
+msgctxt "feedback form"
+msgid "Website is incorrect"
+msgstr "Verkkosivusto on väärä"
+
+msgctxt "feedback form"
+msgid "Website is missing"
+msgstr "Verkkosivusto puuttuu"
 
 msgctxt "settings"
 msgid "Welcome Message"
@@ -5218,6 +5541,23 @@ msgstr "Wikipedia info"
 msgctxt "forecast"
 msgid "Wind"
 msgstr "Tuuli"
+
+msgctxt "Covid 19 module"
+msgid "World"
+msgstr "Maailma"
+
+msgctxt "Covid 19 module"
+msgid "Worldwide Coverage Map"
+msgstr "Maailmanlaajuinen kattavuuskartta"
+
+msgctxt "feedback form"
+msgid "Wrong place is shown"
+msgstr "Väärä paikka näytetään"
+
+#. Button label for selecting chart of prices for the year to date
+msgctxt "Stocks module"
+msgid "YTD"
+msgstr "Vuoden alusta"
 
 #. https://duckduckgo.com/params under "Color Settings" under "Highlight: "
 msgid "Yellow"
@@ -5386,6 +5726,11 @@ msgstr "t"
 msgctxt "nonjsversion"
 msgid "here"
 msgstr "tässä"
+
+#. Abbreviate 1000s in a number. E.g. 1,000 becomes 1k
+msgctxt "Stocks module"
+msgid "k"
+msgstr "k"
 
 #. An abbreviated form of "minute" that can be displayed in a small space e.g. "1m"
 msgctxt "published date for videos"

@@ -117,9 +117,49 @@ msgctxt "install-extension"
 msgid "1. Open %sDownloads%s"
 msgstr "1. Otvorite %1$sPreuzimanja%2$s"
 
+#. Disclaimer text for the stocks module
+msgctxt "Stocks module"
+msgid "15 minutes delayed"
+msgstr "Kasni 15 minuta"
+
+#. Button label for selecting chart of today's prices (needs to be short on mobile devices)
+msgctxt "Stocks module"
+msgid "1D"
+msgstr "1D"
+
+#. Button label for selecting chart of prices over the last month
+msgctxt "Stocks module"
+msgid "1M"
+msgstr "1M"
+
+#. Button label for selecting chart of prices over the last year
+msgctxt "Stocks module"
+msgid "1Y"
+msgstr "1G"
+
 msgctxt "install-extension"
 msgid "2. Double-click %sduckduckgo.safariextz%s"
 msgstr "2. Dva puta kliknite %1$sduckduckgo.safariextz%2$s"
+
+#. The highest price over the previous 52 weeks
+msgctxt "Stocks module"
+msgid "52wk High"
+msgstr "Najviša u 52 tjedna"
+
+#. The lowest price over the previous 52 weeks
+msgctxt "Stocks module"
+msgid "52wk Low"
+msgstr "Najniža u 52 tjedna"
+
+#. Button label for selecting chart of prices over the last 5 days
+msgctxt "Stocks module"
+msgid "5D"
+msgstr "5D"
+
+#. Button label for selecting chart of prices over the last five years
+msgctxt "Stocks module"
+msgid "5Y"
+msgstr "5G"
 
 #. https://duckduckgo.com/params in the end under " Source:"
 msgid "A string to identify the source."
@@ -150,6 +190,11 @@ msgstr "O DuckDuckGou"
 
 msgid "About Us"
 msgstr "O nama"
+
+#. This is an option for a user setting. It refers to showing the URL for a result ABOVE the TITLE of the result -- Example image: https://i.imgur.com/bTm8PCc.png
+msgctxt "settingsvalue"
+msgid "Above Title"
+msgstr "Iznad naslova"
 
 #. Ad like 'advertisement'
 msgid "Ad"
@@ -218,6 +263,10 @@ msgstr "Adresa"
 msgid "Address bar:"
 msgstr "Adresna traka:"
 
+msgctxt "feedback form"
+msgid "Address is incorrect"
+msgstr "Adresa je netočna"
+
 #. as in multiple advertisements
 msgid "Ads"
 msgstr "Oglasi"
@@ -252,6 +301,11 @@ msgctxt "language_name"
 msgid "Albanian"
 msgstr "albanski"
 
+msgid "All"
+msgstr "Sve"
+
+#. Button label for selecting chart showing all historical prices
+msgctxt "Stocks module"
 msgid "All"
 msgstr "Sve"
 
@@ -421,6 +475,11 @@ msgctxt "language_name"
 msgid "Armenian"
 msgstr "armenijski"
 
+#. Indicates when the data was last updated e.g. 'As of 12:37 PM EST'
+msgctxt "Stocks module"
+msgid "As of"
+msgstr "Od"
+
 msgid ""
 "As per our privacy policy, we do not collect or share any personal "
 "information ourselves. All of this privacy protection happens on your device."
@@ -463,10 +522,20 @@ msgctxt "homepage ATB social proof"
 msgid "Average rating: %s out of 5"
 msgstr "Prosječna ocjena: %1$s od 5"
 
+#. The average volume traded for a particular stock
+msgctxt "Stocks module"
+msgid "Avg Vol"
+msgstr "Prosj. kol."
+
 #. The name of the Azerbaijani language
 msgctxt "language_name"
 msgid "Azerbaijani"
 msgstr "azerbejdžanski"
+
+#. Abbreviate billions in a number. E.g. 1,000,000,000 becomes 1B
+msgctxt "Stocks module"
+msgid "B"
+msgstr "mlrd."
 
 msgctxt "homepage onboarding"
 msgid "Back to search"
@@ -507,6 +576,16 @@ msgstr "Belgija (fr)"
 
 msgid "Belgium (nl)"
 msgstr "Belgija (nl)"
+
+#. This is an option for a user setting. It refers to showing the URL for a result BELOW the SNIPPET (description) of the result -- Example image: https://i.imgur.com/lnP77q4.png
+msgctxt "settingsvalue"
+msgid "Below Snippet"
+msgstr "Ispod isječka"
+
+#. This is an option for a user setting. It refers to showing the URL for a result BELOW the TITLE of the result -- Example image: https://i.imgur.com/3cb6xx0.png
+msgctxt "settingsvalue"
+msgid "Below Title"
+msgstr "Ispod naslova"
 
 msgctxt "settingsvalue"
 msgid "Best available"
@@ -674,18 +753,15 @@ msgctxt "settings"
 msgid "Center Alignment"
 msgstr "Centriraj"
 
-#. One of the option in DuckDuckGo Search Settings under appearance tab.
-#. http://i.imgur.com/CklQ1Ku.png
+#. This is the description of a user setting -- Example image: https://i.imgur.com/yihFekW.png
 msgctxt "settings"
-msgid "Center-aligns the results page (instead of left-aligned)"
-msgstr "Poravnava stranicu s rezultatima po sredini (umjesto lijevog poravnanja)"
+msgid "Changes how result URLs are displayed"
+msgstr "Promjena načina prikaza URL-ova rezultata"
 
-#. http://i.imgur.com/oO0X6Pt.png
+#. This is the description of a user setting
 msgctxt "settings"
-msgid ""
-"Changes how much space the header takes up and what happens to it when you "
-"scroll"
-msgstr "Promjena količine prostora koje zaglavlje zauzima i kako se ponaša tokom pomicanja stranice"
+msgid "Changes how the header is displayed and its behavior as you scroll"
+msgstr "Promjena načina prikaza zaglavlja i njegovog ponašanja tijekom pomicanja"
 
 #. http://i.imgur.com/mcZdcaF.png
 msgctxt "settings"
@@ -697,25 +773,46 @@ msgctxt "settings"
 msgid "Changes the background color across the entire site"
 msgstr "Mijenja boju pozadine cijelog web-mjesta"
 
+#. This is the description of a user setting
+msgctxt "settings"
+msgid ""
+"Changes the background color of results on hover, modules, and dropdown menus"
+msgstr "Promjena boje pozadine rezultata prilikom zadržavanja pokazivača, modula i padajućih izbornika"
+
 #. http://i.imgur.com/NdpkbY0.png
 msgctxt "settings"
 msgid "Changes the background color when hovering over a result"
 msgstr "Promjena boje pozadine prilikom odabira rezultata"
 
-#. http://i.imgur.com/awVlAoo.png
+#. This is the description of a user setting
 msgctxt "settings"
-msgid "Changes the color of the result URL"
-msgstr "Promjena boje za URL rezultata"
+msgid "Changes the color of result URLs"
+msgstr "Promjena boje za rezultate URL-ova"
 
-#. http://i.imgur.com/epUhcrA.png
+#. This is the description of a user setting
 msgctxt "settings"
-msgid "Changes the color of the result description text"
-msgstr "Mijenja boju teksta opisa rezultata"
+msgid "Changes the color of result snippets"
+msgstr "Promjena boje za isječke rezultata"
+
+#. This is the description of a user setting
+msgctxt "settings"
+msgid "Changes the color of result titles"
+msgstr "Promjena boje za naslove rezultata"
+
+#. This is the description of a user setting
+msgctxt "settings"
+msgid "Changes the color of titles for results you've visited"
+msgstr "Promjena boje za naslove rezultata koje ste posjetili"
 
 #. http://i.imgur.com/kE1ZsM9.png
 msgctxt "settings"
 msgid "Changes the font across the entire site"
 msgstr "Promjena fonta na čitavoj stranici"
+
+#. This is the description of a user setting
+msgctxt "settings"
+msgid "Changes the font of result titles"
+msgstr "Promjena fonta naslova rezultata"
 
 #. http://i.imgur.com/ftpln8q.png
 msgctxt "settings"
@@ -733,29 +830,15 @@ msgctxt "settings"
 msgid "Changes the language across the entire site"
 msgstr "Promjena jezika na čitavoj stranici"
 
-msgctxt "settings"
-msgid "Changes the result hover, module, and dropdown background color"
-msgstr "Mijenja boju prikaza rezultata, modula i pozadine padajućeg izbornika"
-
-#. http://i.imgur.com/f1bLTY1.png
-#. Description for "Result Title Color" which changes the color of the results.
-msgctxt "settings"
-msgid "Changes the title link color for each result"
-msgstr "Promjena boje naslova rezultata"
-
-#. http://i.imgur.com/5IQda6g.png
-msgctxt "settings"
-msgid "Changes the title link font for each result"
-msgstr "Promjena fonta naslova rezultata"
-
 #. http://i.imgur.com/auITACf.png
 msgctxt "settings"
 msgid "Changes what happens when you click on a video thumbnail"
 msgstr "Odabir ponašanja prilikom klika na video sadržaj"
 
+#. This is the description of a user setting -- Example image: https://i.imgur.com/ALGzzZr.png
 msgctxt "settings"
-msgid "Changes whether the visited checkmark is visible"
-msgstr "Mijenja stanje vidljivosti oznake već posjećenog"
+msgid "Changes where result URLs are displayed"
+msgstr "Promjena mjesta gdje se prikazuju URL-ovi"
 
 msgid "Chat"
 msgstr "Razgovor"
@@ -1114,6 +1197,15 @@ msgstr "Zajednica"
 msgid "Concerts"
 msgstr "Koncerti"
 
+#. Heading for the table column indicating how many confirmed cases there have been in that location
+msgctxt "Covid 19 module"
+msgid "Confirmed"
+msgstr "Potvrđeno"
+
+msgctxt "Covid 19 module"
+msgid "Confirmed Cases"
+msgstr "Potvrđenih slučajeva"
+
 msgid "Congratulations!"
 msgstr "Čestitamo!"
 
@@ -1150,6 +1242,10 @@ msgstr "Kopiraj prijevod"
 msgctxt "Report image modal"
 msgid "Copyright violation"
 msgstr "Kršenje autorskih prava"
+
+msgctxt "Covid 19 module"
+msgid "Coronavirus Disease (COVID-19)"
+msgstr "Koronavirusna bolest (COVID-19)"
 
 #. Instant Answer Tab Name
 msgid "Coupons"
@@ -1225,6 +1321,11 @@ msgctxt "theme"
 msgid "Dark"
 msgstr "Tamna"
 
+#. Attribution text for the stocks module
+msgctxt "Stocks module"
+msgid "Data provided by IEX Cloud"
+msgstr "Podatke pruža IEX Cloud"
+
 #. Instant Answer tab name
 msgid "Date"
 msgstr "Datum"
@@ -1236,6 +1337,11 @@ msgstr "Filteri datuma"
 msgctxt "feedback form"
 msgid "Date filters"
 msgstr "Filteri datuma"
+
+#. Heading for the table column indicating how many deaths there have been in that location
+msgctxt "Covid 19 module"
+msgid "Deaths"
+msgstr "Smrtni slučajevi"
 
 #. A theme name in the theme menu:
 #. https://duck.co/media/files/theme.png
@@ -1307,6 +1413,26 @@ msgstr "Odbaci"
 
 msgid "Dismiss forever"
 msgstr "Zauvijek odbaci"
+
+#. This is the description of a user setting
+msgctxt "settings"
+msgid "Displays a checkmark to the left of results you've visited"
+msgstr "Prikazuje kvačicu s lijeve strane rezultata koje ste posjetili"
+
+#. This is the description of a user setting
+msgctxt "settings"
+msgid "Displays favicons for each result"
+msgstr "Prikazuje ikone prečaca za svaki rezultat"
+
+#. This is the description of a user setting
+msgctxt "settings"
+msgid "Displays results in the center of the page"
+msgstr "Prikazuje rezultate u središtu stranice"
+
+#. This is an option for a user setting. It refers to showing only the domain for a website URL (e.g. domain.com) -- Example image: https://i.imgur.com/KkBcFcQ.png
+msgctxt "settingsvalue"
+msgid "Domains Only"
+msgstr "Samo domene"
 
 msgctxt "SERP footer content"
 msgid "Don't Track Us"
@@ -1733,6 +1859,16 @@ msgctxt "new user poll"
 msgid "Friend or family"
 msgstr "Prijatelj ili obitelj"
 
+#. This is an option for a user setting. It refers to showing the full URL for a website, including the url path, but made to look like the breadcrumbs of a website (e.g. website.com > this > is > the > path) -- Example image: https://i.imgur.com/roiQBYz.png
+msgctxt "settingsvalue"
+msgid "Full URLs (Breadcrumbs)"
+msgstr "Cijeli URL-ovi (hijerarhijska navigacija)"
+
+#. This is an option for a user setting. It refers to showing the full URL for a website, including the url path (e.g. website.com/this/is/this/path) -- Example image: https://i.imgur.com/SxYWf9o.png
+msgctxt "settingsvalue"
+msgid "Full URLs (Slashes)"
+msgstr "Cijeli URL-ovi (kose crte)"
+
 #. http://i.imgur.com/tGau0Vx.png
 msgctxt "settings"
 msgid "GET Requests"
@@ -1787,6 +1923,10 @@ msgstr "Počnite na Duck.com"
 msgid ""
 "Get seamless privacy protection on your browser for free with one download:"
 msgstr "Besplatno preuzmite besprijekornu zaštitu privatnosti na preglednik jednim preuzimanjem:"
+
+msgctxt "Covid 19 module"
+msgid "Get the latest information:"
+msgstr "Doznajte najnovije informacije:"
 
 msgid "Get the non-JS version %s"
 msgstr "Otvori verziju bez JS %1$s"
@@ -1955,6 +2095,11 @@ msgctxt "settings"
 msgid "Hides search term from being shown in browser tab/history"
 msgstr "Skriva pojam pretraživanja u kartici/povijesti preglednika"
 
+#. The highest stock price in a day
+msgctxt "Stocks module"
+msgid "High"
+msgstr "Najviša"
+
 #. Shown in video filtering. https://duckduckgo.com/?q=videos+of+cats&iax=videos&ia=videos
 msgctxt "video-resolution"
 msgid "High definition"
@@ -1964,6 +2109,11 @@ msgstr "Visoka rezolucija"
 msgctxt "language_name"
 msgid "Hindi"
 msgstr "hindski"
+
+#. Indicate that we have no chart data for prices of the current stock
+msgctxt "Stocks module"
+msgid "Historical prices not available"
+msgstr "Povijesne cijene nisu dostupne"
 
 #  Chrome default search engine instruction
 msgid ""
@@ -1992,6 +2142,19 @@ msgstr "Hong Kong"
 msgctxt "maps_places"
 msgid "Hours"
 msgstr "Sati"
+
+msgctxt "feedback form"
+msgid "Hours are incorrect"
+msgstr "Radno vrijeme nije točno"
+
+msgctxt "feedback form"
+msgid "Hours are missing"
+msgstr "Nedostaje radno vrijeme"
+
+#. This is the name of a user setting
+msgctxt "settings"
+msgid "Hover, Module, and Dropdown Background Color"
+msgstr "Zadržavanje pokazivača, modul i boja pozadine padajućeg izbornika"
 
 msgctxt "SERP footer content"
 msgid "How We Are Profitable"
@@ -2103,6 +2266,12 @@ msgstr "Pločice slika"
 #. Used in the !bang dropdown.
 msgid "Images"
 msgstr "Slike"
+
+#. This is the description of a user setting -- Example image: https://i.imgur.com/IqBhHpM.png
+msgctxt "settings"
+msgid ""
+"Improves result legibility with updated URL format, placement, and color"
+msgstr "Poboljšava čitljivost rezultata s ažuriranim formatom URL-a, položajem i bojom"
 
 msgid "In partnership with"
 msgstr "U suradnji sa"
@@ -2318,6 +2487,11 @@ msgstr "Prečice na tipkovnici"
 msgctxt "language_name"
 msgid "Khmer"
 msgstr "kmerski"
+
+#. The name of the Klingon language
+msgctxt "language_name"
+msgid "Klingon"
+msgstr "Klingonski"
 
 #. The name of the Klingon (Latin) language
 msgctxt "language_name"
@@ -2544,6 +2718,11 @@ msgctxt "settings"
 msgid "Loads more results when scrolling"
 msgstr "Učitava dodatne rezultate prilikom pomicanja stranice"
 
+#. Heading for the table column indicating the country or region for which the data applies
+msgctxt "Covid 19 module"
+msgid "Location"
+msgstr "Lokacija"
+
 msgctxt "settings"
 msgid "Location"
 msgstr "Lokacija"
@@ -2551,6 +2730,10 @@ msgstr "Lokacija"
 msgctxt "precise_user_location"
 msgid "Location information is stored only on your device."
 msgstr "Podaci o lokaciji pohranjuju se samo na tvom uređaju."
+
+msgctxt "feedback form"
+msgid "Location on map is wrong"
+msgstr "Lokacija na karti je pogrešna"
 
 msgctxt "video-duration"
 msgid "Long"
@@ -2564,6 +2747,16 @@ msgstr "Postavke izgleda"
 msgctxt "spread_badge"
 msgid "Love DuckDuckGo?"
 msgstr "Volite DuckDuckGo?"
+
+#. The lowest stock price in a day
+msgctxt "Stocks module"
+msgid "Low"
+msgstr "Najniža"
+
+#. Abbreviate millions in a number. E.g. 1,000,000 becomes 1M
+msgctxt "Stocks module"
+msgid "M"
+msgstr "m"
 
 msgctxt "noresults"
 msgid "Make sure all words are spelled correctly."
@@ -2676,6 +2869,11 @@ msgctxt "placement"
 msgid "Middle"
 msgstr "Na sredini"
 
+#. The market capitalization of the currently selected stock
+msgctxt "Stocks module"
+msgid "Mkt Cap"
+msgstr "Ogr. trž."
+
 msgctxt "settings"
 msgid "Mobile Instructions (not displayed on settings page)"
 msgstr "Upute za mobilni uređaj (ne prikazuju se na stranici s postavkama)"
@@ -2775,6 +2973,10 @@ msgctxt "additional_info_at"
 msgid "More results"
 msgstr "Više rezultata"
 
+msgctxt "Covid 19 module"
+msgid "More statistics"
+msgstr "Više statistika"
+
 msgctxt "video-duration"
 msgid "More than 20 minutes"
 msgstr "Duže od 20 minuta"
@@ -2848,6 +3050,11 @@ msgstr "Nizozemska"
 msgctxt "settings"
 msgid "New Tab Page Most Visited Sites"
 msgstr "Stranica nove kartice najposjećenijih web-mjesta"
+
+#. This is the name of a user setting -- Example image: https://i.imgur.com/LRuNuA8.png
+msgctxt "settings"
+msgid "New URL Style"
+msgstr "Novi stil URL-a"
 
 msgid "New Zealand"
 msgstr "Novi Zeland"
@@ -3054,6 +3261,11 @@ msgid ""
 "again later."
 msgstr "Ups! Došlo je do neočekivane pogreške prilikom prevođenja ovog teksta. Pokušajte ponovo kasnije."
 
+#. The price the markets opens at
+msgctxt "Stocks module"
+msgid "Open"
+msgstr "Otvorena"
+
 msgctxt "maps_places"
 msgid "Open"
 msgstr "Otvorena"
@@ -3196,6 +3408,16 @@ msgctxt "maps_places"
 msgid "Overview"
 msgstr "Pregled"
 
+#. Placeholder can be Apple Maps, TripAdvisor, or Foursquare
+msgctxt "feedback form"
+msgid "Own this business? Manage on %s"
+msgstr "Jeste li vlasnik ovog poduzeća? Upravljajte njime na %1$s"
+
+#. The price / earnings multiple for the currently selected stock
+msgctxt "Stocks module"
+msgid "P/E"
+msgstr "P/E"
+
 #. Instant Answer Tab Name
 msgid "Packages"
 msgstr "Paketi"
@@ -3299,6 +3521,14 @@ msgctxt "maps_places"
 msgid "Phone Number"
 msgstr "telefonski broj"
 
+msgctxt "feedback form"
+msgid "Phone number is incorrect"
+msgstr "Telefonski broj nije točan"
+
+msgctxt "feedback form"
+msgid "Phone number is missing"
+msgstr "Nedostaje telefonski broj"
+
 msgctxt "image-type"
 msgid "Photograph"
 msgstr "Fotografija"
@@ -3345,6 +3575,34 @@ msgctxt "new user poll"
 msgid "Please select one option."
 msgstr "Molimo odaberite jednu opciju."
 
+msgctxt "feedback form"
+msgid "Please suggest the correct address"
+msgstr "Unesite točnu adresu"
+
+msgctxt "feedback form"
+msgid "Please suggest the correct hours of operation"
+msgstr "Unesite točno radno vrijeme"
+
+msgctxt "feedback form"
+msgid "Please suggest the correct phone number"
+msgstr "Unesite točan broj telefona"
+
+msgctxt "feedback form"
+msgid "Please suggest the correct website URL"
+msgstr "Unesite točan URL web-mjesta"
+
+msgctxt "feedback form"
+msgid "Please suggest the hours of operation"
+msgstr "Unesite radno vrijeme"
+
+msgctxt "feedback form"
+msgid "Please suggest the phone number"
+msgstr "Unesite telefonski broj"
+
+msgctxt "feedback form"
+msgid "Please suggest the website URL"
+msgstr "Unesite URL web-mjesta"
+
 #  https://duckduckgo.com/?e=1
 msgid "Please try again"
 msgstr "Molimo pokušajte ponovo"
@@ -3388,6 +3646,11 @@ msgstr "Pritisni %1$sIzbornik > Dodaj na početni zaslon > Dodaj%2$s!"
 
 msgid "Press Kit"
 msgstr "Materijali za medije"
+
+#. The price the stock previously closed at
+msgctxt "Stocks module"
+msgid "Prev Close"
+msgstr "Preth. završ. cijena"
 
 msgid "Preview"
 msgstr "videozapisi"
@@ -3632,7 +3895,7 @@ msgid "Related Topics"
 msgstr "Srodne teme"
 
 msgid "Remember my choice (this can be changed in %s%s%sSettings%s)"
-msgstr "Upamti moj odabir (ovo se može izmijeniti u %1$s%2$s%3$sPostavkama%4$s)"
+msgstr "Zapamti moj odabir (ovo se može izmijeniti u %1$s%2$s%3$sPostavkama%4$s)"
 
 msgctxt "ads"
 msgid "Report Ad"
@@ -3641,6 +3904,15 @@ msgstr "Prijavi oglas"
 msgctxt "Report image modal"
 msgid "Report this image"
 msgstr "Prijavi ovu sliku"
+
+#. Placeholder can be Apple Maps, TripAdvisor, and/or Foursquare
+msgctxt "feedback form"
+msgid ""
+"Reports are anonymous and sent to DuckDuckGo to help improve our search "
+"service. Your anonymous feedback is also shared with %s to help improve "
+"their services."
+msgstr "Izvješća su anonimna i šalju se na DuckDuckGo kako bismo poboljšali našu uslugu pretraživanja. Vaše anonimne povratne informacije također se dijele s tvrtkom"
+" %1$s radi poboljšanja njihovih usluga."
 
 msgctxt "settings dropdown"
 msgid "Reset"
@@ -3656,62 +3928,18 @@ msgctxt "settings"
 msgid "Reset All Settings"
 msgstr "Resetiranje Svih Postavki"
 
-#. http://i.imgur.com/t65r7D9.png
-#. changes the color of the result descriptions like this: http://i.imgur.com/UOdZYpf.png
-msgctxt "settings"
-msgid "Result Description Color"
-msgstr "Boja Opisa Rezultata"
-
-msgctxt "settings"
-msgid "Result Full URLs"
-msgstr "Čitav URL Rezultata"
-
 #. http://i.imgur.com/kqN8dPT.png
 msgctxt "settings"
 msgid "Result Highlight Color"
 msgstr "Boja Isticanja Rezultata"
 
-msgctxt "settings"
-msgid "Result Hover, Module, and Dropdown Background Color"
-msgstr "Boja prikaza rezultata, modula i pozadine padajućeg izbornika"
-
 #. in https://duckduckgo.com/params in the top. it is the first header
 msgid "Result Settings"
 msgstr "Postavke rezultata"
 
-#. http://i.imgur.com/M5H3oSv.png
-#. Changes the color of the results.
-msgctxt "settings"
-msgid "Result Title Color"
-msgstr "Boja Naslova Rezultata"
-
-#. http://i.imgur.com/MTrwCtj.png
-msgctxt "settings"
-msgid "Result Title Font"
-msgstr "Font Naslova Rezultata"
-
-#. http://i.imgur.com/YTYuj72.png
-msgctxt "settings"
-msgid "Result Title Underline"
-msgstr "Podcrtavanje Naslova Rezultata"
-
-#. http://i.imgur.com/fsnijIZ.png
-msgctxt "settings"
-msgid "Result URL Color"
-msgstr "Boja URL-a Rezultata"
-
-msgctxt "settings"
-msgid "Result URLs Above Snippet"
-msgstr "URL-ovi rezultata iznad isječka"
-
 msgctxt "settings"
 msgid "Result Visited Checkmark"
 msgstr "Oznaka već posjećenog rezultata"
-
-#. http://i.imgur.com/nRnQruy.png
-msgctxt "settings"
-msgid "Result Visited Title Color"
-msgstr "Boja Naslova Posjećenih Rezultata"
 
 #. In the top menu under Settings
 msgid "Results"
@@ -3914,6 +4142,11 @@ msgstr "Okvir za pretraživanje"
 #. Le terme apparait en survolant le terme "More from ..." sur la page de résultats.
 msgid "Search domain %s"
 msgstr "Pretraži domenu %1$s"
+
+#. Placeholder text for a text-based language filter
+msgctxt "translations_module"
+msgid "Search languages"
+msgstr "Jezici pretraživanja"
 
 msgid "Search only for %s?"
 msgstr "Tražiti samo %1$s?"
@@ -4243,10 +4476,6 @@ msgid "Shows"
 msgstr "Predstave"
 
 msgctxt "settings"
-msgid "Shows favicons for each result"
-msgstr "Prikazuje ikone za svaki rezultat"
-
-msgctxt "settings"
 msgid "Shows horizontal lines at result page breaks"
 msgstr "Prikazuje horizontalne linije kao prijelome stranice rezultata"
 
@@ -4285,16 +4514,8 @@ msgid "Shows suggestions under the search box as you type"
 msgstr "Prikazuje prijedloge ispod okvira za pretraživanje dok pišete"
 
 msgctxt "settings"
-msgid "Shows the full URL for each result"
-msgstr "Prikazuje puni URL za svaki rezultat"
-
-msgctxt "settings"
 msgid "Shows the privacy benefits of using DuckDuckGo on the homepage"
 msgstr "Prikazuje prednosti za privatnost koje donosi upotreba DuckDuckGoa na početnoj stranici"
-
-msgctxt "settings"
-msgid "Shows the result URL line above the snippet text"
-msgstr "Prikazuje redak URL-a rezultata iznad isječka teksta"
 
 #. Discontinued, don't translate
 msgctxt "settings"
@@ -4350,6 +4571,11 @@ msgctxt "size"
 msgid "Small"
 msgstr "Malena"
 
+#. This is the name of a user setting
+msgctxt "settings"
+msgid "Snippet Color"
+msgstr "Boja isječka"
+
 msgid "Social"
 msgstr "Socijalne mreže"
 
@@ -4401,6 +4627,11 @@ msgstr "Standardna rezolucija"
 
 msgid "Start searching!"
 msgstr "Počnite pretraživati!"
+
+#. Label for statistics tab
+msgctxt "Covid 19 module"
+msgid "Statistics"
+msgstr "Statistika"
 
 msgctxt "SERP footer content"
 msgid "Stay Informed"
@@ -4455,6 +4686,11 @@ msgctxt "noresults"
 msgid "Suggestions:"
 msgstr "Prijedlozi:"
 
+#. Label for summary tab
+msgctxt "Covid 19 module"
+msgid "Summary"
+msgstr "Sažetak"
+
 #. http://i.imgur.com/FczLkAL.png
 msgctxt "settingsvalue"
 msgid "Super Wide"
@@ -4501,6 +4737,16 @@ msgstr "Švicarska (fr)"
 
 msgid "Switzerland (it)"
 msgstr "Švicarska (it)"
+
+#. Label for symptoms tab
+msgctxt "Covid 19 module"
+msgid "Symptoms"
+msgstr "Simptomi"
+
+#. Abbreviate trillions in a number. E.g. 1,000,000,000,000 becomes 1T
+msgctxt "Stocks module"
+msgid "T"
+msgstr "tril."
 
 msgid "TV"
 msgstr "TV"
@@ -4650,6 +4896,14 @@ msgstr "Ovo ima nekoliko prednosti:"
 msgid "This page requires Javascript to function."
 msgstr "Za pravilno funkcioniranje ove stranice potreban je Javascript."
 
+msgctxt "feedback form"
+msgid "This place is permanently closed"
+msgstr "Ovo je mjesto trajno zatvoreno"
+
+msgctxt "feedback form"
+msgid "This place is too far away"
+msgstr "Ovo je mjesto predaleko"
+
 #. User feedback indicating that a translation is helpful
 msgctxt "translations_module"
 msgid "This translation is helpful"
@@ -4686,8 +4940,28 @@ msgctxt "language_name"
 msgid "Tigrinya"
 msgstr "tigrinja"
 
+#. Label for tips tab
+msgctxt "Covid 19 module"
+msgid "Tips"
+msgstr "Savjeti"
+
 msgid "Tired of being tracked online? %sWe can help.%s"
 msgstr "Umorni ste od praćenja putem interneta? %1$sMožemo pomoći.%2$s"
+
+#. This is the name of a user setting
+msgctxt "settings"
+msgid "Title Color"
+msgstr "Boja naslova"
+
+#. This is the name of a user setting
+msgctxt "settings"
+msgid "Title Font"
+msgstr "Font naslova"
+
+#. This is the name of a user setting
+msgctxt "settings"
+msgid "Title Underline"
+msgstr "Podcrtani naslov"
 
 msgctxt "directions"
 msgid ""
@@ -4695,6 +4969,11 @@ msgid ""
 "print.%sClick the print icon.%s"
 msgstr "Za ispis uputa:%1$svratite se na kartu.%2$sOdaberite putanju koju želite ispisati.%3$sKliknite na ikonu za ispis.%4$s"
 
+msgid "Today"
+msgstr "Danas"
+
+#. Button label for selecting chart of today's prices
+msgctxt "Stocks module"
 msgid "Today"
 msgstr "Danas"
 
@@ -4801,11 +5080,26 @@ msgstr "Unesite %1$sDuckDuckGo%2$s u prvo %3$spolje obrasca"
 msgid "Type %sduckduckgo.com%s in the %ssecond form field"
 msgstr "Unesite %1$sduckduckgo.com%2$s u %3$sdrugo polje obrasca"
 
+#. This is the name of a user setting
+msgctxt "settings"
+msgid "URL Color"
+msgstr "Boja URL-a"
+
+#. This is the name of a user setting -- Example image: https://i.imgur.com/icuYX4J.png
+msgctxt "settings"
+msgid "URL Format"
+msgstr "Format URL-a"
+
 #. 1. in https://duckduckgo.com/settings near the bottom by clicking "Bookmarklet and settings data" under "Your settings as a URL parameter bookmarklet:" in the sentence "see the URL Parameters page for detailed descriptions"
 #. 2. in https://duckduckgo.com/settings near the bottom under "Cloud Save" by clicking "What's this" under "What information gets saved?". It is a link
 #. 3. in https://duckduckgo.com/params in the top. It is a header
 msgid "URL Parameters"
 msgstr "URL Parametri"
+
+#. This is the name of a user setting -- Example image: https://i.imgur.com/0tyrveK.png
+msgctxt "settings"
+msgid "URL Placement"
+msgstr "Položaj URL-a"
 
 #. https://duckduckgo.com/params under "Color Settings"
 msgid "URLs:"
@@ -4872,12 +5166,10 @@ msgstr "Pod Pretraživanje kliknite padajući izbornik i odaberite %1$sDuckDuckG
 msgid "Underline:"
 msgstr "Podcrtati"
 
-#. http://i.imgur.com/7M5ogIs.png
-#. If, "On" --it will add an underline to result titles like this: http://i.imgur.com/VRFC6VQ.png
-#. If, "Off" --there will be no underline, like this: http://i.imgur.com/6MyezXn.png
+#. This is the description of a user setting
 msgctxt "settings"
-msgid "Underlines the title link for each result"
-msgstr "Podcrtava naslovnu poveznicu svakog rezultata"
+msgid "Underlines result titles"
+msgstr "Podcrtava naslove rezultata"
 
 #. Instant Answer tab name
 msgid "Unicode"
@@ -4939,6 +5231,11 @@ msgstr "Koristi u Firefoxu"
 msgid "Use in Safari"
 msgstr "Koristi u Safari pregledniku"
 
+#. Label for vaccines tab
+msgctxt "Covid 19 module"
+msgid "Vaccines"
+msgstr "Cjepiva"
+
 msgctxt "directions"
 msgid "Via"
 msgstr "Preko"
@@ -4981,6 +5278,15 @@ msgid ""
 "Visit %sDuckDuckGo.com%s on your tablet or phone and follow the provided "
 "instructions."
 msgstr "Posjetite %1$sDuckDuckGo.com%2$s na Vašem tabletu ili telefonu i slijedite navedene upute."
+
+msgctxt "settings"
+msgid "Visited Checkmark"
+msgstr "Kvačica za posjećeno"
+
+#. This is the name of a user setting
+msgctxt "settings"
+msgid "Visited Title Color"
+msgstr "Boja naslova za posjećeno"
 
 #. https://duckduckgo.com/params under "Color Settings" header
 msgid "Visited links:"
@@ -5108,6 +5414,15 @@ msgctxt "feedback form"
 msgid "We use feedback like this to improve DuckDuckGo."
 msgstr "Ovakve povratne informacije koristimo za poboljšanje DuckDuckGoa."
 
+#. Placeholder can be Apple Maps, TripAdvisor, and/or Foursquare
+msgctxt "feedback form"
+msgid ""
+"We use feedback like this to improve DuckDuckGo. Suggestions will be "
+"incorporated at the discretion of %s. Corrections may not show up in results "
+"right away."
+msgstr "Ovakve povratne informacije koristimo za poboljšanje DuckDuckGoa. Prijedlozi će biti uključeni prema nahođenju tvrtke %1$s. Ispravci se možda neće odmah"
+" pojaviti u rezultatima."
+
 msgctxt "new user poll"
 msgid "We're honored to have you on the Duck Side"
 msgstr "Počašćeni smo što ste na našoj strani"
@@ -5123,6 +5438,14 @@ msgstr "Linkovi"
 msgctxt "maps_places"
 msgid "Website"
 msgstr "Web-mjesto"
+
+msgctxt "feedback form"
+msgid "Website is incorrect"
+msgstr "Web-mjesto nije točno"
+
+msgctxt "feedback form"
+msgid "Website is missing"
+msgstr "Nedostaje web-mjesto"
 
 msgctxt "settings"
 msgid "Welcome Message"
@@ -5222,6 +5545,23 @@ msgstr "Informacije s Wikipedije"
 msgctxt "forecast"
 msgid "Wind"
 msgstr "Vjetar"
+
+msgctxt "Covid 19 module"
+msgid "World"
+msgstr "Svijet"
+
+msgctxt "Covid 19 module"
+msgid "Worldwide Coverage Map"
+msgstr "Karta svijeta"
+
+msgctxt "feedback form"
+msgid "Wrong place is shown"
+msgstr "Prikazano je pogrešno mjesto"
+
+#. Button label for selecting chart of prices for the year to date
+msgctxt "Stocks module"
+msgid "YTD"
+msgstr "YTD"
 
 #. https://duckduckgo.com/params under "Color Settings" under "Highlight: "
 msgid "Yellow"
@@ -5391,6 +5731,11 @@ msgstr "h"
 msgctxt "nonjsversion"
 msgid "here"
 msgstr "ovdje"
+
+#. Abbreviate 1000s in a number. E.g. 1,000 becomes 1k
+msgctxt "Stocks module"
+msgid "k"
+msgstr "tis."
 
 #. An abbreviated form of "minute" that can be displayed in a small space e.g. "1m"
 msgctxt "published date for videos"

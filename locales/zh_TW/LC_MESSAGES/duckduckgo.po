@@ -117,9 +117,49 @@ msgctxt "install-extension"
 msgid "1. Open %sDownloads%s"
 msgstr "開啟%1$s下載%2$s"
 
+#. Disclaimer text for the stocks module
+msgctxt "Stocks module"
+msgid "15 minutes delayed"
+msgstr "延遲 15 分鐘"
+
+#. Button label for selecting chart of today's prices (needs to be short on mobile devices)
+msgctxt "Stocks module"
+msgid "1D"
+msgstr "1 天"
+
+#. Button label for selecting chart of prices over the last month
+msgctxt "Stocks module"
+msgid "1M"
+msgstr "1 個月"
+
+#. Button label for selecting chart of prices over the last year
+msgctxt "Stocks module"
+msgid "1Y"
+msgstr "1 年"
+
 msgctxt "install-extension"
 msgid "2. Double-click %sduckduckgo.safariextz%s"
 msgstr "點兩下%1$sduckduckgo.safariextz%2$s"
+
+#. The highest price over the previous 52 weeks
+msgctxt "Stocks module"
+msgid "52wk High"
+msgstr "52 週以來新高"
+
+#. The lowest price over the previous 52 weeks
+msgctxt "Stocks module"
+msgid "52wk Low"
+msgstr "52 週以來新低"
+
+#. Button label for selecting chart of prices over the last 5 days
+msgctxt "Stocks module"
+msgid "5D"
+msgstr "5 天"
+
+#. Button label for selecting chart of prices over the last five years
+msgctxt "Stocks module"
+msgid "5Y"
+msgstr "5 年"
 
 #. https://duckduckgo.com/params in the end under " Source:"
 msgid "A string to identify the source."
@@ -150,6 +190,11 @@ msgstr "關於 DuckDuckGo"
 
 msgid "About Us"
 msgstr "關於我們"
+
+#. This is an option for a user setting. It refers to showing the URL for a result ABOVE the TITLE of the result -- Example image: https://i.imgur.com/bTm8PCc.png
+msgctxt "settingsvalue"
+msgid "Above Title"
+msgstr "標題上方"
 
 #. Ad like 'advertisement'
 msgid "Ad"
@@ -218,6 +263,10 @@ msgstr "地址"
 msgid "Address bar:"
 msgstr "網址列"
 
+msgctxt "feedback form"
+msgid "Address is incorrect"
+msgstr "地址錯誤"
+
 #. as in multiple advertisements
 msgid "Ads"
 msgstr "廣告"
@@ -252,6 +301,11 @@ msgctxt "language_name"
 msgid "Albanian"
 msgstr "阿爾巴尼亞語"
 
+msgid "All"
+msgstr "全部"
+
+#. Button label for selecting chart showing all historical prices
+msgctxt "Stocks module"
 msgid "All"
 msgstr "全部"
 
@@ -421,6 +475,11 @@ msgctxt "language_name"
 msgid "Armenian"
 msgstr "亞美尼亞語"
 
+#. Indicates when the data was last updated e.g. 'As of 12:37 PM EST'
+msgctxt "Stocks module"
+msgid "As of"
+msgstr "更新時間："
+
 msgid ""
 "As per our privacy policy, we do not collect or share any personal "
 "information ourselves. All of this privacy protection happens on your device."
@@ -463,10 +522,20 @@ msgctxt "homepage ATB social proof"
 msgid "Average rating: %s out of 5"
 msgstr "平均評分：%1$s（滿分5分）"
 
+#. The average volume traded for a particular stock
+msgctxt "Stocks module"
+msgid "Avg Vol"
+msgstr "平均成交量"
+
 #. The name of the Azerbaijani language
 msgctxt "language_name"
 msgid "Azerbaijani"
 msgstr "亞塞拜然語"
+
+#. Abbreviate billions in a number. E.g. 1,000,000,000 becomes 1B
+msgctxt "Stocks module"
+msgid "B"
+msgstr "B"
 
 msgctxt "homepage onboarding"
 msgid "Back to search"
@@ -507,6 +576,16 @@ msgstr "比利時法語"
 
 msgid "Belgium (nl)"
 msgstr "比利時"
+
+#. This is an option for a user setting. It refers to showing the URL for a result BELOW the SNIPPET (description) of the result -- Example image: https://i.imgur.com/lnP77q4.png
+msgctxt "settingsvalue"
+msgid "Below Snippet"
+msgstr "摘要下方"
+
+#. This is an option for a user setting. It refers to showing the URL for a result BELOW the TITLE of the result -- Example image: https://i.imgur.com/3cb6xx0.png
+msgctxt "settingsvalue"
+msgid "Below Title"
+msgstr "標題下方"
 
 msgctxt "settingsvalue"
 msgid "Best available"
@@ -671,18 +750,15 @@ msgctxt "settings"
 msgid "Center Alignment"
 msgstr "置中對齊"
 
-#. One of the option in DuckDuckGo Search Settings under appearance tab.
-#. http://i.imgur.com/CklQ1Ku.png
+#. This is the description of a user setting -- Example image: https://i.imgur.com/yihFekW.png
 msgctxt "settings"
-msgid "Center-aligns the results page (instead of left-aligned)"
-msgstr "搜尋結果頁面置中（取代靠左對齊）"
+msgid "Changes how result URLs are displayed"
+msgstr "變更搜尋結果網址顯示方式"
 
-#. http://i.imgur.com/oO0X6Pt.png
+#. This is the description of a user setting
 msgctxt "settings"
-msgid ""
-"Changes how much space the header takes up and what happens to it when you "
-"scroll"
-msgstr "頁首是否要保留空間以及捲動頁面時的行為模式"
+msgid "Changes how the header is displayed and its behavior as you scroll"
+msgstr "變更頁首的顯示方式和捲動時的行為"
 
 #. http://i.imgur.com/mcZdcaF.png
 msgctxt "settings"
@@ -694,25 +770,46 @@ msgctxt "settings"
 msgid "Changes the background color across the entire site"
 msgstr "變更整個網站的背景顏色"
 
+#. This is the description of a user setting
+msgctxt "settings"
+msgid ""
+"Changes the background color of results on hover, modules, and dropdown menus"
+msgstr "更改游標移入搜尋結果、模組與下拉式選單的背景顏色"
+
 #. http://i.imgur.com/NdpkbY0.png
 msgctxt "settings"
 msgid "Changes the background color when hovering over a result"
 msgstr "更改滑鼠游標移入搜尋結果時的背景顏色"
 
-#. http://i.imgur.com/awVlAoo.png
+#. This is the description of a user setting
 msgctxt "settings"
-msgid "Changes the color of the result URL"
-msgstr "更改搜尋結果的網址顏色"
+msgid "Changes the color of result URLs"
+msgstr "變更搜尋結果網址的顏色"
 
-#. http://i.imgur.com/epUhcrA.png
+#. This is the description of a user setting
 msgctxt "settings"
-msgid "Changes the color of the result description text"
-msgstr "更改搜尋結果說明文字的顏色"
+msgid "Changes the color of result snippets"
+msgstr "變更搜尋結果摘要的顏色"
+
+#. This is the description of a user setting
+msgctxt "settings"
+msgid "Changes the color of result titles"
+msgstr "變更搜尋結果標題的顏色"
+
+#. This is the description of a user setting
+msgctxt "settings"
+msgid "Changes the color of titles for results you've visited"
+msgstr "變更已造訪過搜尋結果標題的顏色"
 
 #. http://i.imgur.com/kE1ZsM9.png
 msgctxt "settings"
 msgid "Changes the font across the entire site"
 msgstr "更改網站使用的字型"
+
+#. This is the description of a user setting
+msgctxt "settings"
+msgid "Changes the font of result titles"
+msgstr "變更搜尋結果標題的字型"
 
 #. http://i.imgur.com/ftpln8q.png
 msgctxt "settings"
@@ -730,29 +827,15 @@ msgctxt "settings"
 msgid "Changes the language across the entire site"
 msgstr "更改網站使用的語言"
 
-msgctxt "settings"
-msgid "Changes the result hover, module, and dropdown background color"
-msgstr "游標移入搜尋結果、模組與下拉式選單背景顏色"
-
-#. http://i.imgur.com/f1bLTY1.png
-#. Description for "Result Title Color" which changes the color of the results.
-msgctxt "settings"
-msgid "Changes the title link color for each result"
-msgstr "更改各項搜尋結果的標題連結顏色"
-
-#. http://i.imgur.com/5IQda6g.png
-msgctxt "settings"
-msgid "Changes the title link font for each result"
-msgstr "更改各項搜尋結果的標題連結字型"
-
 #. http://i.imgur.com/auITACf.png
 msgctxt "settings"
 msgid "Changes what happens when you click on a video thumbnail"
 msgstr "更改點選影片縮圖時要採取的動作"
 
+#. This is the description of a user setting -- Example image: https://i.imgur.com/ALGzzZr.png
 msgctxt "settings"
-msgid "Changes whether the visited checkmark is visible"
-msgstr "變更訪問的勾選記號是否可見"
+msgid "Changes where result URLs are displayed"
+msgstr "變更搜尋結果網址的顯示位置"
 
 msgid "Chat"
 msgstr "聊天室"
@@ -1110,6 +1193,15 @@ msgstr "社群"
 msgid "Concerts"
 msgstr "演唱會"
 
+#. Heading for the table column indicating how many confirmed cases there have been in that location
+msgctxt "Covid 19 module"
+msgid "Confirmed"
+msgstr "確診數"
+
+msgctxt "Covid 19 module"
+msgid "Confirmed Cases"
+msgstr "確診個案數"
+
 msgid "Congratulations!"
 msgstr "恭喜你！"
 
@@ -1146,6 +1238,10 @@ msgstr "複製翻譯"
 msgctxt "Report image modal"
 msgid "Copyright violation"
 msgstr "侵權行為"
+
+msgctxt "Covid 19 module"
+msgid "Coronavirus Disease (COVID-19)"
+msgstr "新冠肺炎（COVID-19）"
 
 #. Instant Answer Tab Name
 msgid "Coupons"
@@ -1221,6 +1317,11 @@ msgctxt "theme"
 msgid "Dark"
 msgstr "暗色系"
 
+#. Attribution text for the stocks module
+msgctxt "Stocks module"
+msgid "Data provided by IEX Cloud"
+msgstr "資料由 IEX Cloud 提供"
+
 #. Instant Answer tab name
 msgid "Date"
 msgstr "日期"
@@ -1232,6 +1333,11 @@ msgstr "日期篩選設定"
 msgctxt "feedback form"
 msgid "Date filters"
 msgstr "日期篩選條件"
+
+#. Heading for the table column indicating how many deaths there have been in that location
+msgctxt "Covid 19 module"
+msgid "Deaths"
+msgstr "死亡數"
 
 #. A theme name in the theme menu:
 #. https://duck.co/media/files/theme.png
@@ -1303,6 +1409,26 @@ msgstr "隱藏"
 
 msgid "Dismiss forever"
 msgstr "知道了，不用再提醒"
+
+#. This is the description of a user setting
+msgctxt "settings"
+msgid "Displays a checkmark to the left of results you've visited"
+msgstr "在你造訪過的搜尋結果左邊顯示勾號"
+
+#. This is the description of a user setting
+msgctxt "settings"
+msgid "Displays favicons for each result"
+msgstr "在各個結果上顯示我的最愛圖示"
+
+#. This is the description of a user setting
+msgctxt "settings"
+msgid "Displays results in the center of the page"
+msgstr "在頁面中央顯示結果"
+
+#. This is an option for a user setting. It refers to showing only the domain for a website URL (e.g. domain.com) -- Example image: https://i.imgur.com/KkBcFcQ.png
+msgctxt "settingsvalue"
+msgid "Domains Only"
+msgstr "僅顯示網域"
 
 msgctxt "SERP footer content"
 msgid "Don't Track Us"
@@ -1726,6 +1852,16 @@ msgctxt "new user poll"
 msgid "Friend or family"
 msgstr "朋友或是家人"
 
+#. This is an option for a user setting. It refers to showing the full URL for a website, including the url path, but made to look like the breadcrumbs of a website (e.g. website.com > this > is > the > path) -- Example image: https://i.imgur.com/roiQBYz.png
+msgctxt "settingsvalue"
+msgid "Full URLs (Breadcrumbs)"
+msgstr "完整網址（階層連結）"
+
+#. This is an option for a user setting. It refers to showing the full URL for a website, including the url path (e.g. website.com/this/is/this/path) -- Example image: https://i.imgur.com/SxYWf9o.png
+msgctxt "settingsvalue"
+msgid "Full URLs (Slashes)"
+msgstr "完整網址（斜線）"
+
 #. http://i.imgur.com/tGau0Vx.png
 msgctxt "settings"
 msgid "GET Requests"
@@ -1780,6 +1916,10 @@ msgstr "從 Duck.com 開始"
 msgid ""
 "Get seamless privacy protection on your browser for free with one download:"
 msgstr "只需下載一次，你的瀏覽器就能免費享有萬無一失的私隱保護："
+
+msgctxt "Covid 19 module"
+msgid "Get the latest information:"
+msgstr "取得最新資訊："
 
 msgid "Get the non-JS version %s"
 msgstr "取得非JS版本%1$s"
@@ -1948,6 +2088,11 @@ msgctxt "settings"
 msgid "Hides search term from being shown in browser tab/history"
 msgstr "在瀏覽器標籤和歷史記錄中隱藏搜尋關鍵字"
 
+#. The highest stock price in a day
+msgctxt "Stocks module"
+msgid "High"
+msgstr "高點"
+
 #. Shown in video filtering. https://duckduckgo.com/?q=videos+of+cats&iax=videos&ia=videos
 msgctxt "video-resolution"
 msgid "High definition"
@@ -1957,6 +2102,11 @@ msgstr "高畫質"
 msgctxt "language_name"
 msgid "Hindi"
 msgstr "印地語"
+
+#. Indicate that we have no chart data for prices of the current stock
+msgctxt "Stocks module"
+msgid "Historical prices not available"
+msgstr "無法取得歷史價格"
 
 #  Chrome default search engine instruction
 msgid ""
@@ -1985,6 +2135,19 @@ msgstr "香港"
 msgctxt "maps_places"
 msgid "Hours"
 msgstr "小時"
+
+msgctxt "feedback form"
+msgid "Hours are incorrect"
+msgstr "營業時間錯誤"
+
+msgctxt "feedback form"
+msgid "Hours are missing"
+msgstr "營業時間缺漏"
+
+#. This is the name of a user setting
+msgctxt "settings"
+msgid "Hover, Module, and Dropdown Background Color"
+msgstr "游標移入、模組、下拉式選單背景顏色"
 
 msgctxt "SERP footer content"
 msgid "How We Are Profitable"
@@ -2095,6 +2258,12 @@ msgstr "圖磚"
 #. Used in the !bang dropdown.
 msgid "Images"
 msgstr "圖像"
+
+#. This is the description of a user setting -- Example image: https://i.imgur.com/IqBhHpM.png
+msgctxt "settings"
+msgid ""
+"Improves result legibility with updated URL format, placement, and color"
+msgstr "更新網址格式、位置與顏色，使搜尋結果更清楚好讀"
 
 msgid "In partnership with"
 msgstr "與合作夥伴"
@@ -2309,6 +2478,11 @@ msgstr "快捷鍵"
 msgctxt "language_name"
 msgid "Khmer"
 msgstr "高棉語"
+
+#. The name of the Klingon language
+msgctxt "language_name"
+msgid "Klingon"
+msgstr "克林貢語"
 
 #. The name of the Klingon (Latin) language
 msgctxt "language_name"
@@ -2535,6 +2709,11 @@ msgctxt "settings"
 msgid "Loads more results when scrolling"
 msgstr "捲動頁面時載入更多搜尋結果"
 
+#. Heading for the table column indicating the country or region for which the data applies
+msgctxt "Covid 19 module"
+msgid "Location"
+msgstr "地點"
+
 msgctxt "settings"
 msgid "Location"
 msgstr "地點"
@@ -2542,6 +2721,10 @@ msgstr "地點"
 msgctxt "precise_user_location"
 msgid "Location information is stored only on your device."
 msgstr "位置資訊僅儲存於你的裝置上。"
+
+msgctxt "feedback form"
+msgid "Location on map is wrong"
+msgstr "地圖上的位置錯誤"
 
 msgctxt "video-duration"
 msgid "Long"
@@ -2555,6 +2738,16 @@ msgstr "設定外觀與體驗"
 msgctxt "spread_badge"
 msgid "Love DuckDuckGo?"
 msgstr "喜愛DuckDuckGo？"
+
+#. The lowest stock price in a day
+msgctxt "Stocks module"
+msgid "Low"
+msgstr "低點"
+
+#. Abbreviate millions in a number. E.g. 1,000,000 becomes 1M
+msgctxt "Stocks module"
+msgid "M"
+msgstr "百萬"
 
 msgctxt "noresults"
 msgid "Make sure all words are spelled correctly."
@@ -2667,6 +2860,11 @@ msgctxt "placement"
 msgid "Middle"
 msgstr "置中"
 
+#. The market capitalization of the currently selected stock
+msgctxt "Stocks module"
+msgid "Mkt Cap"
+msgstr "市場資本"
+
 msgctxt "settings"
 msgid "Mobile Instructions (not displayed on settings page)"
 msgstr "行動裝置說明（為顯示於設定頁面）"
@@ -2766,6 +2964,10 @@ msgctxt "additional_info_at"
 msgid "More results"
 msgstr "更多結果"
 
+msgctxt "Covid 19 module"
+msgid "More statistics"
+msgstr "更多統計資料"
+
 msgctxt "video-duration"
 msgid "More than 20 minutes"
 msgstr "超過 20 分鐘"
@@ -2839,6 +3041,11 @@ msgstr "荷蘭"
 msgctxt "settings"
 msgid "New Tab Page Most Visited Sites"
 msgstr "最常造訪網站新頁籤"
+
+#. This is the name of a user setting -- Example image: https://i.imgur.com/LRuNuA8.png
+msgctxt "settings"
+msgid "New URL Style"
+msgstr "新網址樣式"
 
 msgid "New Zealand"
 msgstr "紐西蘭"
@@ -3045,6 +3252,11 @@ msgid ""
 "again later."
 msgstr "哎呀！翻譯此文字內容時出現未預期的錯誤。請稍後再試。"
 
+#. The price the markets opens at
+msgctxt "Stocks module"
+msgid "Open"
+msgstr "營業中"
+
 msgctxt "maps_places"
 msgid "Open"
 msgstr "營業中"
@@ -3186,6 +3398,16 @@ msgctxt "maps_places"
 msgid "Overview"
 msgstr "概覽"
 
+#. Placeholder can be Apple Maps, TripAdvisor, or Foursquare
+msgctxt "feedback form"
+msgid "Own this business? Manage on %s"
+msgstr "擁有這間商家嗎？在 %1$s 上管理"
+
+#. The price / earnings multiple for the currently selected stock
+msgctxt "Stocks module"
+msgid "P/E"
+msgstr "本益比"
+
 #. Instant Answer Tab Name
 msgid "Packages"
 msgstr "套件"
@@ -3289,6 +3511,14 @@ msgctxt "maps_places"
 msgid "Phone Number"
 msgstr "電話號碼"
 
+msgctxt "feedback form"
+msgid "Phone number is incorrect"
+msgstr "電話號碼錯誤"
+
+msgctxt "feedback form"
+msgid "Phone number is missing"
+msgstr "電話號碼遺漏"
+
 msgctxt "image-type"
 msgid "Photograph"
 msgstr "相片"
@@ -3335,6 +3565,34 @@ msgctxt "new user poll"
 msgid "Please select one option."
 msgstr "請選擇一個選項"
 
+msgctxt "feedback form"
+msgid "Please suggest the correct address"
+msgstr "請提供正確地址"
+
+msgctxt "feedback form"
+msgid "Please suggest the correct hours of operation"
+msgstr "請提供正確營業地址"
+
+msgctxt "feedback form"
+msgid "Please suggest the correct phone number"
+msgstr "請提供正確電話號碼"
+
+msgctxt "feedback form"
+msgid "Please suggest the correct website URL"
+msgstr "請提供正確網址"
+
+msgctxt "feedback form"
+msgid "Please suggest the hours of operation"
+msgstr "請提供正確營業時間"
+
+msgctxt "feedback form"
+msgid "Please suggest the phone number"
+msgstr "請提供電話號碼"
+
+msgctxt "feedback form"
+msgid "Please suggest the website URL"
+msgstr "請提供網址"
+
 #  https://duckduckgo.com/?e=1
 msgid "Please try again"
 msgstr "請再試一次"
@@ -3378,6 +3636,11 @@ msgstr "按%1$s選單＞新增到主畫面＞新增%2$s"
 
 msgid "Press Kit"
 msgstr "媒體素材"
+
+#. The price the stock previously closed at
+msgctxt "Stocks module"
+msgid "Prev Close"
+msgstr "收盤價格"
 
 msgid "Preview"
 msgstr "預覽"
@@ -3622,7 +3885,7 @@ msgid "Related Topics"
 msgstr "相關話題"
 
 msgid "Remember my choice (this can be changed in %s%s%sSettings%s)"
-msgstr "記住我的選擇 (可在%1$s%2$s%3$s設定%4$s中更動)"
+msgstr "記住我的選擇（可在%1$s%2$s%3$s設定%4$s中變更）"
 
 msgctxt "ads"
 msgid "Report Ad"
@@ -3631,6 +3894,14 @@ msgstr "回報廣告"
 msgctxt "Report image modal"
 msgid "Report this image"
 msgstr "檢舉此圖片"
+
+#. Placeholder can be Apple Maps, TripAdvisor, and/or Foursquare
+msgctxt "feedback form"
+msgid ""
+"Reports are anonymous and sent to DuckDuckGo to help improve our search "
+"service. Your anonymous feedback is also shared with %s to help improve "
+"their services."
+msgstr "報告會匿名傳送給 DuckDuckGo，幫助我們改善搜尋服務。你的匿名回饋意見也會分享給 %1$s 來協助改善其服務。"
 
 msgctxt "settings dropdown"
 msgid "Reset"
@@ -3646,62 +3917,18 @@ msgctxt "settings"
 msgid "Reset All Settings"
 msgstr "重設所有設定"
 
-#. http://i.imgur.com/t65r7D9.png
-#. changes the color of the result descriptions like this: http://i.imgur.com/UOdZYpf.png
-msgctxt "settings"
-msgid "Result Description Color"
-msgstr "搜尋結果內容顏色"
-
-msgctxt "settings"
-msgid "Result Full URLs"
-msgstr "搜尋結果完整網址"
-
 #. http://i.imgur.com/kqN8dPT.png
 msgctxt "settings"
 msgid "Result Highlight Color"
 msgstr "搜尋結果背景顏色"
 
-msgctxt "settings"
-msgid "Result Hover, Module, and Dropdown Background Color"
-msgstr "游標移入搜尋結果、模組與下拉式選單背景顏色"
-
 #. in https://duckduckgo.com/params in the top. it is the first header
 msgid "Result Settings"
 msgstr "搜尋結果設定"
 
-#. http://i.imgur.com/M5H3oSv.png
-#. Changes the color of the results.
-msgctxt "settings"
-msgid "Result Title Color"
-msgstr "搜尋結果標題顏色"
-
-#. http://i.imgur.com/MTrwCtj.png
-msgctxt "settings"
-msgid "Result Title Font"
-msgstr "搜尋結果標題字型"
-
-#. http://i.imgur.com/YTYuj72.png
-msgctxt "settings"
-msgid "Result Title Underline"
-msgstr "搜尋結果標題底線"
-
-#. http://i.imgur.com/fsnijIZ.png
-msgctxt "settings"
-msgid "Result URL Color"
-msgstr "搜尋結果網址顏色"
-
-msgctxt "settings"
-msgid "Result URLs Above Snippet"
-msgstr "程式碼片段上方的搜尋結果 URL"
-
 msgctxt "settings"
 msgid "Result Visited Checkmark"
 msgstr "搜尋結果訪問的勾選記號"
-
-#. http://i.imgur.com/nRnQruy.png
-msgctxt "settings"
-msgid "Result Visited Title Color"
-msgstr "搜索結果已遊覽標題顏色"
 
 #. In the top menu under Settings
 msgid "Results"
@@ -3904,6 +4131,11 @@ msgstr "搜尋方塊"
 #. Le terme apparait en survolant le terme "More from ..." sur la page de résultats.
 msgid "Search domain %s"
 msgstr "搜尋「%1$s」網域"
+
+#. Placeholder text for a text-based language filter
+msgctxt "translations_module"
+msgid "Search languages"
+msgstr "搜尋語言"
 
 msgid "Search only for %s?"
 msgstr "搜尋只來自%1$s"
@@ -4232,10 +4464,6 @@ msgid "Shows"
 msgstr "表演"
 
 msgctxt "settings"
-msgid "Shows favicons for each result"
-msgstr "在各個結果上顯示我的最愛圖示"
-
-msgctxt "settings"
 msgid "Shows horizontal lines at result page breaks"
 msgstr "在結果分頁符號上顯示水平線"
 
@@ -4274,16 +4502,8 @@ msgid "Shows suggestions under the search box as you type"
 msgstr "根據輸入的文字在搜尋方塊下方顯示搜尋建議"
 
 msgctxt "settings"
-msgid "Shows the full URL for each result"
-msgstr "顯示各項搜尋結果的完整網址"
-
-msgctxt "settings"
 msgid "Shows the privacy benefits of using DuckDuckGo on the homepage"
 msgstr "在首頁上顯示使用 DuckDuckGo 對保護隱私的好處"
-
-msgctxt "settings"
-msgid "Shows the result URL line above the snippet text"
-msgstr "在程式碼片段文字上方顯示搜尋結果網址行"
 
 #. Discontinued, don't translate
 msgctxt "settings"
@@ -4339,6 +4559,11 @@ msgctxt "size"
 msgid "Small"
 msgstr "小"
 
+#. This is the name of a user setting
+msgctxt "settings"
+msgid "Snippet Color"
+msgstr "摘要顏色"
+
 msgid "Social"
 msgstr "社交"
 
@@ -4390,6 +4615,11 @@ msgstr "標準畫質"
 
 msgid "Start searching!"
 msgstr "開始搜尋！"
+
+#. Label for statistics tab
+msgctxt "Covid 19 module"
+msgid "Statistics"
+msgstr "統計資料"
 
 msgctxt "SERP footer content"
 msgid "Stay Informed"
@@ -4444,6 +4674,11 @@ msgctxt "noresults"
 msgid "Suggestions:"
 msgstr "建議："
 
+#. Label for summary tab
+msgctxt "Covid 19 module"
+msgid "Summary"
+msgstr "概要"
+
 #. http://i.imgur.com/FczLkAL.png
 msgctxt "settingsvalue"
 msgid "Super Wide"
@@ -4490,6 +4725,16 @@ msgstr "瑞士"
 
 msgid "Switzerland (it)"
 msgstr "瑞士"
+
+#. Label for symptoms tab
+msgctxt "Covid 19 module"
+msgid "Symptoms"
+msgstr "症狀"
+
+#. Abbreviate trillions in a number. E.g. 1,000,000,000,000 becomes 1T
+msgctxt "Stocks module"
+msgid "T"
+msgstr "T"
 
 msgid "TV"
 msgstr "電視"
@@ -4637,6 +4882,14 @@ msgstr "這有數個好處："
 msgid "This page requires Javascript to function."
 msgstr "此頁面需要JavaScript運行。"
 
+msgctxt "feedback form"
+msgid "This place is permanently closed"
+msgstr "此地點已永久關閉"
+
+msgctxt "feedback form"
+msgid "This place is too far away"
+msgstr "此地點距離太遠"
+
 #. User feedback indicating that a translation is helpful
 msgctxt "translations_module"
 msgid "This translation is helpful"
@@ -4673,8 +4926,28 @@ msgctxt "language_name"
 msgid "Tigrinya"
 msgstr "提格利尼亞語"
 
+#. Label for tips tab
+msgctxt "Covid 19 module"
+msgid "Tips"
+msgstr "小提示"
+
 msgid "Tired of being tracked online? %sWe can help.%s"
 msgstr "厭倦上網時被追蹤了嗎？%1$s我們可以助你一臂之力。%2$s"
+
+#. This is the name of a user setting
+msgctxt "settings"
+msgid "Title Color"
+msgstr "標題顏色"
+
+#. This is the name of a user setting
+msgctxt "settings"
+msgid "Title Font"
+msgstr "標題字型"
+
+#. This is the name of a user setting
+msgctxt "settings"
+msgid "Title Underline"
+msgstr "標題底線"
 
 msgctxt "directions"
 msgid ""
@@ -4682,6 +4955,11 @@ msgid ""
 "print.%sClick the print icon.%s"
 msgstr "如要列印導航指引：%1$s返回地圖。%2$s選取你想列印的路線。%3$s按一下「列印」圖示。%4$s"
 
+msgid "Today"
+msgstr "今天"
+
+#. Button label for selecting chart of today's prices
+msgctxt "Stocks module"
 msgid "Today"
 msgstr "今天"
 
@@ -4788,11 +5066,26 @@ msgstr "輸入%1$sDuckDuckGo%2$s於首個%3$s表格內"
 msgid "Type %sduckduckgo.com%s in the %ssecond form field"
 msgstr "輸入%1$sDuckDuckGo%2$s於第二個的%3$s表格內"
 
+#. This is the name of a user setting
+msgctxt "settings"
+msgid "URL Color"
+msgstr "網址顏色"
+
+#. This is the name of a user setting -- Example image: https://i.imgur.com/icuYX4J.png
+msgctxt "settings"
+msgid "URL Format"
+msgstr "網址格式"
+
 #. 1. in https://duckduckgo.com/settings near the bottom by clicking "Bookmarklet and settings data" under "Your settings as a URL parameter bookmarklet:" in the sentence "see the URL Parameters page for detailed descriptions"
 #. 2. in https://duckduckgo.com/settings near the bottom under "Cloud Save" by clicking "What's this" under "What information gets saved?". It is a link
 #. 3. in https://duckduckgo.com/params in the top. It is a header
 msgid "URL Parameters"
 msgstr "URL參數"
+
+#. This is the name of a user setting -- Example image: https://i.imgur.com/0tyrveK.png
+msgctxt "settings"
+msgid "URL Placement"
+msgstr "網址位置"
 
 #. https://duckduckgo.com/params under "Color Settings"
 msgid "URLs:"
@@ -4859,12 +5152,10 @@ msgstr "在搜尋欄中點選下拉選單並選擇 %1$sDuckDuckGo%2$s"
 msgid "Underline:"
 msgstr "底線:"
 
-#. http://i.imgur.com/7M5ogIs.png
-#. If, "On" --it will add an underline to result titles like this: http://i.imgur.com/VRFC6VQ.png
-#. If, "Off" --there will be no underline, like this: http://i.imgur.com/6MyezXn.png
+#. This is the description of a user setting
 msgctxt "settings"
-msgid "Underlines the title link for each result"
-msgstr "為各項搜尋結果的標題連結加上底線"
+msgid "Underlines result titles"
+msgstr "為搜尋結果標題加上底線"
 
 #. Instant Answer tab name
 msgid "Unicode"
@@ -4926,6 +5217,11 @@ msgstr "使用 Firefox"
 msgid "Use in Safari"
 msgstr "用於 Safari"
 
+#. Label for vaccines tab
+msgctxt "Covid 19 module"
+msgid "Vaccines"
+msgstr "疫苗"
+
 msgctxt "directions"
 msgid "Via"
 msgstr "途經"
@@ -4968,6 +5264,15 @@ msgid ""
 "Visit %sDuckDuckGo.com%s on your tablet or phone and follow the provided "
 "instructions."
 msgstr "用你的手機或平版開啟 %1$sDuckDuckGo.com%2$s 並依照指示"
+
+msgctxt "settings"
+msgid "Visited Checkmark"
+msgstr "已造訪勾號"
+
+#. This is the name of a user setting
+msgctxt "settings"
+msgid "Visited Title Color"
+msgstr "已造訪標題顏色"
 
 #. https://duckduckgo.com/params under "Color Settings" header
 msgid "Visited links:"
@@ -5095,6 +5400,14 @@ msgctxt "feedback form"
 msgid "We use feedback like this to improve DuckDuckGo."
 msgstr "我們運用這樣的回饋來讓 DuckDuckGo 變得更好。"
 
+#. Placeholder can be Apple Maps, TripAdvisor, and/or Foursquare
+msgctxt "feedback form"
+msgid ""
+"We use feedback like this to improve DuckDuckGo. Suggestions will be "
+"incorporated at the discretion of %s. Corrections may not show up in results "
+"right away."
+msgstr "我們運用這樣的回饋來讓 DuckDuckGo 變得更好。%1$s 將視情況採納建議。修改內容可能不會立刻出現。"
+
 msgctxt "new user poll"
 msgid "We're honored to have you on the Duck Side"
 msgstr "有您站在我們這邊是我們的榮幸"
@@ -5110,6 +5423,14 @@ msgstr "網頁連結"
 msgctxt "maps_places"
 msgid "Website"
 msgstr "網站"
+
+msgctxt "feedback form"
+msgid "Website is incorrect"
+msgstr "網站錯誤"
+
+msgctxt "feedback form"
+msgid "Website is missing"
+msgstr "網站缺漏"
 
 msgctxt "settings"
 msgid "Welcome Message"
@@ -5209,6 +5530,23 @@ msgstr "維基百科資訊"
 msgctxt "forecast"
 msgid "Wind"
 msgstr "風向"
+
+msgctxt "Covid 19 module"
+msgid "World"
+msgstr "全球"
+
+msgctxt "Covid 19 module"
+msgid "Worldwide Coverage Map"
+msgstr "全球涵蓋範圍地圖"
+
+msgctxt "feedback form"
+msgid "Wrong place is shown"
+msgstr "顯示位置錯誤"
+
+#. Button label for selecting chart of prices for the year to date
+msgctxt "Stocks module"
+msgid "YTD"
+msgstr "年初至今"
 
 #. https://duckduckgo.com/params under "Color Settings" under "Highlight: "
 msgid "Yellow"
@@ -5376,6 +5714,11 @@ msgstr "小時"
 msgctxt "nonjsversion"
 msgid "here"
 msgstr "這裡"
+
+#. Abbreviate 1000s in a number. E.g. 1,000 becomes 1k
+msgctxt "Stocks module"
+msgid "k"
+msgstr "k"
 
 #. An abbreviated form of "minute" that can be displayed in a small space e.g. "1m"
 msgctxt "published date for videos"

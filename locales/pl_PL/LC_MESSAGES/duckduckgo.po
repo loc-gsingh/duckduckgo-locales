@@ -117,9 +117,49 @@ msgctxt "install-extension"
 msgid "1. Open %sDownloads%s"
 msgstr "Przejdź do %1$sPobrane%2$s"
 
+#. Disclaimer text for the stocks module
+msgctxt "Stocks module"
+msgid "15 minutes delayed"
+msgstr "15 minut opóźnienia"
+
+#. Button label for selecting chart of today's prices (needs to be short on mobile devices)
+msgctxt "Stocks module"
+msgid "1D"
+msgstr "1 dzień"
+
+#. Button label for selecting chart of prices over the last month
+msgctxt "Stocks module"
+msgid "1M"
+msgstr "1 miesiąc"
+
+#. Button label for selecting chart of prices over the last year
+msgctxt "Stocks module"
+msgid "1Y"
+msgstr "1 rok"
+
 msgctxt "install-extension"
 msgid "2. Double-click %sduckduckgo.safariextz%s"
 msgstr "Kliknij dwukrotnie %1$sduckduckgo.safariextz%2$s"
+
+#. The highest price over the previous 52 weeks
+msgctxt "Stocks module"
+msgid "52wk High"
+msgstr "Najwyższa w ciągu 52 tyg."
+
+#. The lowest price over the previous 52 weeks
+msgctxt "Stocks module"
+msgid "52wk Low"
+msgstr "Najniższa w ciągu 52 tyg."
+
+#. Button label for selecting chart of prices over the last 5 days
+msgctxt "Stocks module"
+msgid "5D"
+msgstr "5 dni"
+
+#. Button label for selecting chart of prices over the last five years
+msgctxt "Stocks module"
+msgid "5Y"
+msgstr "5 lat"
 
 #. https://duckduckgo.com/params in the end under " Source:"
 msgid "A string to identify the source."
@@ -150,6 +190,11 @@ msgstr "O DuckDuckGo"
 
 msgid "About Us"
 msgstr "O nas"
+
+#. This is an option for a user setting. It refers to showing the URL for a result ABOVE the TITLE of the result -- Example image: https://i.imgur.com/bTm8PCc.png
+msgctxt "settingsvalue"
+msgid "Above Title"
+msgstr "Nad tytułem"
 
 #. Ad like 'advertisement'
 msgid "Ad"
@@ -218,6 +263,10 @@ msgstr "Adres"
 msgid "Address bar:"
 msgstr "Pasek adresu:"
 
+msgctxt "feedback form"
+msgid "Address is incorrect"
+msgstr "Adres jest nieprawidłowy"
+
 #. as in multiple advertisements
 msgid "Ads"
 msgstr "Reklamy"
@@ -252,6 +301,11 @@ msgctxt "language_name"
 msgid "Albanian"
 msgstr "Albański"
 
+msgid "All"
+msgstr "Wszystko"
+
+#. Button label for selecting chart showing all historical prices
+msgctxt "Stocks module"
 msgid "All"
 msgstr "Wszystko"
 
@@ -421,6 +475,11 @@ msgctxt "language_name"
 msgid "Armenian"
 msgstr "Ormiański"
 
+#. Indicates when the data was last updated e.g. 'As of 12:37 PM EST'
+msgctxt "Stocks module"
+msgid "As of"
+msgstr "Stan na"
+
 msgid ""
 "As per our privacy policy, we do not collect or share any personal "
 "information ourselves. All of this privacy protection happens on your device."
@@ -463,10 +522,20 @@ msgctxt "homepage ATB social proof"
 msgid "Average rating: %s out of 5"
 msgstr "Średnia ocena: %1$s na 5"
 
+#. The average volume traded for a particular stock
+msgctxt "Stocks module"
+msgid "Avg Vol"
+msgstr "Śr. wielkość"
+
 #. The name of the Azerbaijani language
 msgctxt "language_name"
 msgid "Azerbaijani"
 msgstr "Azerski"
+
+#. Abbreviate billions in a number. E.g. 1,000,000,000 becomes 1B
+msgctxt "Stocks module"
+msgid "B"
+msgstr "mld"
 
 msgctxt "homepage onboarding"
 msgid "Back to search"
@@ -507,6 +576,16 @@ msgstr "Belgia (fr)"
 
 msgid "Belgium (nl)"
 msgstr "Belgia (nl)"
+
+#. This is an option for a user setting. It refers to showing the URL for a result BELOW the SNIPPET (description) of the result -- Example image: https://i.imgur.com/lnP77q4.png
+msgctxt "settingsvalue"
+msgid "Below Snippet"
+msgstr "Poniżej fragmentu tekstu"
+
+#. This is an option for a user setting. It refers to showing the URL for a result BELOW the TITLE of the result -- Example image: https://i.imgur.com/3cb6xx0.png
+msgctxt "settingsvalue"
+msgid "Below Title"
+msgstr "Poniżej tytułu"
 
 msgctxt "settingsvalue"
 msgid "Best available"
@@ -587,14 +666,14 @@ msgstr "Przeglądaj tak, jak zawsze, a my dodamy ochronę prywatności. Połącz
 msgid ""
 "Browse as usual, and we'll take care of the rest. We bundled our search "
 "engine, tracker blocker, and encryption enforcer into one %s%s Extension%s."
-msgstr "Przeglądaj tak, jak zawsze,a my zajmiemy się resztą. Połączyliśmy naszą wyszukiwarkę, blokadę skryptów śledzących i wtyczkę wymuszającą szyfrowanie w jedno"
-" %1$srozszerzenie %2$s%3$s."
+msgstr "Przeglądaj tak, jak zawsze, a my zajmiemy się resztą. Połączyliśmy naszą wyszukiwarkę, blokadę skryptów śledzących i wtyczkę wymuszającą szyfrowanie w"
+" jedno %1$srozszerzenie %2$s%3$s."
 
 msgid ""
 "Browse as usual, and we’ll take care of the rest. Get bundled private "
 "search, tracker blocking, and site encryption, all in one download, for "
 "%smajor browsers%s."
-msgstr "Przeglądaj tak, jak zawsze,a my zajmiemy się resztą. Otrzymaj w pakiecie funkcję prywatnego wyszukiwania, blokowania skryptów śledzących i szyfrowania"
+msgstr "Przeglądaj tak, jak zawsze, a my zajmiemy się resztą. Otrzymaj w pakiecie funkcję prywatnego wyszukiwania, blokowania skryptów śledzących i szyfrowania"
 " witryn — w jednym pliku do pobrania dla %1$sgłównych przeglądarek%2$s."
 
 msgctxt "precise_user_location"
@@ -676,18 +755,15 @@ msgctxt "settings"
 msgid "Center Alignment"
 msgstr "Wyrównaj do środka"
 
-#. One of the option in DuckDuckGo Search Settings under appearance tab.
-#. http://i.imgur.com/CklQ1Ku.png
+#. This is the description of a user setting -- Example image: https://i.imgur.com/yihFekW.png
 msgctxt "settings"
-msgid "Center-aligns the results page (instead of left-aligned)"
-msgstr "Wyrównuje stronę wyników do środka (zamiast do lewej)"
+msgid "Changes how result URLs are displayed"
+msgstr "Zmienia sposób wyświetlania adresów URL wyników"
 
-#. http://i.imgur.com/oO0X6Pt.png
+#. This is the description of a user setting
 msgctxt "settings"
-msgid ""
-"Changes how much space the header takes up and what happens to it when you "
-"scroll"
-msgstr "Określa ile miejsca zajmuje pasek wyszukiwania i co się z nim dzieje podczas przewijania strony"
+msgid "Changes how the header is displayed and its behavior as you scroll"
+msgstr "Zmienia sposób wyświetlania nagłówka i jego zachowanie podczas przewijania"
 
 #. http://i.imgur.com/mcZdcaF.png
 msgctxt "settings"
@@ -699,25 +775,46 @@ msgctxt "settings"
 msgid "Changes the background color across the entire site"
 msgstr "Zmienia kolor tła w całej witrynie"
 
+#. This is the description of a user setting
+msgctxt "settings"
+msgid ""
+"Changes the background color of results on hover, modules, and dropdown menus"
+msgstr "Zmienia kolor tła wyników po najechaniu kursorem, modułów i rozwijanych menu"
+
 #. http://i.imgur.com/NdpkbY0.png
 msgctxt "settings"
 msgid "Changes the background color when hovering over a result"
 msgstr "Zmienia kolor tła po najechaniu kursorem nad wynik wyszukiwania"
 
-#. http://i.imgur.com/awVlAoo.png
+#. This is the description of a user setting
 msgctxt "settings"
-msgid "Changes the color of the result URL"
-msgstr "Zmień kolor URL wyników wyszukiwania"
+msgid "Changes the color of result URLs"
+msgstr "Zmienia kolor adresów URL wyników"
 
-#. http://i.imgur.com/epUhcrA.png
+#. This is the description of a user setting
 msgctxt "settings"
-msgid "Changes the color of the result description text"
-msgstr "Zmienia kolor opisu wyniku wyszukiwania"
+msgid "Changes the color of result snippets"
+msgstr "Zmienia kolor fragmentów tekstu wyników"
+
+#. This is the description of a user setting
+msgctxt "settings"
+msgid "Changes the color of result titles"
+msgstr "Zmienia kolor tytułów wyników"
+
+#. This is the description of a user setting
+msgctxt "settings"
+msgid "Changes the color of titles for results you've visited"
+msgstr "Zmienia kolor tytułów odwiedzonych wyników"
 
 #. http://i.imgur.com/kE1ZsM9.png
 msgctxt "settings"
 msgid "Changes the font across the entire site"
 msgstr "Zmienia czcionkę na całej stronie"
+
+#. This is the description of a user setting
+msgctxt "settings"
+msgid "Changes the font of result titles"
+msgstr "Zmienia czcionkę tytułów wyników"
 
 #. http://i.imgur.com/ftpln8q.png
 msgctxt "settings"
@@ -735,29 +832,15 @@ msgctxt "settings"
 msgid "Changes the language across the entire site"
 msgstr "Zmienia język na całej stronie"
 
-msgctxt "settings"
-msgid "Changes the result hover, module, and dropdown background color"
-msgstr "Zmienia wynik najechania kursorem, kolor tła modułu i listy rozwijanej"
-
-#. http://i.imgur.com/f1bLTY1.png
-#. Description for "Result Title Color" which changes the color of the results.
-msgctxt "settings"
-msgid "Changes the title link color for each result"
-msgstr "Zmienia kolor linku dla tytułu wyników wyszukiwania"
-
-#. http://i.imgur.com/5IQda6g.png
-msgctxt "settings"
-msgid "Changes the title link font for each result"
-msgstr "Zmienia czcionkę tytułu wyników wyszukiwania"
-
 #. http://i.imgur.com/auITACf.png
 msgctxt "settings"
 msgid "Changes what happens when you click on a video thumbnail"
 msgstr "Określa, co się dzieje po kliknięciu w miniaturę filmu"
 
+#. This is the description of a user setting -- Example image: https://i.imgur.com/ALGzzZr.png
 msgctxt "settings"
-msgid "Changes whether the visited checkmark is visible"
-msgstr "Ustawienie, czy znacznik odwiedzenia jest widoczny"
+msgid "Changes where result URLs are displayed"
+msgstr "Zmienia miejsce wyświetlania adresów URL wyników"
 
 msgid "Chat"
 msgstr "Czat"
@@ -1116,6 +1199,15 @@ msgstr "Społeczność"
 msgid "Concerts"
 msgstr "Koncerty"
 
+#. Heading for the table column indicating how many confirmed cases there have been in that location
+msgctxt "Covid 19 module"
+msgid "Confirmed"
+msgstr "Potwierdzone"
+
+msgctxt "Covid 19 module"
+msgid "Confirmed Cases"
+msgstr "Potwierdzone przypadki"
+
 msgid "Congratulations!"
 msgstr "Gratulacje!"
 
@@ -1152,6 +1244,10 @@ msgstr "Kopiuj tłumaczenie"
 msgctxt "Report image modal"
 msgid "Copyright violation"
 msgstr "Naruszenie praw autorskich"
+
+msgctxt "Covid 19 module"
+msgid "Coronavirus Disease (COVID-19)"
+msgstr "Koronawirus (COVID-19)"
 
 #. Instant Answer Tab Name
 msgid "Coupons"
@@ -1227,6 +1323,11 @@ msgctxt "theme"
 msgid "Dark"
 msgstr "Ciemny"
 
+#. Attribution text for the stocks module
+msgctxt "Stocks module"
+msgid "Data provided by IEX Cloud"
+msgstr "Dane dostarczone przez IEX Cloud"
+
 #. Instant Answer tab name
 msgid "Date"
 msgstr "Data"
@@ -1238,6 +1339,11 @@ msgstr "Filtry dat"
 msgctxt "feedback form"
 msgid "Date filters"
 msgstr "Filtry dat"
+
+#. Heading for the table column indicating how many deaths there have been in that location
+msgctxt "Covid 19 module"
+msgid "Deaths"
+msgstr "Zgony"
 
 #. A theme name in the theme menu:
 #. https://duck.co/media/files/theme.png
@@ -1309,6 +1415,26 @@ msgstr "Odrzuć"
 
 msgid "Dismiss forever"
 msgstr "Oddal na zawsze"
+
+#. This is the description of a user setting
+msgctxt "settings"
+msgid "Displays a checkmark to the left of results you've visited"
+msgstr "Wyświetla znacznik po lewej stronie odwiedzonych wyników"
+
+#. This is the description of a user setting
+msgctxt "settings"
+msgid "Displays favicons for each result"
+msgstr "Wyświetla ikony ulubionych dla każdego wyniku"
+
+#. This is the description of a user setting
+msgctxt "settings"
+msgid "Displays results in the center of the page"
+msgstr "Wyświetla wyniki na środku strony"
+
+#. This is an option for a user setting. It refers to showing only the domain for a website URL (e.g. domain.com) -- Example image: https://i.imgur.com/KkBcFcQ.png
+msgctxt "settingsvalue"
+msgid "Domains Only"
+msgstr "Tylko domeny"
 
 msgctxt "SERP footer content"
 msgid "Don't Track Us"
@@ -1736,6 +1862,16 @@ msgctxt "new user poll"
 msgid "Friend or family"
 msgstr "Przyjaciel lub rodzina"
 
+#. This is an option for a user setting. It refers to showing the full URL for a website, including the url path, but made to look like the breadcrumbs of a website (e.g. website.com > this > is > the > path) -- Example image: https://i.imgur.com/roiQBYz.png
+msgctxt "settingsvalue"
+msgid "Full URLs (Breadcrumbs)"
+msgstr "Pełne adresy URL (struktury nawigacyjne)"
+
+#. This is an option for a user setting. It refers to showing the full URL for a website, including the url path (e.g. website.com/this/is/this/path) -- Example image: https://i.imgur.com/SxYWf9o.png
+msgctxt "settingsvalue"
+msgid "Full URLs (Slashes)"
+msgstr "Pełne adresy URL (ukośniki)"
+
 #. http://i.imgur.com/tGau0Vx.png
 msgctxt "settings"
 msgid "GET Requests"
@@ -1790,6 +1926,10 @@ msgstr "Zacznij od witryny Duck.com"
 msgid ""
 "Get seamless privacy protection on your browser for free with one download:"
 msgstr "Łatwo i bezpłatnie chroń prywatność w przeglądarce:"
+
+msgctxt "Covid 19 module"
+msgid "Get the latest information:"
+msgstr "Uzyskaj najnowsze informacje:"
 
 msgid "Get the non-JS version %s"
 msgstr "Przejdź do wersji bez JS %1$s"
@@ -1958,6 +2098,11 @@ msgctxt "settings"
 msgid "Hides search term from being shown in browser tab/history"
 msgstr "Ukrywa treść wyszukań przed historią przeglądarki"
 
+#. The highest stock price in a day
+msgctxt "Stocks module"
+msgid "High"
+msgstr "Najwyższa"
+
 #. Shown in video filtering. https://duckduckgo.com/?q=videos+of+cats&iax=videos&ia=videos
 msgctxt "video-resolution"
 msgid "High definition"
@@ -1967,6 +2112,11 @@ msgstr "Wysoka rozdzielczość"
 msgctxt "language_name"
 msgid "Hindi"
 msgstr "Hindi"
+
+#. Indicate that we have no chart data for prices of the current stock
+msgctxt "Stocks module"
+msgid "Historical prices not available"
+msgstr "Ceny historyczne niedostępne"
 
 #  Chrome default search engine instruction
 msgid ""
@@ -1995,6 +2145,19 @@ msgstr "Hongkong"
 msgctxt "maps_places"
 msgid "Hours"
 msgstr "Godziny"
+
+msgctxt "feedback form"
+msgid "Hours are incorrect"
+msgstr "Godziny są nieprawidłowe"
+
+msgctxt "feedback form"
+msgid "Hours are missing"
+msgstr "Brakuje godzin"
+
+#. This is the name of a user setting
+msgctxt "settings"
+msgid "Hover, Module, and Dropdown Background Color"
+msgstr "Kolor tła najechania kursorem, modułu i listy rozwijanej"
 
 msgctxt "SERP footer content"
 msgid "How We Are Profitable"
@@ -2106,6 +2269,12 @@ msgstr "Kafelki obrazu"
 #. Used in the !bang dropdown.
 msgid "Images"
 msgstr "Grafika"
+
+#. This is the description of a user setting -- Example image: https://i.imgur.com/IqBhHpM.png
+msgctxt "settings"
+msgid ""
+"Improves result legibility with updated URL format, placement, and color"
+msgstr "Poprawia czytelność wyników za pomocą zaktualizowanego formatu, umiejscowienia i koloru adresu URL"
 
 msgid "In partnership with"
 msgstr "We współpracy z"
@@ -2320,6 +2489,11 @@ msgstr "Skróty klawiszowe"
 msgctxt "language_name"
 msgid "Khmer"
 msgstr "Khmerski"
+
+#. The name of the Klingon language
+msgctxt "language_name"
+msgid "Klingon"
+msgstr "klingoński"
 
 #. The name of the Klingon (Latin) language
 msgctxt "language_name"
@@ -2546,6 +2720,11 @@ msgctxt "settings"
 msgid "Loads more results when scrolling"
 msgstr "Automatycznie ładuje więcej wyników podczas przewijania"
 
+#. Heading for the table column indicating the country or region for which the data applies
+msgctxt "Covid 19 module"
+msgid "Location"
+msgstr "Lokalizacja"
+
 msgctxt "settings"
 msgid "Location"
 msgstr "Lokalizacja"
@@ -2553,6 +2732,10 @@ msgstr "Lokalizacja"
 msgctxt "precise_user_location"
 msgid "Location information is stored only on your device."
 msgstr "Informacje o lokalizacji są przechowywane tylko na Twoim urządzeniu."
+
+msgctxt "feedback form"
+msgid "Location on map is wrong"
+msgstr "Lokalizacja na mapie jest nieprawidłowa"
 
 msgctxt "video-duration"
 msgid "Long"
@@ -2566,6 +2749,16 @@ msgstr "Ustawienia wyglądu i zachowania"
 msgctxt "spread_badge"
 msgid "Love DuckDuckGo?"
 msgstr "Podoba Ci się DuckDuckGo?"
+
+#. The lowest stock price in a day
+msgctxt "Stocks module"
+msgid "Low"
+msgstr "Najniższa"
+
+#. Abbreviate millions in a number. E.g. 1,000,000 becomes 1M
+msgctxt "Stocks module"
+msgid "M"
+msgstr "mln"
 
 msgctxt "noresults"
 msgid "Make sure all words are spelled correctly."
@@ -2678,6 +2871,11 @@ msgctxt "placement"
 msgid "Middle"
 msgstr "Środek"
 
+#. The market capitalization of the currently selected stock
+msgctxt "Stocks module"
+msgid "Mkt Cap"
+msgstr "Kapitalizacja"
+
 msgctxt "settings"
 msgid "Mobile Instructions (not displayed on settings page)"
 msgstr "Instrukcje mobilne (niewyświetlane na stronie ustawień)"
@@ -2777,6 +2975,10 @@ msgctxt "additional_info_at"
 msgid "More results"
 msgstr "Więcej wyników"
 
+msgctxt "Covid 19 module"
+msgid "More statistics"
+msgstr "Więcej statystyk"
+
 msgctxt "video-duration"
 msgid "More than 20 minutes"
 msgstr "Ponad 20 minut"
@@ -2850,6 +3052,11 @@ msgstr "Holandia"
 msgctxt "settings"
 msgid "New Tab Page Most Visited Sites"
 msgstr "Strona nowej karty Najczęściej odwiedzane witryny"
+
+#. This is the name of a user setting -- Example image: https://i.imgur.com/LRuNuA8.png
+msgctxt "settings"
+msgid "New URL Style"
+msgstr "Nowy styl adresu URL"
 
 msgid "New Zealand"
 msgstr "Nowa Zelandia"
@@ -3056,6 +3263,11 @@ msgid ""
 "again later."
 msgstr "Ups! Wystąpił nieoczekiwany błąd podczas tłumaczenia tego tekstu. Spróbuj ponownie później."
 
+#. The price the markets opens at
+msgctxt "Stocks module"
+msgid "Open"
+msgstr "Otwórz"
+
 msgctxt "maps_places"
 msgid "Open"
 msgstr "Otwórz"
@@ -3184,7 +3396,7 @@ msgid ""
 "tracker blocker, encryption enforcer, and more. Available on %siOS & Android"
 "%s."
 msgstr "Nasza prywatna przeglądarka dla urządzeń mobilnych jest wyposażona w naszą wyszukiwarkę, blokowanie skryptów śledzących, wtyczkę wymuszającą szyfrowanie"
-" i nie wiele więcej. Dostępne dla systemu %1$siOS i Android%2$s."
+" i wiele więcej. Dostępne dla systemu %1$siOS i Android%2$s."
 
 msgctxt "showcase_traffic"
 msgid "Over %s Billion anonymous searches."
@@ -3197,6 +3409,16 @@ msgstr "Ponad %1$s dotacji na prywatność DuckDuckGo."
 msgctxt "maps_places"
 msgid "Overview"
 msgstr "Przegląd"
+
+#. Placeholder can be Apple Maps, TripAdvisor, or Foursquare
+msgctxt "feedback form"
+msgid "Own this business? Manage on %s"
+msgstr "Jesteś właścicielem tej firmy? Zarządzaj w serwisie %1$s"
+
+#. The price / earnings multiple for the currently selected stock
+msgctxt "Stocks module"
+msgid "P/E"
+msgstr "C/Z"
 
 #. Instant Answer Tab Name
 msgid "Packages"
@@ -3301,6 +3523,14 @@ msgctxt "maps_places"
 msgid "Phone Number"
 msgstr "Numer telefonu"
 
+msgctxt "feedback form"
+msgid "Phone number is incorrect"
+msgstr "Numer telefonu jest nieprawidłowy"
+
+msgctxt "feedback form"
+msgid "Phone number is missing"
+msgstr "Brakuje numeru telefonu"
+
 msgctxt "image-type"
 msgid "Photograph"
 msgstr "Zdjęcie"
@@ -3347,6 +3577,34 @@ msgctxt "new user poll"
 msgid "Please select one option."
 msgstr "Wybierz jedną opcję."
 
+msgctxt "feedback form"
+msgid "Please suggest the correct address"
+msgstr "Podaj poprawny adres"
+
+msgctxt "feedback form"
+msgid "Please suggest the correct hours of operation"
+msgstr "Podaj prawidłowe godziny pracy"
+
+msgctxt "feedback form"
+msgid "Please suggest the correct phone number"
+msgstr "Podaj prawidłowy numer telefonu"
+
+msgctxt "feedback form"
+msgid "Please suggest the correct website URL"
+msgstr "Podaj prawidłowy adres URL witryny"
+
+msgctxt "feedback form"
+msgid "Please suggest the hours of operation"
+msgstr "Podaj godziny pracy"
+
+msgctxt "feedback form"
+msgid "Please suggest the phone number"
+msgstr "Podaj numer telefonu"
+
+msgctxt "feedback form"
+msgid "Please suggest the website URL"
+msgstr "Podaj adres URL witryny"
+
 #  https://duckduckgo.com/?e=1
 msgid "Please try again"
 msgstr "Spróbuj ponownie"
@@ -3390,6 +3648,11 @@ msgstr "Kliknij %1$sMenu > Dodaj do ekranu startowego > Dodaj%2$s!"
 
 msgid "Press Kit"
 msgstr "Materiały prasowe"
+
+#. The price the stock previously closed at
+msgctxt "Stocks module"
+msgid "Prev Close"
+msgstr "Poprzednie zamknięcie"
 
 msgid "Preview"
 msgstr "Podgląd"
@@ -3644,6 +3907,15 @@ msgctxt "Report image modal"
 msgid "Report this image"
 msgstr "Zgłoś ten obraz"
 
+#. Placeholder can be Apple Maps, TripAdvisor, and/or Foursquare
+msgctxt "feedback form"
+msgid ""
+"Reports are anonymous and sent to DuckDuckGo to help improve our search "
+"service. Your anonymous feedback is also shared with %s to help improve "
+"their services."
+msgstr "Zgłoszenia są anonimowe i wysyłane do DuckDuckGo w celu ulepszenia usługi wyszukiwania. Anonimowa opinia jest również udostępniana serwisowi %1$s w celu"
+" ulepszenia jego usług."
+
 msgctxt "settings dropdown"
 msgid "Reset"
 msgstr "Resetowanie"
@@ -3658,62 +3930,18 @@ msgctxt "settings"
 msgid "Reset All Settings"
 msgstr "Przywróć ustawienia domyślne"
 
-#. http://i.imgur.com/t65r7D9.png
-#. changes the color of the result descriptions like this: http://i.imgur.com/UOdZYpf.png
-msgctxt "settings"
-msgid "Result Description Color"
-msgstr "Kolor opisu wyniku wyszukiwania"
-
-msgctxt "settings"
-msgid "Result Full URLs"
-msgstr "Pełen adres URL wyniku wyszukiwania"
-
 #. http://i.imgur.com/kqN8dPT.png
 msgctxt "settings"
 msgid "Result Highlight Color"
 msgstr "Zaznaczony kolor wyniku"
 
-msgctxt "settings"
-msgid "Result Hover, Module, and Dropdown Background Color"
-msgstr "Wynik najechania kursorem, kolor tła modułu i listy rozwijanej"
-
 #. in https://duckduckgo.com/params in the top. it is the first header
 msgid "Result Settings"
 msgstr "Ustawienia Wyników"
 
-#. http://i.imgur.com/M5H3oSv.png
-#. Changes the color of the results.
-msgctxt "settings"
-msgid "Result Title Color"
-msgstr "Kolor tytułów wyników"
-
-#. http://i.imgur.com/MTrwCtj.png
-msgctxt "settings"
-msgid "Result Title Font"
-msgstr "Czcionka tytułów wyników"
-
-#. http://i.imgur.com/YTYuj72.png
-msgctxt "settings"
-msgid "Result Title Underline"
-msgstr "Podkreślenie tytułu wyniku wyszukiwania"
-
-#. http://i.imgur.com/fsnijIZ.png
-msgctxt "settings"
-msgid "Result URL Color"
-msgstr "Kolor linków URL"
-
-msgctxt "settings"
-msgid "Result URLs Above Snippet"
-msgstr "Pokazuj URL wyników nad fragmentem tekstu"
-
 msgctxt "settings"
 msgid "Result Visited Checkmark"
 msgstr "Znacznik odwiedzenia wyników"
-
-#. http://i.imgur.com/nRnQruy.png
-msgctxt "settings"
-msgid "Result Visited Title Color"
-msgstr "Kolor tytułów odwiedzonych stron"
 
 #. In the top menu under Settings
 msgid "Results"
@@ -3916,6 +4144,11 @@ msgstr "Pole wyszukiwania"
 #. Le terme apparait en survolant le terme "More from ..." sur la page de résultats.
 msgid "Search domain %s"
 msgstr "Przeszukaj domenę %1$s"
+
+#. Placeholder text for a text-based language filter
+msgctxt "translations_module"
+msgid "Search languages"
+msgstr "Języki wyszukiwania"
 
 msgid "Search only for %s?"
 msgstr "Wyszukać tylko %1$s?"
@@ -4245,10 +4478,6 @@ msgid "Shows"
 msgstr "Widowiska"
 
 msgctxt "settings"
-msgid "Shows favicons for each result"
-msgstr "Wyświetla ikony ulubionych dla każdego wyniku"
-
-msgctxt "settings"
 msgid "Shows horizontal lines at result page breaks"
 msgstr "Wyświetla poziome linie pomiędzy stronami z wynikami wyszukiwania"
 
@@ -4287,16 +4516,8 @@ msgid "Shows suggestions under the search box as you type"
 msgstr "Wyświetla sugestie pod polem wyszukiwania podczas wpisywania"
 
 msgctxt "settings"
-msgid "Shows the full URL for each result"
-msgstr "Wyświetla pełny adres URL dla każdego wyniku"
-
-msgctxt "settings"
 msgid "Shows the privacy benefits of using DuckDuckGo on the homepage"
 msgstr "Wyświetla na stronie głównej korzyści dla prywatności wynikające z używania DuckDuckGo"
-
-msgctxt "settings"
-msgid "Shows the result URL line above the snippet text"
-msgstr "Wyświetla wynikowy adres URL nad fragmentem tekstu"
 
 #. Discontinued, don't translate
 msgctxt "settings"
@@ -4352,6 +4573,11 @@ msgctxt "size"
 msgid "Small"
 msgstr "Mały"
 
+#. This is the name of a user setting
+msgctxt "settings"
+msgid "Snippet Color"
+msgstr "Kolor fragmentu tekstu"
+
 msgid "Social"
 msgstr "Społeczny"
 
@@ -4403,6 +4629,11 @@ msgstr "Standardowa rozdzielczość"
 
 msgid "Start searching!"
 msgstr "Zacznij szukać!"
+
+#. Label for statistics tab
+msgctxt "Covid 19 module"
+msgid "Statistics"
+msgstr "Statystyka"
 
 msgctxt "SERP footer content"
 msgid "Stay Informed"
@@ -4457,6 +4688,11 @@ msgctxt "noresults"
 msgid "Suggestions:"
 msgstr "Sugestie:"
 
+#. Label for summary tab
+msgctxt "Covid 19 module"
+msgid "Summary"
+msgstr "Podsumowanie"
+
 #. http://i.imgur.com/FczLkAL.png
 msgctxt "settingsvalue"
 msgid "Super Wide"
@@ -4503,6 +4739,16 @@ msgstr "Szwajcaria (fr)"
 
 msgid "Switzerland (it)"
 msgstr "Szwajcaria (it)"
+
+#. Label for symptoms tab
+msgctxt "Covid 19 module"
+msgid "Symptoms"
+msgstr "Objawy"
+
+#. Abbreviate trillions in a number. E.g. 1,000,000,000,000 becomes 1T
+msgctxt "Stocks module"
+msgid "T"
+msgstr "bln"
 
 msgid "TV"
 msgstr "TV"
@@ -4652,6 +4898,14 @@ msgstr "To ma kilka zalet:"
 msgid "This page requires Javascript to function."
 msgstr "Ta strona do działania wymaga włączonego Javascriptu."
 
+msgctxt "feedback form"
+msgid "This place is permanently closed"
+msgstr "To miejsce jest zamknięte na stałe"
+
+msgctxt "feedback form"
+msgid "This place is too far away"
+msgstr "To miejsce jest za daleko"
+
 #. User feedback indicating that a translation is helpful
 msgctxt "translations_module"
 msgid "This translation is helpful"
@@ -4688,8 +4942,28 @@ msgctxt "language_name"
 msgid "Tigrinya"
 msgstr "Tigrinia"
 
+#. Label for tips tab
+msgctxt "Covid 19 module"
+msgid "Tips"
+msgstr "Porady"
+
 msgid "Tired of being tracked online? %sWe can help.%s"
 msgstr "Masz dość śledzenia w Internecie? %1$sMożemy pomóc.%2$s"
+
+#. This is the name of a user setting
+msgctxt "settings"
+msgid "Title Color"
+msgstr "Kolor tytułu"
+
+#. This is the name of a user setting
+msgctxt "settings"
+msgid "Title Font"
+msgstr "Czcionka tytułu"
+
+#. This is the name of a user setting
+msgctxt "settings"
+msgid "Title Underline"
+msgstr "Podkreślenie tytułu"
 
 msgctxt "directions"
 msgid ""
@@ -4697,6 +4971,11 @@ msgid ""
 "print.%sClick the print icon.%s"
 msgstr "Aby wydrukować wskazówki:%1$sWróć do mapy.%2$sWybierz trasę, którą chcesz wydrukować.%3$sKliknij ikonę drukowania.%4$s"
 
+msgid "Today"
+msgstr "Dziś"
+
+#. Button label for selecting chart of today's prices
+msgctxt "Stocks module"
 msgid "Today"
 msgstr "Dziś"
 
@@ -4803,11 +5082,26 @@ msgstr "Wpisz %1$sDuckDuckGo%2$s w pierwszym %3$spolu formularza"
 msgid "Type %sduckduckgo.com%s in the %ssecond form field"
 msgstr "Wpisz %1$sduckduckgo.com%2$s w %3$ssecond polu tekstowym"
 
+#. This is the name of a user setting
+msgctxt "settings"
+msgid "URL Color"
+msgstr "Kolor adresu URL"
+
+#. This is the name of a user setting -- Example image: https://i.imgur.com/icuYX4J.png
+msgctxt "settings"
+msgid "URL Format"
+msgstr "Format adresu URL"
+
 #. 1. in https://duckduckgo.com/settings near the bottom by clicking "Bookmarklet and settings data" under "Your settings as a URL parameter bookmarklet:" in the sentence "see the URL Parameters page for detailed descriptions"
 #. 2. in https://duckduckgo.com/settings near the bottom under "Cloud Save" by clicking "What's this" under "What information gets saved?". It is a link
 #. 3. in https://duckduckgo.com/params in the top. It is a header
 msgid "URL Parameters"
 msgstr "Parametry URL"
+
+#. This is the name of a user setting -- Example image: https://i.imgur.com/0tyrveK.png
+msgctxt "settings"
+msgid "URL Placement"
+msgstr "Umiejscowienie adresu URL"
 
 #. https://duckduckgo.com/params under "Color Settings"
 msgid "URLs:"
@@ -4874,12 +5168,10 @@ msgstr "Rozwiń zakładkę Szukaj i zaznacz %1$sDuckDuckGo%2$s"
 msgid "Underline:"
 msgstr "Podkreślenie:"
 
-#. http://i.imgur.com/7M5ogIs.png
-#. If, "On" --it will add an underline to result titles like this: http://i.imgur.com/VRFC6VQ.png
-#. If, "Off" --there will be no underline, like this: http://i.imgur.com/6MyezXn.png
+#. This is the description of a user setting
 msgctxt "settings"
-msgid "Underlines the title link for each result"
-msgstr "Podkreśla łącze w tytule dla każdego wyniku"
+msgid "Underlines result titles"
+msgstr "Podkreśla tytuły wyników"
 
 #. Instant Answer tab name
 msgid "Unicode"
@@ -4941,6 +5233,11 @@ msgstr "Używaj w przeglądarce Firefox"
 msgid "Use in Safari"
 msgstr "Używaj w Safari"
 
+#. Label for vaccines tab
+msgctxt "Covid 19 module"
+msgid "Vaccines"
+msgstr "Szczepionki"
+
 msgctxt "directions"
 msgid "Via"
 msgstr "Przez"
@@ -4983,6 +5280,15 @@ msgid ""
 "Visit %sDuckDuckGo.com%s on your tablet or phone and follow the provided "
 "instructions."
 msgstr "Odwiedź %1$sDuckDuckGo.com%2$s na swoim tablecie lub telefonie a następnie zastosuj się do instrukcji."
+
+msgctxt "settings"
+msgid "Visited Checkmark"
+msgstr "Znacznik odwiedzonych"
+
+#. This is the name of a user setting
+msgctxt "settings"
+msgid "Visited Title Color"
+msgstr "Kolor tytułu odwiedzonych"
 
 #. https://duckduckgo.com/params under "Color Settings" header
 msgid "Visited links:"
@@ -5110,6 +5416,14 @@ msgctxt "feedback form"
 msgid "We use feedback like this to improve DuckDuckGo."
 msgstr "Tego typu opinie służą nam do ulepszania DuckDuckGo."
 
+#. Placeholder can be Apple Maps, TripAdvisor, and/or Foursquare
+msgctxt "feedback form"
+msgid ""
+"We use feedback like this to improve DuckDuckGo. Suggestions will be "
+"incorporated at the discretion of %s. Corrections may not show up in results "
+"right away."
+msgstr "Używamy tych opinii do ulepszania DuckDuckGo. Sugestie zostaną uwzględnione według uznania %1$s. Poprawki mogą nie pojawić się od razu w wynikach."
+
 msgctxt "new user poll"
 msgid "We're honored to have you on the Duck Side"
 msgstr "Jesteśmy zaszczyceni mogąc powitać Cię po Kaczej Stronie"
@@ -5125,6 +5439,14 @@ msgstr "Linki"
 msgctxt "maps_places"
 msgid "Website"
 msgstr "Witryna internetowa"
+
+msgctxt "feedback form"
+msgid "Website is incorrect"
+msgstr "Witryna jest nieprawidłowa"
+
+msgctxt "feedback form"
+msgid "Website is missing"
+msgstr "Brakuje witryny"
 
 msgctxt "settings"
 msgid "Welcome Message"
@@ -5224,6 +5546,23 @@ msgstr "Informacje z Wikipedii"
 msgctxt "forecast"
 msgid "Wind"
 msgstr "Wiatr"
+
+msgctxt "Covid 19 module"
+msgid "World"
+msgstr "Świat"
+
+msgctxt "Covid 19 module"
+msgid "Worldwide Coverage Map"
+msgstr "Mapa zasięgu na świecie"
+
+msgctxt "feedback form"
+msgid "Wrong place is shown"
+msgstr "Pokazano niewłaściwe miejsce"
+
+#. Button label for selecting chart of prices for the year to date
+msgctxt "Stocks module"
+msgid "YTD"
+msgstr "Od początku roku"
 
 #. https://duckduckgo.com/params under "Color Settings" under "Highlight: "
 msgid "Yellow"
@@ -5392,6 +5731,11 @@ msgstr "godz."
 msgctxt "nonjsversion"
 msgid "here"
 msgstr "tutaj"
+
+#. Abbreviate 1000s in a number. E.g. 1,000 becomes 1k
+msgctxt "Stocks module"
+msgid "k"
+msgstr "tys."
 
 #. An abbreviated form of "minute" that can be displayed in a small space e.g. "1m"
 msgctxt "published date for videos"
