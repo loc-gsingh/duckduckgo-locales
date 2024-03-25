@@ -18,6 +18,12 @@ msgid "!Bang Search Shortcuts"
 msgstr ""
 
 # smartling.placeholder_format=C
+#. Used to specify the rank of a team/player in a specific ranking in short form. This should be interpreted as 'Ranked number <rankNumber> in the <rankingName> ranking. Here you only need to translate the # symbol for ranked number. If your language doesn't provide a single-letter convention, please leave #.
+msgctxt "Sports module"
+msgid "#%s %s"
+msgstr ""
+
+# smartling.placeholder_format=C
 #. Heading for the table column indicating what percent of the population is fully vaccinated
 msgctxt "Covid 19 module"
 msgid "% Fully Vaccinated"
@@ -30,9 +36,9 @@ msgid "% Vaccinated"
 msgstr ""
 
 # smartling.placeholder_format=C
-#. The total number of searches that have been made on DuckDuckGo. The placeholder is a number.
-msgctxt "SERP footer content"
-msgid "%s Billion Searches"
+#. In the context of an NHL (hockey) game, indicates in which intermission (break between game periods) an in-progress game is currently in. The number is in ordinal form (e.g. 1st), localized separately. The combination results in e.g. 1st Intermission, 4th Intermission
+msgctxt "Sports module"
+msgid "%s Intermission"
 msgstr ""
 
 # smartling.placeholder_format=C
@@ -57,6 +63,11 @@ msgstr ""
 #. Number of tracking attempts blocked, when there is more than 1. Eg: '2 attempts' or '302 attempts'
 msgctxt "tracker_stats"
 msgid "%s attempts"
+msgstr ""
+
+# smartling.placeholder_format=C
+#. A summary description of how many tracking attempts where blocked, when there was more than 1. Eg: '1,028 attempts blocked by DuckDuckGo in the last 24 hours'
+msgid "%s attempts blocked by DuckDuckGo in the last 24 hours"
 msgstr ""
 
 # smartling.placeholder_format=C
@@ -107,6 +118,12 @@ msgstr ""
 #. Label next to a user review. The placeholders are the user name and the review website. For example: 'John on TripAdvisor'
 msgctxt "maps_places"
 msgid "%s on %s"
+msgstr ""
+
+# smartling.placeholder_format=C
+#. Empty state message to indicate that there are no rankings for a particular ranking yet. For example, for college football, the CFP ranking is typically not released until halfway through the season.
+msgctxt "Sports module"
+msgid "%s rankings are not yet available"
 msgstr ""
 
 # smartling.placeholder_format=C
@@ -184,6 +201,11 @@ msgstr ""
 #. Number of tracking attempts blocked, when there's only 1
 msgctxt "tracker_stats"
 msgid "1 attempt"
+msgstr ""
+
+# smartling.placeholder_format=C
+#. A summary description of how many tracking attempts where blocked, when only one exists.
+msgid "1 attempt blocked by DuckDuckGo in the last 24 hours"
 msgstr ""
 
 # smartling.placeholder_format=C
@@ -374,6 +396,30 @@ msgstr ""
 # smartling.placeholder_format=C
 #. https://duckduckgo.com/params in the end under " Source:"
 msgid "A string to identify the source."
+msgstr ""
+
+# smartling.placeholder_format=C
+#. Page title for a ChatGPT-like chat bot feature. Translation should include the equivalent term for AI (Artificial Intelligence). It's ok to leave it in English if that's the expectation in your language.
+msgctxt "Page title in browser tab"
+msgid "AI Chat"
+msgstr ""
+
+# smartling.placeholder_format=C
+#. Abbreviation for 'American League Championship Series', the title of the divisional championship series for the American League division of Major League Baseball
+msgctxt "Sports module"
+msgid "ALCS"
+msgstr ""
+
+# smartling.placeholder_format=C
+#. Abbreviation for 'American League Division Series', the title of the divisional semi-final series for the American League division of Major League Baseball
+msgctxt "Sports module"
+msgid "ALDS"
+msgstr ""
+
+# smartling.placeholder_format=C
+#. Abbreviation for 'American League Wild Card Series', the title of the divisional runner-up series for the American League Division in Major League Baseball.
+msgctxt "Sports module"
+msgid "ALWC"
 msgstr ""
 
 # smartling.placeholder_format=C
@@ -706,6 +752,24 @@ msgid "Always play on DuckDuckGo"
 msgstr ""
 
 # smartling.placeholder_format=C
+#. Title of the divisional championship series for the American League division of Major League Baseball
+msgctxt "Sports module"
+msgid "American League Championship Series"
+msgstr ""
+
+# smartling.placeholder_format=C
+#. Title of the divisional semi-final series for the American League division of Major League Baseball
+msgctxt "Sports module"
+msgid "American League Division Series"
+msgstr ""
+
+# smartling.placeholder_format=C
+#. Title of the divisional runner-up series for the American League Division in Major League Baseball.
+msgctxt "Sports module"
+msgid "American League Wild Card Series"
+msgstr ""
+
+# smartling.placeholder_format=C
 #. The name of the Amharic language
 msgctxt "language_name"
 msgid "Amharic"
@@ -848,6 +912,12 @@ msgid "At DuckDuckGo, we agree."
 msgstr ""
 
 # smartling.placeholder_format=C
+#. In the context of the National Hockey League (NHL), label for teams belonging to the Atlantic division
+msgctxt "Sports module"
+msgid "Atlantic"
+msgstr ""
+
+# smartling.placeholder_format=C
 msgid "Audio"
 msgstr ""
 
@@ -963,6 +1033,12 @@ msgid "Basic"
 msgstr ""
 
 # smartling.placeholder_format=C
+#. The name of the Basque language
+msgctxt "language_name"
+msgid "Basque"
+msgstr ""
+
+# smartling.placeholder_format=C
 msgid "Belgium"
 msgstr ""
 
@@ -1030,8 +1106,15 @@ msgid "Block Trackers"
 msgstr ""
 
 # smartling.placeholder_format=C
-msgctxt "reasons-to-use-duckduckgo"
-msgid "Block advertising trackers."
+#. Item in a list of features of a desktop web browser
+msgctxt "Browser Promo Popover"
+msgid "Block annoying cookie pop-ups"
+msgstr ""
+
+# smartling.placeholder_format=C
+#. DuckDuckGo Email Protection offers the ability to generate random email addresses to protect your personal email address
+msgctxt "SERP footer content"
+msgid "Block email trackers and hide your address."
 msgstr ""
 
 # smartling.placeholder_format=C
@@ -1053,6 +1136,24 @@ msgstr ""
 #. Part of a list of what our app can do. The app can: …
 msgctxt "welcome message eu search preference android"
 msgid "Block unsafe trackers"
+msgstr ""
+
+# smartling.placeholder_format=C
+#. Used as a toggle label in a page customization menu
+msgctxt "customizer_menu"
+msgid "Blocked Tracking Attempts"
+msgstr ""
+
+# smartling.placeholder_format=C
+#. Header above a list of trackers (or tracking companies) that have been blocked in the past 24 hours.
+msgctxt "tracker_stats"
+msgid "Blocked by DuckDuckGo in the last 24 hours"
+msgstr ""
+
+# smartling.placeholder_format=C
+#. Header above a list of trackers (or tracking companies) that have been blocked in the past hour.
+msgctxt "tracker_stats"
+msgid "Blocked by DuckDuckGo in the last hour"
 msgstr ""
 
 # smartling.placeholder_format=C
@@ -1167,6 +1268,16 @@ msgid ""
 msgstr ""
 
 # smartling.placeholder_format=C
+#. Sidebar heading displayed above links to DuckDuckGo apps (our 'browser') on platforms such as iOS, Android, Windows, MacOS, and more.
+msgid "Browser Downloads"
+msgstr ""
+
+# smartling.placeholder_format=C
+#. Refers to DuckDuckGo's web extension available on browsers like Chrome, Firefox, etc.
+msgid "Browser Extensions"
+msgstr ""
+
+# smartling.placeholder_format=C
 #. Message indicating that the user's current location isn't available.
 msgctxt "precise_user_location"
 msgid "Browser Location Unavailable"
@@ -1176,6 +1287,11 @@ msgstr ""
 #. Label for a menu that lets users select the language for their browser.
 msgctxt "settingsvalue"
 msgid "Browser Preferred Language"
+msgstr ""
+
+# smartling.placeholder_format=C
+msgctxt "settings"
+msgid "Browser Promo Dismissed"
 msgstr ""
 
 # smartling.placeholder_format=C
@@ -1264,7 +1380,37 @@ msgid "Cantonese (Traditional)"
 msgstr ""
 
 # smartling.placeholder_format=C
+#. Category of feedback for a car advertisement a user can select on a feedback form.
+msgctxt "feedback form for car ads"
+msgid "Car ad content is deceptive"
+msgstr ""
+
+# smartling.placeholder_format=C
+#. Category of feedback for a car advertisement a user can select on a feedback form.
+msgctxt "feedback form for car ads"
+msgid "Car ads aren't relevant"
+msgstr ""
+
+# smartling.placeholder_format=C
+#. Category of feedback for a car advertisement a user can select on a feedback form. Here we mean the location for the car ad, i.e. buy car in New York while the user is in London.
+msgctxt "feedback form for car ads"
+msgid "Car location is wrong"
+msgstr ""
+
+# smartling.placeholder_format=C
+#. Category of feedback for a car advertisement a user can select on a feedback form.
+msgctxt "feedback form for car ads"
+msgid "Car pricing is misleading"
+msgstr ""
+
+# smartling.placeholder_format=C
 msgid "Careers"
+msgstr ""
+
+# smartling.placeholder_format=C
+#. Text of a button that performs a search for the cast of a particular movie or tv show
+msgctxt "Movie/TV Show Title instant answer"
+msgid "Cast"
 msgstr ""
 
 # smartling.placeholder_format=C
@@ -1286,6 +1432,12 @@ msgstr ""
 #. http://i.imgur.com/445XWLs.png
 msgctxt "settings"
 msgid "Center Alignment"
+msgstr ""
+
+# smartling.placeholder_format=C
+#. In the context of the National Hockey League (NHL), label for teams belonging to the Central division
+msgctxt "Sports module"
+msgid "Central"
 msgstr ""
 
 # smartling.placeholder_format=C
@@ -1323,6 +1475,12 @@ msgstr ""
 #. http://i.imgur.com/NdpkbY0.png
 msgctxt "settings"
 msgid "Changes the background color when hovering over a result"
+msgstr ""
+
+# smartling.placeholder_format=C
+#. Description of a setting managing the color of search result snippet text.
+msgctxt "settings"
+msgid "Changes the color of descriptive content shown for results"
 msgstr ""
 
 # smartling.placeholder_format=C
@@ -1381,6 +1539,30 @@ msgid "Changes the language across the entire site"
 msgstr ""
 
 # smartling.placeholder_format=C
+#. Description of a setting.
+msgctxt "settings"
+msgid "Changes the language for buttons and other display text."
+msgstr ""
+
+# smartling.placeholder_format=C
+#. Description of a setting managing the UI language.
+msgctxt "settings"
+msgid "Changes the language for elements like buttons, settings, and labels"
+msgstr ""
+
+# smartling.placeholder_format=C
+#. Description of a setting managing the search result region (country).
+msgctxt "settings"
+msgid "Changes the preferred region for search results"
+msgstr ""
+
+# smartling.placeholder_format=C
+#. Description of a setting that changes the prefer region for search results. Region here is meant to mean Country.
+msgctxt "settings"
+msgid "Changes the preferred region for search results."
+msgstr ""
+
+# smartling.placeholder_format=C
 #. http://i.imgur.com/auITACf.png
 msgctxt "settings"
 msgid "Changes what happens when you click on a video thumbnail"
@@ -1397,20 +1579,20 @@ msgid "Chat"
 msgstr ""
 
 # smartling.placeholder_format=C
+#. Will be used as a tab label to switch to the AI Chat bot feature similar to ChatGPT. Translation should not include the word AI (Artificial Intelligence). It's ok to leave it in English if that's the expectation in your language.
+msgctxt "Name in duckbar tab"
+msgid "Chat"
+msgstr ""
+
+# smartling.placeholder_format=C
+#. Message shown when we have no data from upstream to display
+msgctxt "Single Place Hotel Offers Module"
+msgid "Check %s for rates and availability."
+msgstr ""
+
+# smartling.placeholder_format=C
 #. Tells users where in the settings menu they can change their default search engine.
 msgid "Check %sMake this the current search engine%s"
-msgstr ""
-
-# smartling.placeholder_format=C
-#. Link to a page with more information about internet privacy.
-msgctxt "SERP footer content"
-msgid "Check out our privacy device guides."
-msgstr ""
-
-# smartling.placeholder_format=C
-#. A link to information about privacy on different kinds of devices, for example, phones, laptops, or tablets.
-msgctxt "showcase_privacy"
-msgid "Check out our privacy device guides."
 msgstr ""
 
 # smartling.placeholder_format=C
@@ -2047,11 +2229,6 @@ msgid "Creative Commons"
 msgstr ""
 
 # smartling.placeholder_format=C
-msgctxt "attribution"
-msgid "Credits"
-msgstr ""
-
-# smartling.placeholder_format=C
 msgid "Croatia"
 msgstr ""
 
@@ -2121,6 +2298,21 @@ msgid "Custom date range"
 msgstr ""
 
 # smartling.placeholder_format=C
+#. Used as a button label. When clicked, it opens a menu.
+msgid "Customize"
+msgstr ""
+
+# smartling.placeholder_format=C
+#. The heading of a modal that's shown to a user when they ask to customize the page's components. The 'New Tab Page' is the page shown when a user opens a new empty tab in their browser.
+msgid "Customize New Tab Page"
+msgstr ""
+
+# smartling.placeholder_format=C
+#. The help text shown to users to indicate that there's a menu that can be used to customize the layout of the page
+msgid "Customize this page"
+msgstr ""
+
+# smartling.placeholder_format=C
 #. The name of the Czech language
 msgctxt "language_name"
 msgid "Czech"
@@ -2134,6 +2326,11 @@ msgstr ""
 #. Indicates this is the number of draws for this team in e.g. soccer
 msgctxt "Sports module"
 msgid "D"
+msgstr ""
+
+# smartling.placeholder_format=C
+msgctxt "settings"
+msgid "DC: preferred"
 msgstr ""
 
 # smartling.placeholder_format=C
@@ -2247,11 +2444,6 @@ msgid "Detect language"
 msgstr ""
 
 # smartling.placeholder_format=C
-#. in the Homepage( javasript enabled) in the bottom right. By clicking the "More" button. Under "COMMUNITY" header
-msgid "Develop"
-msgstr ""
-
-# smartling.placeholder_format=C
 msgctxt "attribution"
 msgid "Developer"
 msgstr ""
@@ -2289,18 +2481,25 @@ msgid "Disable"
 msgstr ""
 
 # smartling.placeholder_format=C
-msgctxt "SERP footer content"
-msgid "Discover shortcuts to go to search results on other sites."
-msgstr ""
-
-# smartling.placeholder_format=C
 #. This appears on a button that a user clicks to close a notification.
 msgid "Dismiss"
 msgstr ""
 
 # smartling.placeholder_format=C
+#. A button to dismiss seeing the banner altogether
+msgctxt "Update browser banner"
+msgid "Dismiss and Hide Banner"
+msgstr ""
+
+# smartling.placeholder_format=C
 #. This appears on a button that a user clicks to close a notification, and choose to never see that notification again.
 msgid "Dismiss forever"
+msgstr ""
+
+# smartling.placeholder_format=C
+#. Name of a setting that controls the language of the user interface.
+msgctxt "settings"
+msgid "Display Language"
 msgstr ""
 
 # smartling.placeholder_format=C
@@ -2340,8 +2539,9 @@ msgid "Domains Only"
 msgstr ""
 
 # smartling.placeholder_format=C
-msgctxt "SERP footer content"
-msgid "Don't Track Us"
+#. A button to dismiss seeing the banner altogether
+msgctxt "Update browser banner"
+msgid "Don't Remind Me"
 msgstr ""
 
 # smartling.placeholder_format=C
@@ -2375,13 +2575,26 @@ msgid "Don't see the checkbox? %sFollow these steps%s."
 msgstr ""
 
 # smartling.placeholder_format=C
-msgctxt "SERP footer content"
-msgid "Donating for Privacy"
+#. Setting that hides a user's most visited sites when they open a new browser tab.
+msgctxt "new tab page"
+msgid "Don't show"
 msgstr ""
 
 # smartling.placeholder_format=C
 msgctxt "precise_user_location"
 msgid "Done"
+msgstr ""
+
+# smartling.placeholder_format=C
+#. Text of a button that will install the DuckDuckGo browser when clicked
+msgctxt "Browser Promo Popover"
+msgid "Download Browser"
+msgstr ""
+
+# smartling.placeholder_format=C
+#. Text of a button that will install the DuckDuckGo browser when clicked
+msgctxt "Browser Promo Popover"
+msgid "Download DuckDuckGo Browser"
 msgstr ""
 
 # smartling.placeholder_format=C
@@ -2439,6 +2652,11 @@ msgid "DuckDuckGo Bot"
 msgstr ""
 
 # smartling.placeholder_format=C
+#. Link label for DuckDuckGo 'App' page (https://duckduckgo.com/app)
+msgid "DuckDuckGo Browser"
+msgstr ""
+
+# smartling.placeholder_format=C
 #. by opening https://duckduckgo.com/api it shows in the window title
 msgid "DuckDuckGo Instant Answer API"
 msgstr ""
@@ -2451,6 +2669,17 @@ msgstr ""
 # smartling.placeholder_format=C
 #. Inside your browser title bar or tab title when visiting the <a href="https://duckduckgo.com/privacy.html">privacy page</a>.
 msgid "DuckDuckGo Privacy"
+msgstr ""
+
+# smartling.placeholder_format=C
+#. Links to a page that provides a list of DuckDuckGo product updates
+msgctxt "SERP footer content"
+msgid "DuckDuckGo Releases"
+msgstr ""
+
+# smartling.placeholder_format=C
+#. Sidebar subheading with links to DuckDuckGo homepage, Settings, and more.
+msgid "DuckDuckGo Search"
 msgstr ""
 
 # smartling.placeholder_format=C
@@ -2492,6 +2721,18 @@ msgid ""
 "use it to improve results for that search, and then we promptly throw it "
 "away, such that you remain anonymous. %sLearn more about how we designed "
 "this technology to protect your privacy%s."
+msgstr ""
+
+# smartling.placeholder_format=C
+msgctxt "new tab page"
+msgid "DuckDuckGo never has access to this data."
+msgstr ""
+
+# smartling.placeholder_format=C
+msgctxt ""
+"Appears in the tooltip of the privacy reminder that may appear in the search "
+"filter bar"
+msgid "DuckDuckGo never tracks your searches."
 msgstr ""
 
 # smartling.placeholder_format=C
@@ -2637,6 +2878,12 @@ msgid "Encrypts connections when possible"
 msgstr ""
 
 # smartling.placeholder_format=C
+#. In the context of the clock of a sports game, indicates that a game period is over and we are on a break. E.g. 'End of 1st', 'End of OT' where 1st would be 1st period, and OT would be an overtime period
+msgctxt "Sports module"
+msgid "End of %s"
+msgstr ""
+
+# smartling.placeholder_format=C
 msgid "England"
 msgstr ""
 
@@ -2740,9 +2987,9 @@ msgid "Enter your passphrase to load your settings."
 msgstr ""
 
 # smartling.placeholder_format=C
-#. Link to a page with information about how other companies use user data to control what their users see online.
-msgctxt "SERP footer content"
-msgid "Escape The Filter Bubble"
+#. Body text in a popover encouraging the user to try the DuckDuckGo browser
+msgctxt "Browser Promo Popover"
+msgid "Erase your browsing data in a flash with our %sFire Button%s"
 msgstr ""
 
 # smartling.placeholder_format=C
@@ -2773,6 +3020,18 @@ msgctxt "Report image modal"
 msgid "Explicit content"
 msgstr ""
 
+# smartling.placeholder_format=C
+#. Links to a page that provides a list of DuckDuckGo product updates
+msgctxt "SERP footer content"
+msgid "Explore DuckDuckGo's latest product and feature updates."
+msgstr ""
+
+# smartling.placeholder_format=C
+#. Links to a page that provides a list of DuckDuckGo product updates
+msgctxt "SERP footer content"
+msgid "Explore DuckDuckGo's latest product updates."
+msgstr ""
+
 #  seen on Opera 9.52, Firefox 33 and Chrome 27 besides homepage instructions; link to e.g. https://help.duckduckgo.com/desktop/opera/
 # smartling.placeholder_format=C
 #. Link to a page where users can download the DuckDuckGo browser extension and other products.
@@ -2786,15 +3045,33 @@ msgid "Extra Large"
 msgstr ""
 
 # smartling.placeholder_format=C
+#. Title for the FIFA Women's World Cup. Please keep it short and generic (without year nor location), and keep FIFA in it.
+msgctxt "Sports module"
+msgid "FIFA Women's World Cup"
+msgstr ""
+
+# smartling.placeholder_format=C
 #. Title for the FIFA World Cup. Please keep it short and generic (without year nor location), and keep FIFA in it.
 msgctxt "Sports module"
 msgid "FIFA World Cup"
 msgstr ""
 
 # smartling.placeholder_format=C
+#. For some rankings of sports leagues where each team/player is evaluated by pollsters, the ranking results specify the number of pollsters that voted for a team/player to be first place in the rankings. It stands for First Place Votes. Feel free to leave in English unless there's an obvious alternative in your language.
+msgctxt "Sports module"
+msgid "FPV"
+msgstr ""
+
+# smartling.placeholder_format=C
 #. Full-time (match has ended) indicator in a soccer match
 msgctxt "Sports module"
 msgid "FT"
+msgstr ""
+
+# smartling.placeholder_format=C
+#. Tagline in a promotion for a desktop web browser
+msgctxt "Browser Promo Popover"
+msgid "Fast. Secure. Free."
 msgstr ""
 
 # smartling.placeholder_format=C
@@ -2917,12 +3194,6 @@ msgid "Find results closer to you."
 msgstr ""
 
 # smartling.placeholder_format=C
-#. Link to a page with information about how to use advanced web search features.
-msgctxt "SERP footer content"
-msgid "Fine-tune Your Search"
-msgstr ""
-
-# smartling.placeholder_format=C
 msgid "Finland"
 msgstr ""
 
@@ -2930,6 +3201,12 @@ msgstr ""
 #. The name of the Finnish language
 msgctxt "language_name"
 msgid "Finnish"
+msgstr ""
+
+# smartling.placeholder_format=C
+#. For some rankings of sports leagues where each team/player is evaluated by pollsters, the ranking results specify the number of pollsters that voted for a team/player to be first place in the rankings. Feel free to leave in English unless there's an obvious alternative in your language.
+msgctxt "Sports module"
+msgid "First Place Votes"
 msgstr ""
 
 # smartling.placeholder_format=C
@@ -2978,6 +3255,18 @@ msgid "France"
 msgstr ""
 
 # smartling.placeholder_format=C
+#. Indicates that there is no cost to download DuckDuckGo's browser.
+msgctxt "Browser Promo Popover"
+msgid "Free"
+msgstr ""
+
+# smartling.placeholder_format=C
+#. Indicates that this streaming service is free (no cost) to watch
+msgctxt "Where to watch instant answer"
+msgid "Free"
+msgstr ""
+
+# smartling.placeholder_format=C
 #. a filter for images with the CC BY-NC usage license
 msgctxt "image-licence"
 msgid "Free to Modify, Share, and Use"
@@ -2999,6 +3288,12 @@ msgstr ""
 #. a filter for images with the CC BY-ND usage license
 msgctxt "image-licence"
 msgid "Free to Share and Use Commercially"
+msgstr ""
+
+# smartling.placeholder_format=C
+#. Indicates that this streaming service is free to watch but shows ads
+msgctxt "Where to watch instant answer"
+msgid "Free with ads"
 msgstr ""
 
 # smartling.placeholder_format=C
@@ -3050,6 +3345,26 @@ msgid "Frigid"
 msgstr ""
 
 # smartling.placeholder_format=C
+#. Indicates that prices for this product/service start from this value, e.g. From $4.99
+msgid "From %s"
+msgstr ""
+
+# smartling.placeholder_format=C
+#. Indicates that prices for this movie on this streaming service start from this value, e.g. From $4.99
+msgctxt "Where to watch instant answer"
+msgid "From %s"
+msgstr ""
+
+# smartling.placeholder_format=C
+#. Instructions to update the macOS browser. The parts within tags come from the OS itself and must be translated as in the OS itself if possible. Otherwise, make a best effort.
+msgctxt "Update browser banner"
+msgid ""
+"From the app menu bar on Mac, select <strong>DuckDuckGo</strong> > "
+"<strong>Check for Updates...</strong>, then select <strong>Install Update</"
+"strong>."
+msgstr ""
+
+# smartling.placeholder_format=C
 #. This is an option for a user setting. It refers to showing the full URL for a website, including the url path, but made to look like the breadcrumbs of a website (e.g. website.com > this > is > the > path) -- Example image: https://i.imgur.com/roiQBYz.png
 msgctxt "settingsvalue"
 msgid "Full URLs (Breadcrumbs)"
@@ -3092,6 +3407,12 @@ msgid "GF"
 msgstr ""
 
 # smartling.placeholder_format=C
+#. In the context of a standings table for NHL (hockey), column title that abbreviates 'Games Played' (the number of games lost during overtime of this team)
+msgctxt "Sports module"
+msgid "GP"
+msgstr ""
+
+# smartling.placeholder_format=C
 #. Text indicating the game number
 msgctxt "Sports module"
 msgid "Game %s"
@@ -3117,6 +3438,12 @@ msgstr ""
 #. Indicates this is the gap between a leading team and another team (https://en.wikipedia.org/wiki/Games_behind)
 msgctxt "Sports module"
 msgid "Games Behind"
+msgstr ""
+
+# smartling.placeholder_format=C
+#. In the context of a standings table for NHL (hockey), indicates the total number of games a team has played in total
+msgctxt "Sports module"
+msgid "Games Played"
 msgstr ""
 
 # smartling.placeholder_format=C
@@ -3152,15 +3479,15 @@ msgid "Get Directions"
 msgstr ""
 
 # smartling.placeholder_format=C
-#. Link to a page where users can select the color scheme of their search engine.
-msgctxt "SERP footer content"
-msgid "Get New Themes"
-msgstr ""
-
-# smartling.placeholder_format=C
 #. The title of a page where users can download the DuckDuckGo app or browser extension.
 msgctxt "showcase_app"
 msgid "Get Our App & Extension"
+msgstr ""
+
+# smartling.placeholder_format=C
+#. 'Get' refers to downloading our free browser app
+msgctxt "SERP footer content"
+msgid "Get Our Browser"
 msgstr ""
 
 # smartling.placeholder_format=C
@@ -3169,13 +3496,20 @@ msgid "Get Privacy Tips"
 msgstr ""
 
 # smartling.placeholder_format=C
+#. Find answers to common problems in our help documentation
 msgctxt "SERP footer content"
-msgid "Get Started at Duck.com"
+msgid "Get answers at DuckDuckGo Help."
 msgstr ""
 
 # smartling.placeholder_format=C
 msgid ""
 "Get seamless privacy protection on your browser for free with one download:"
+msgstr ""
+
+# smartling.placeholder_format=C
+#. This button will open a dialog that explains how to update the browser version manually
+msgctxt "Update browser banner"
+msgid "Get the Latest Version"
 msgstr ""
 
 # smartling.placeholder_format=C
@@ -3193,11 +3527,6 @@ msgstr ""
 #. Label for a link to a music streaming platform. For example 'Get this song on: Spotify'
 msgctxt "access_song"
 msgid "Get this song on:"
-msgstr ""
-
-# smartling.placeholder_format=C
-msgctxt "SERP footer content"
-msgid "Get to DuckDuckGo faster. Share duck.com with your friends."
 msgstr ""
 
 # smartling.placeholder_format=C
@@ -3347,6 +3676,10 @@ msgid "Hail"
 msgstr ""
 
 # smartling.placeholder_format=C
+msgid "Haiti"
+msgstr ""
+
+# smartling.placeholder_format=C
 #. The name of the Haitian Creole language
 msgctxt "language_name"
 msgid "Haitian Creole"
@@ -3356,6 +3689,12 @@ msgstr ""
 #. Halftime in a game (like American football or basketball)
 msgctxt "Sports module"
 msgid "Halftime"
+msgstr ""
+
+# smartling.placeholder_format=C
+#. Querying the user if they need assistance
+msgctxt "SERP footer content"
+msgid "Have Questions?"
 msgstr ""
 
 # smartling.placeholder_format=C
@@ -3495,6 +3834,12 @@ msgid "Hide Steps"
 msgstr ""
 
 # smartling.placeholder_format=C
+#. Item in a list of features of a desktop web browser
+msgctxt "Browser Promo Popover"
+msgid "Hide your email address"
+msgstr ""
+
+# smartling.placeholder_format=C
 msgctxt "settings"
 msgid "Hides search term from being shown in browser tab/history"
 msgstr ""
@@ -3587,12 +3932,6 @@ msgstr ""
 #. This is the name of a user setting
 msgctxt "settings"
 msgid "Hover, Module, and Dropdown Background Color"
-msgstr ""
-
-# smartling.placeholder_format=C
-#. Link to a page with information about how DuckDuckGo makes money without sacrificing privacy.
-msgctxt "SERP footer content"
-msgid "How We Are Profitable"
 msgstr ""
 
 # smartling.placeholder_format=C
@@ -3743,6 +4082,11 @@ msgid "Images"
 msgstr ""
 
 # smartling.placeholder_format=C
+#. Title for the section that showcases the image results for a certain query, ex. Images for <b>beach</b>
+msgid "Images for %s%s%s"
+msgstr ""
+
+# smartling.placeholder_format=C
 #. This is the description of a user setting -- Example image: https://i.imgur.com/IqBhHpM.png
 msgctxt "settings"
 msgid ""
@@ -3861,8 +4205,38 @@ msgid "Install DuckDuckGo"
 msgstr ""
 
 # smartling.placeholder_format=C
+#. Text of a button to install the DuckDuckGo web browser for Mac
+msgctxt "Browser Promo Popover"
+msgid "Install DuckDuckGo Mac Browser"
+msgstr ""
+
+# smartling.placeholder_format=C
 #. Link to add the DuckDuckGo browser extension to Safari.
 msgid "Install DuckDuckGo Safari Extension?"
+msgstr ""
+
+# smartling.placeholder_format=C
+#. Text of a button to install the DuckDuckGo web browser for Mac
+msgctxt "Browser Promo Popover"
+msgid "Install DuckDuckGo for Mac"
+msgstr ""
+
+# smartling.placeholder_format=C
+#. Text of a button to install the DuckDuckGo web browser for Windows
+msgctxt "Browser Promo Popover"
+msgid "Install DuckDuckGo for Windows"
+msgstr ""
+
+# smartling.placeholder_format=C
+#. Text of a button to install the DuckDuckGo web browser for Mac
+msgctxt "Sidemenu browser promo"
+msgid "Install Mac Browser"
+msgstr ""
+
+# smartling.placeholder_format=C
+#. Text of a button to install the DuckDuckGo web browser for Windows
+msgctxt "Sidemenu browser promo"
+msgid "Install Windows Browser"
 msgstr ""
 
 # smartling.placeholder_format=C
@@ -3961,10 +4335,6 @@ msgid "Italy"
 msgstr ""
 
 # smartling.placeholder_format=C
-msgid "Items"
-msgstr ""
-
-# smartling.placeholder_format=C
 #. Tooltip above a list of products, clarifying the nature of the listing and that DuckDuckGo is not compensated for clicks on these products.
 msgid ""
 "Items are ranked based on relevance to your search terms and are delivered "
@@ -3978,6 +4348,10 @@ msgctxt "cloudsave"
 msgid ""
 "It’s easier to remember 4-5 words than 10 random letters and numbers, and "
 "far more secure."
+msgstr ""
+
+# smartling.placeholder_format=C
+msgid "Jamaica"
 msgstr ""
 
 # smartling.placeholder_format=C
@@ -4031,11 +4405,6 @@ msgstr ""
 # smartling.placeholder_format=C
 msgctxt "homepage ATB modal"
 msgid "Keep your search history private"
-msgstr ""
-
-# smartling.placeholder_format=C
-msgctxt "reasons-to-use-duckduckgo"
-msgid "Keep your search history private."
 msgstr ""
 
 # smartling.placeholder_format=C
@@ -4194,18 +4563,6 @@ msgid "Learn %sMore%s"
 msgstr ""
 
 # smartling.placeholder_format=C
-#. Information on DuckDuckGo's search shortcut feature, called 'Bangs'
-msgctxt "SERP footer content"
-msgid "Learn About Bangs"
-msgstr ""
-
-# smartling.placeholder_format=C
-#. Link to a page with more information about DuckDuckGo.
-msgctxt "SERP footer content"
-msgid "Learn About DuckDuckGo"
-msgstr ""
-
-# smartling.placeholder_format=C
 #. A link to the DuckDuckGo browser extension on the Firefox Add-ons Store
 msgctxt "homepage ATB modal"
 msgid "Learn More at Firefox Add-Ons"
@@ -4214,29 +4571,6 @@ msgstr ""
 # smartling.placeholder_format=C
 msgctxt "showcase_newsletter"
 msgid "Learn about online privacy right in your inbox."
-msgstr ""
-
-# smartling.placeholder_format=C
-msgctxt "SERP footer content"
-msgid "Learn how to protect your privacy."
-msgstr ""
-
-# smartling.placeholder_format=C
-#. Link to a page with information about how to use advanced web search features.
-msgctxt "SERP footer content"
-msgid "Learn how to search like the pros."
-msgstr ""
-
-# smartling.placeholder_format=C
-#. Link to a page with more information about DuckDuckGo's privacy protections.
-msgctxt "SERP footer content"
-msgid "Learn how we're dedicated to keeping you safe online."
-msgstr ""
-
-# smartling.placeholder_format=C
-#. Link to a page with information about switching from using Google's search engine to DuckDuckgo.
-msgctxt "SERP footer content"
-msgid "Learn how you can free yourself from Google for good."
 msgstr ""
 
 # smartling.placeholder_format=C
@@ -4281,6 +4615,12 @@ msgstr ""
 # smartling.placeholder_format=C
 #. Discontinued, don't translate
 msgid "Light green"
+msgstr ""
+
+# smartling.placeholder_format=C
+#. Description of a setting managing the length of search result snippet text.
+msgctxt "settings"
+msgid "Limits the amount of descriptive content shown for results"
 msgstr ""
 
 # smartling.placeholder_format=C
@@ -4567,6 +4907,12 @@ msgid "Matchups"
 msgstr ""
 
 # smartling.placeholder_format=C
+#. Name of a setting managing the length of search result snippet text.
+msgctxt "settings"
+msgid "Max Snippet Length"
+msgstr ""
+
+# smartling.placeholder_format=C
 #. Button that dismisses a message.
 msgctxt "precise_user_location"
 msgid "Maybe later"
@@ -4613,6 +4959,12 @@ msgstr ""
 # smartling.placeholder_format=C
 msgctxt "settingsvalue"
 msgid "Metric (kilograms, meters, Celsius)"
+msgstr ""
+
+# smartling.placeholder_format=C
+#. In the context of the National Hockey League (NHL), label for teams belonging to the Metropolitan division
+msgctxt "Sports module"
+msgid "Metropolitan"
 msgstr ""
 
 # smartling.placeholder_format=C
@@ -4806,6 +5158,12 @@ msgid "Morocco"
 msgstr ""
 
 # smartling.placeholder_format=C
+#. Used as a toggle label in a page customization menu
+msgctxt "new tab page"
+msgid "Most-Visited Sites"
+msgstr ""
+
+# smartling.placeholder_format=C
 #. Used when presented as an option in a feedback form
 msgctxt "new tab page"
 msgid "Most-visited sites"
@@ -4867,15 +5225,62 @@ msgid "NE"
 msgstr ""
 
 # smartling.placeholder_format=C
+#. Indicates a new product or feature release
+msgid "NEW"
+msgstr ""
+
+# smartling.placeholder_format=C
+#. Abbreviation for 'National League Championship Series', the title of the divisional championship series for the National League division of Major League Baseball
+msgctxt "Sports module"
+msgid "NLCS"
+msgstr ""
+
+# smartling.placeholder_format=C
+#. Abbreviation for 'National League Division Series', the title of the divisional semi-final series for the National League division of Major League Baseball
+msgctxt "Sports module"
+msgid "NLDS"
+msgstr ""
+
+# smartling.placeholder_format=C
+#. Abbreviation for 'National League Wild Card Series', the title of the divisional runner-up series for the National League Division in Major League Baseball.
+msgctxt "Sports module"
+msgid "NLWC"
+msgstr ""
+
+# smartling.placeholder_format=C
 #. NPM = node.js package manager.
 #. e.g. https://duckduckgo.com/?q=npm+packages
 msgid "NPM"
 msgstr ""
 
 # smartling.placeholder_format=C
+#. For teams that are newly ranked and have no previous rank and therefore no trend, this abbreviation stands for 'not previously ranked' or 'newly ranked'.  Feel free to leave in English unless there's an obvious alternative in your language.
+msgctxt "Sports module"
+msgid "NR"
+msgstr ""
+
+# smartling.placeholder_format=C
 #. Abbreviation for 'Northwest'
 msgctxt "forecast"
 msgid "NW"
+msgstr ""
+
+# smartling.placeholder_format=C
+#. Title of the divisional championship series for the National League division of Major League Baseball
+msgctxt "Sports module"
+msgid "National League Championship Series"
+msgstr ""
+
+# smartling.placeholder_format=C
+#. Title of the divisional semi-final series for the National League division of Major League Baseball
+msgctxt "Sports module"
+msgid "National League Division Series"
+msgstr ""
+
+# smartling.placeholder_format=C
+#. Title of the divisional runner-up series for the National League Division in Major League Baseball.
+msgctxt "Sports module"
+msgid "National League Wild Card Series"
 msgstr ""
 
 # smartling.placeholder_format=C
@@ -4888,11 +5293,6 @@ msgstr ""
 #. Tells users where to find location settings on their phone. Part of a list of instructions on how to enable location service.
 msgctxt "precise_user_location"
 msgid "Navigate to Setting > Apps."
-msgstr ""
-
-# smartling.placeholder_format=C
-#. Used in 0-click box for local results, e.g. <a href="http://duckduckgo.com/?q=black+lab+bistro">http://duckduckgo.com/?q=black+lab+bistro</a>
-msgid "Nearby"
 msgstr ""
 
 # smartling.placeholder_format=C
@@ -4940,6 +5340,15 @@ msgstr ""
 # smartling.placeholder_format=C
 #. A label that appears above a list of search results from news sites.
 msgid "News Articles"
+msgstr ""
+
+# smartling.placeholder_format=C
+#. Title for the section that showcases the news results for a certain query, ex. News for <b>elections</b>
+msgid "News for %s%s%s"
+msgstr ""
+
+# smartling.placeholder_format=C
+msgid "Nigeria"
 msgstr ""
 
 # smartling.placeholder_format=C
@@ -5043,6 +5452,12 @@ msgid "No thanks."
 msgstr ""
 
 # smartling.placeholder_format=C
+#. Heading for the tracker/companies list when we have observed trackers, but none in the last 24 hours
+msgctxt "tracker_stats"
+msgid "No trackers blocked in the last 24 hours"
+msgstr ""
+
+# smartling.placeholder_format=C
 #. Heading for the tracker/companies list when we have observed trackers, but none in the last hour
 msgctxt "tracker_stats"
 msgid "No trackers blocked in the last hour"
@@ -5081,6 +5496,10 @@ msgstr ""
 # smartling.placeholder_format=C
 msgctxt "Sports module"
 msgid "North"
+msgstr ""
+
+# smartling.placeholder_format=C
+msgid "Northern Ireland"
 msgstr ""
 
 # smartling.placeholder_format=C
@@ -5147,6 +5566,12 @@ msgstr ""
 #. Abbreviation indicating this is the score for a game that is in overtime, when there are multiple overtime periods. E.g. OT1, OT2, OT3
 msgctxt "Sports module"
 msgid "OT%s"
+msgstr ""
+
+# smartling.placeholder_format=C
+#. In the context of a standings table for NHL (hockey), column title that abbreviates 'Overtime Losses' (the number of games lost during overtime of this team)
+msgctxt "Sports module"
+msgid "OTL"
 msgstr ""
 
 # smartling.placeholder_format=C
@@ -5421,6 +5846,11 @@ msgid "Other"
 msgstr ""
 
 # smartling.placeholder_format=C
+#. Sidemenu subheading displayed above links to resources such as Help, Press Kit, and more.
+msgid "Other Resources"
+msgstr ""
+
+# smartling.placeholder_format=C
 msgctxt "homepage onboarding"
 msgid ""
 "Other search engines track your searches even when you’re in private "
@@ -5453,15 +5883,15 @@ msgid "Over %s Billion anonymous searches."
 msgstr ""
 
 # smartling.placeholder_format=C
-#. The total amount of donations to privacy-related causes DuckDuckGo has made. The placeholder is a number.
-msgctxt "SERP footer content"
-msgid "Over %s in DuckDuckGo privacy donations."
-msgstr ""
-
-# smartling.placeholder_format=C
 #. Element title explaining this is the win loss record for team, e.g. 10-5
 msgctxt "Sports module"
 msgid "Overall Record"
+msgstr ""
+
+# smartling.placeholder_format=C
+#. In the context of a standings table for NHL (hockey), indicates the number of games lost during overtime of this team
+msgctxt "Sports module"
+msgid "Overtime Losses"
 msgstr ""
 
 # smartling.placeholder_format=C
@@ -5474,6 +5904,12 @@ msgstr ""
 #. Placeholder can be Apple Maps, TripAdvisor, or Foursquare
 msgctxt "feedback form"
 msgid "Own this business? Manage on %s"
+msgstr ""
+
+# smartling.placeholder_format=C
+#. For some rankings of sports leagues, each team/player is scored with a certain number of points, and the team with the most points is ranked first. The rubric for how these points get calculated can be different for each ranking type and sport/league. The P stands for Points.  Feel free to leave in English unless there's an obvious alternative in your language.
+msgctxt "Sports module"
+msgid "P"
 msgstr ""
 
 # smartling.placeholder_format=C
@@ -5504,6 +5940,12 @@ msgstr ""
 #. Indicates these are the total points of this team, in e.g. the soccer World Cup
 msgctxt "Sports module"
 msgid "PTS"
+msgstr ""
+
+# smartling.placeholder_format=C
+#. In the context of the National Hockey League (NHL), label for teams belonging to the Pacific division
+msgctxt "Sports module"
+msgid "Pacific"
 msgstr ""
 
 # smartling.placeholder_format=C
@@ -5540,6 +5982,10 @@ msgstr ""
 #. http://i.imgur.com/nyTQ3ki.png
 msgctxt "settings"
 msgid "Page Width"
+msgstr ""
+
+# smartling.placeholder_format=C
+msgid "Panama"
 msgstr ""
 
 # smartling.placeholder_format=C
@@ -5813,6 +6259,12 @@ msgid "Please try again"
 msgstr ""
 
 # smartling.placeholder_format=C
+#. A link that will allow users to reload the page.
+msgctxt "noresults"
+msgid "Please try again."
+msgstr ""
+
+# smartling.placeholder_format=C
 #. Indicates these are the total points of this team, in e.g. the soccer World Cup
 msgctxt "Sports module"
 msgid "Points"
@@ -5853,6 +6305,12 @@ msgstr ""
 #. The name of the Portuguese (Portugal) language
 msgctxt "language_name"
 msgid "Portuguese (Portugal)"
+msgstr ""
+
+# smartling.placeholder_format=C
+#. Alt text for the poster image of the movie or TV show, displayed next to it in the instant answer
+msgctxt "Movie/TV Show Title instant answer"
+msgid "Poster image for movie or TV show"
 msgstr ""
 
 # smartling.placeholder_format=C
@@ -6023,6 +6481,12 @@ msgid "Private Search"
 msgstr ""
 
 # smartling.placeholder_format=C
+#. Refers to the DuckDuckGo search engine, which allows users to search the internet privately. Please do translate this string.
+msgctxt "translatable"
+msgid "Private Search"
+msgstr ""
+
+# smartling.placeholder_format=C
 msgid "Private Search Engine"
 msgstr ""
 
@@ -6030,11 +6494,6 @@ msgstr ""
 #. The device location shared is is not logged by us
 msgctxt "precise_user_location"
 msgid "Private to us and secured on your device"
-msgstr ""
-
-# smartling.placeholder_format=C
-msgctxt "attribution"
-msgid "Producer"
 msgstr ""
 
 # smartling.placeholder_format=C
@@ -6072,21 +6531,27 @@ msgid "Prompt me to use my approximate location to get nearby results."
 msgstr ""
 
 # smartling.placeholder_format=C
-#. Link to a page with information about DuckDuckGo's web browsers and extensions.
+#. DuckDuckGo Email Protection removes trackers from emails
 msgctxt "SERP footer content"
-msgid "Protect Your Devices"
+msgid "Protect Your Inbox"
 msgstr ""
 
 # smartling.placeholder_format=C
-#. The title of a section with links to download the DuckDuckGo app for different smartphone or computer operating systems.
-msgctxt "showcase_privacy"
-msgid "Protect Your Devices"
+#. DuckDuckGo's browser app has features to protect your data by keeping it private
+msgctxt "SERP footer content"
+msgid "Protect your data as you search and browse."
 msgstr ""
 
 # smartling.placeholder_format=C
 #. A title above links to download the DuckDuckGo apps.
 msgctxt "showcase_app"
 msgid "Protect your data on every device."
+msgstr ""
+
+# smartling.placeholder_format=C
+#. In the context of a standings table for NHL (hockey), column title that abbreviates 'Total Points' (the total points of this team)
+msgctxt "Sports module"
+msgid "Pts"
 msgstr ""
 
 # smartling.placeholder_format=C
@@ -6150,6 +6615,12 @@ msgid "Rain"
 msgstr ""
 
 # smartling.placeholder_format=C
+#. Used to refer to rankings of a team or player in a sports league. For example, the AP 25 rankings for NCAA college football. Rankings are different than standings (win-loss-tie record) for some sports. Most rankings consider the rank number 1 to be the 'best' team/player in the league.
+msgctxt "Sports module"
+msgid "Rankings"
+msgstr ""
+
+# smartling.placeholder_format=C
 #. Placeholder will be a number. This is used to describe extension rating out of 5 stars.
 msgid "Rated %s/5"
 msgstr ""
@@ -6157,12 +6628,6 @@ msgstr ""
 # smartling.placeholder_format=C
 #. A button that takes users to another page with additional information.
 msgid "Read More"
-msgstr ""
-
-# smartling.placeholder_format=C
-#. Link to a page with information about Google's data collection and ad targeting practices.
-msgctxt "SERP footer content"
-msgid "Read about how Google influences what people click."
 msgstr ""
 
 # smartling.placeholder_format=C
@@ -6178,6 +6643,11 @@ msgstr ""
 # smartling.placeholder_format=C
 #. Label above recipe search results.
 msgid "Recipes"
+msgstr ""
+
+# smartling.placeholder_format=C
+#. Title for the section that showcases the recipe results for a certain query, ex. Recipes for <b>cheescake</b>
+msgid "Recipes for %s%s%s"
 msgstr ""
 
 # smartling.placeholder_format=C
@@ -6261,6 +6731,12 @@ msgid ""
 msgstr ""
 
 # smartling.placeholder_format=C
+#. Indicates that this show (movie, series, etc.) is available to either rent or buy from the given streaming service.
+msgctxt "Where to watch instant answer"
+msgid "Rent or buy"
+msgstr ""
+
+# smartling.placeholder_format=C
 #. A button that appears next to an advertisement, allowing a user to send a report for an advertisment they think is spam.
 msgctxt "ads"
 msgid "Report Ad"
@@ -6298,6 +6774,12 @@ msgstr ""
 #. Resets your configuration
 msgctxt "settings"
 msgid "Reset All Settings"
+msgstr ""
+
+# smartling.placeholder_format=C
+#. Label on the button for restoring all previous website data.
+msgctxt "new tab page"
+msgid "Restore all"
 msgstr ""
 
 # smartling.placeholder_format=C
@@ -6394,6 +6876,17 @@ msgstr ""
 #. Abbreviation for 'Southeast'
 msgctxt "forecast"
 msgid "SE"
+msgstr ""
+
+# smartling.placeholder_format=C
+msgctxt "settings"
+msgid "SERP promotion for desktop browsers has been dismissed"
+msgstr ""
+
+# smartling.placeholder_format=C
+#. Abbreviation indicating that a game is in shootouts, e.g. in NHL (hockey)
+msgctxt "Sports module"
+msgid "SO"
 msgstr ""
 
 # smartling.placeholder_format=C
@@ -6494,11 +6987,6 @@ msgid "Save your settings anonymously to the cloud"
 msgstr ""
 
 # smartling.placeholder_format=C
-msgctxt "SERP footer content"
-msgid "Say Goodbye To Google"
-msgstr ""
-
-# smartling.placeholder_format=C
 #. Title of a tab that displays a list of the season schedule for a team
 msgctxt "Sports module"
 msgid "Schedule"
@@ -6513,6 +7001,10 @@ msgstr ""
 #. Title of a tab that displays a list of scores for a team
 msgctxt "Sports module"
 msgid "Scores"
+msgstr ""
+
+# smartling.placeholder_format=C
+msgid "Scotland"
 msgstr ""
 
 #  Edge Legacy default search engine instruction
@@ -6643,6 +7135,12 @@ msgid "Search only for %s?"
 msgstr ""
 
 # smartling.placeholder_format=C
+#. Item in a list of features of a desktop web browser
+msgctxt "Browser Promo Popover"
+msgid "Search privately and block trackers"
+msgstr ""
+
+# smartling.placeholder_format=C
 msgid ""
 "Search privately with our app or extension, add private web search to your "
 "favorite browser, or search directly at %sduckduckgo.com%s."
@@ -6701,6 +7199,12 @@ msgstr ""
 # smartling.placeholder_format=C
 #. A link that loads user-uploaded photos of a location on a map.
 msgid "See Photos"
+msgstr ""
+
+# smartling.placeholder_format=C
+#. Links to a page that provides a list of DuckDuckGo product updates
+msgctxt "SERP footer content"
+msgid "See What's New"
 msgstr ""
 
 # smartling.placeholder_format=C
@@ -6998,6 +7502,12 @@ msgstr ""
 # smartling.placeholder_format=C
 #. Link to a feedback form.
 msgctxt "feedback form"
+msgid "Share feedback for these results."
+msgstr ""
+
+# smartling.placeholder_format=C
+#. Link to a feedback form.
+msgctxt "feedback form"
 msgid "Share feedback for this result."
 msgstr ""
 
@@ -7023,6 +7533,11 @@ msgid "Shopping"
 msgstr ""
 
 # smartling.placeholder_format=C
+#. Title for the section that showcases the product results for a certain query, ex. Shopping for <b>shoes</b>
+msgid "Shopping for %s%s%s"
+msgstr ""
+
+# smartling.placeholder_format=C
 #. Filters the duration of videos in search results.
 msgctxt "video-duration"
 msgid "Short"
@@ -7031,6 +7546,12 @@ msgstr ""
 # smartling.placeholder_format=C
 #. Description of an autocomplete function in the search bar.
 msgid "Shortcuts to other sites to search off DuckDuckGo"
+msgstr ""
+
+# smartling.placeholder_format=C
+#. It's a verb on a button.
+msgctxt "visible"
+msgid "Show"
 msgstr ""
 
 # smartling.placeholder_format=C
@@ -7064,6 +7585,12 @@ msgid "Show Less"
 msgstr ""
 
 # smartling.placeholder_format=C
+#. Button that allows user to collapse list of rates and just show up to 4 rates and hide the rest
+msgctxt "Single Place Hotel Offers Module"
+msgid "Show Less Rates"
+msgstr ""
+
+# smartling.placeholder_format=C
 #. Button that displays a list of search results
 msgctxt "mobile expanded map"
 msgid "Show List"
@@ -7078,6 +7605,12 @@ msgstr ""
 # smartling.placeholder_format=C
 msgctxt "load_more"
 msgid "Show More"
+msgstr ""
+
+# smartling.placeholder_format=C
+#. Button that allows user to expand list of offers and show more than the displayed ones by default
+msgctxt "Single Place Hotel Offers Module"
+msgid "Show More Rates"
 msgstr ""
 
 # smartling.placeholder_format=C
@@ -7118,12 +7651,6 @@ msgstr ""
 #. Filters the duration of videos in search results.
 msgctxt "video-duration"
 msgid "Show videos of any length"
-msgstr ""
-
-# smartling.placeholder_format=C
-#. In the Instant Answers box -> viewing images -> the sentence over the first image. Eg. https://duckduckgo.com/?q=duckduckgo&ia=images
-msgctxt "visible"
-msgid "Showing"
 msgstr ""
 
 # smartling.placeholder_format=C
@@ -7217,6 +7744,11 @@ msgstr ""
 
 # smartling.placeholder_format=C
 msgid "Singapore"
+msgstr ""
+
+# smartling.placeholder_format=C
+#. Refers to a feature of the DuckDuckGo web browser, which uses encrypted connections to websites to protect user privacy.
+msgid "Site Encryption"
 msgstr ""
 
 # smartling.placeholder_format=C
@@ -7319,6 +7851,12 @@ msgid "Sorry, we weren’t able to submit your feedback. Please try again later.
 msgstr ""
 
 # smartling.placeholder_format=C
+#. Label for the sorting options on a shopping interface. The options will be translated separately and will be presented as a dropdown menu.
+msgctxt "shopping_vertical"
+msgid "Sort by"
+msgstr ""
+
+# smartling.placeholder_format=C
 #. The source of a piece of information, e.g. Wikipedia
 msgctxt "Q&A module attribution"
 msgid "Source"
@@ -7400,9 +7938,9 @@ msgid "Statistics"
 msgstr ""
 
 # smartling.placeholder_format=C
-#. Link to a page where the user can subscribe to a newsletter.
+#. Prompt to subscribe to a newsletter.
 msgctxt "SERP footer content"
-msgid "Stay Informed"
+msgid "Stay protected and informed with our privacy newsletter."
 msgstr ""
 
 # smartling.placeholder_format=C
@@ -7469,6 +8007,12 @@ msgstr ""
 #. Button that subscribes the user to an email newsletter.
 msgctxt "email newsletter"
 msgid "Subscribe"
+msgstr ""
+
+# smartling.placeholder_format=C
+#. Indicates that this streaming service requires a subscription
+msgctxt "Where to watch instant answer"
+msgid "Subscription"
 msgstr ""
 
 # smartling.placeholder_format=C
@@ -7660,11 +8204,6 @@ msgid "Take control of your personal data!"
 msgstr ""
 
 # smartling.placeholder_format=C
-msgctxt "reasons-to-use-duckduckgo"
-msgid "Take control of your personal data."
-msgstr ""
-
-# smartling.placeholder_format=C
 #. Filters the shape of images in search results.
 msgctxt "image-layout"
 msgid "Tall"
@@ -7716,6 +8255,11 @@ msgstr ""
 #. changes the look of DuckDuckGo to a Terminal, like this: http://i.imgur.com/BDN8Tfm.png
 msgctxt "theme"
 msgid "Terminal"
+msgstr ""
+
+# smartling.placeholder_format=C
+#. A link to a terms and conditions page that is one word and is as short as possible
+msgid "Terms"
 msgstr ""
 
 # smartling.placeholder_format=C
@@ -7779,12 +8323,6 @@ msgid "The rendering method to use for interactive maps"
 msgstr ""
 
 # smartling.placeholder_format=C
-#. 'Collect-it-all' refers to the practice of data collection by companies such as Google.
-msgctxt "SERP footer content"
-msgid "The world needs an alternative to the collect-it-all business model."
-msgstr ""
-
-# smartling.placeholder_format=C
 #. Title for the theme menu:
 #. https://duck.co/media/files/theme.png
 msgid "Theme"
@@ -7804,6 +8342,20 @@ msgstr ""
 # smartling.placeholder_format=C
 #. Header above settings that change the color scheme of the search engine.
 msgid "Themes"
+msgstr ""
+
+# smartling.placeholder_format=C
+#. Inform the users that "something" went wrong and we are unable to show any results.
+msgctxt "noresults"
+msgid "There was an error displaying the search results."
+msgstr ""
+
+# smartling.placeholder_format=C
+#. Inform the users that "something" went wrong and discourage the user from immediately reloading the page.
+msgctxt "noresults"
+msgid ""
+"There was still an error displaying the search results. Please wait a few "
+"minutes before you try again."
 msgstr ""
 
 # smartling.placeholder_format=C
@@ -8009,6 +8561,12 @@ msgid "Total"
 msgstr ""
 
 # smartling.placeholder_format=C
+#. In the context of a standings table for NHL (hockey), indicates these are the total points of this team
+msgctxt "Sports module"
+msgid "Total Points"
+msgstr ""
+
+# smartling.placeholder_format=C
 #. Indicates this is the total points scored against this team
 msgctxt "Sports module"
 msgid "Total Points Against"
@@ -8030,6 +8588,11 @@ msgid "Tour"
 msgstr ""
 
 # smartling.placeholder_format=C
+#. Refers to the feature of the DuckDuckGo web browser, which blocks websites from tracking users.
+msgid "Tracker Blocking"
+msgstr ""
+
+# smartling.placeholder_format=C
 #. Header above a list of trackers (or tracking companies) that have been blocked in the past hour.
 msgctxt "tracker_stats"
 msgid "Trackers blocked in the last hour"
@@ -8042,9 +8605,17 @@ msgid "Trackers that DuckDuckGo blocks will appear here"
 msgstr ""
 
 # smartling.placeholder_format=C
-#. Part of the sentence: "<b>Translate</b> us."
-msgctxt "translateus"
-msgid "Translate"
+#. Placeholder for when we cannot report any blocked trackers yet
+msgctxt "tracker_stats"
+msgid ""
+"Tracking attempts blocked by DuckDuckGo appear here. Keep browsing to see "
+"how many we block."
+msgstr ""
+
+# smartling.placeholder_format=C
+#. Placeholder for when we cannot report any blocked trackers yet
+msgctxt "tracker_stats"
+msgid "Tracking attempts blocked by DuckDuckGo will appear here"
 msgstr ""
 
 # smartling.placeholder_format=C
@@ -8063,6 +8634,12 @@ msgstr ""
 #. Filters the type of images in search results.
 msgctxt "image-type"
 msgid "Transparent"
+msgstr ""
+
+# smartling.placeholder_format=C
+#. For rankings of sports leagues that come out on a periodic basis such as weekly, this represents the change in the rank of the team/player over that time period. For example, if in week 1 team A was ranked #5 but in week 2 team A was ranked #11, the trend would be -6.
+msgctxt "Sports module"
+msgid "Trend"
 msgstr ""
 
 # smartling.placeholder_format=C
@@ -8130,6 +8707,12 @@ msgstr ""
 #. Prompt for the user to indicate their location on a map, to enable more relevant search results.
 msgctxt "precise_user_location"
 msgid "Try setting your location manually."
+msgstr ""
+
+# smartling.placeholder_format=C
+#. Body text in a popover encouraging the user to try the DuckDuckGo browser
+msgctxt "Browser Promo Popover"
+msgid "Try the %sDuckDuckGo Browser.%s Fast. Free. Private."
 msgstr ""
 
 # smartling.placeholder_format=C
@@ -8336,6 +8919,12 @@ msgid "Underlines result titles"
 msgstr ""
 
 # smartling.placeholder_format=C
+#. Label on the button that allows the previous action to be undone. For example, after removing a website this is shown.
+msgctxt "new tab page"
+msgid "Undo"
+msgstr ""
+
+# smartling.placeholder_format=C
 #. Title of modal shown when we believe a user to be a bot
 msgctxt "Anomaly modal"
 msgid "Unfortunately, bots use DuckDuckGo too."
@@ -8373,9 +8962,39 @@ msgid "Update Location"
 msgstr ""
 
 # smartling.placeholder_format=C
+#. The title of a pop up where we explain how to update the browser manually.
+msgctxt "Update browser banner"
+msgid "Update Your Browser"
+msgstr ""
+
+# smartling.placeholder_format=C
 #. Waiting for the device to send an updated location
 msgctxt "precise_user_location"
 msgid "Updating location..."
+msgstr ""
+
+# smartling.placeholder_format=C
+#. Heading in a promotion for a desktop web browser
+msgctxt "Sidemenu browser promo"
+msgid "Upgrade to our Private Browser"
+msgstr ""
+
+# smartling.placeholder_format=C
+#. Heading in a promotion for a desktop web browser
+msgctxt "Browser Promo Popover"
+msgid "Upgrade to our Private Browser for Mac"
+msgstr ""
+
+# smartling.placeholder_format=C
+#. Heading in a promotion for a desktop web browser
+msgctxt "Browser Promo Popover"
+msgid "Upgrade to our Private Browser for Windows"
+msgstr ""
+
+# smartling.placeholder_format=C
+#. Header for a call to action to install the DuckDuckGo browser
+msgctxt "Browser Promo Popover"
+msgid "Upgrade to our browser."
 msgstr ""
 
 # smartling.placeholder_format=C
@@ -8454,6 +9073,11 @@ msgstr ""
 # smartling.placeholder_format=C
 #. Label above video search results.
 msgid "Videos"
+msgstr ""
+
+# smartling.placeholder_format=C
+#. Title for the section that showcases the video results for a certain query, ex. Videos for <b>japan</b>
+msgid "Videos for %s%s%s"
 msgstr ""
 
 # smartling.placeholder_format=C
@@ -8544,6 +9168,12 @@ msgid "WCGB"
 msgstr ""
 
 # smartling.placeholder_format=C
+#. Abbreviation for 'World Series', the title of the annual championship series of Major League Baseball (MLB)
+msgctxt "Sports module"
+msgid "WS"
+msgstr ""
+
+# smartling.placeholder_format=C
 #. Waiting for the device location sensor to return data
 msgctxt "precise_user_location"
 msgid "Waiting for Location..."
@@ -8577,6 +9207,12 @@ msgid "Watch Here"
 msgstr ""
 
 # smartling.placeholder_format=C
+#. Item in a list of features of a desktop web browser
+msgctxt "Browser Promo Popover"
+msgid "Watch YouTube without targeted ads"
+msgstr ""
+
+# smartling.placeholder_format=C
 #. This is a button that lets the user play a video in our custom video player
 msgid "Watch in Duck Player"
 msgstr ""
@@ -8599,8 +9235,12 @@ msgid "Watch on YouTube"
 msgstr ""
 
 # smartling.placeholder_format=C
-msgctxt "SERP footer content"
-msgid "We Protect Your Privacy"
+#. A privacy disclaimer that appears above YouTube videos.
+msgid ""
+"Watching a video here means the website where it is hosted can track you "
+"because we have to stream the content from there. DuckDuckGo is an "
+"independent company and has no relationship with YouTube, where most videos "
+"are hosted."
 msgstr ""
 
 # smartling.placeholder_format=C
@@ -8612,11 +9252,6 @@ msgstr ""
 # smartling.placeholder_format=C
 msgctxt "reasons-to-use-duckduckgo"
 msgid "We don't follow you around with ads."
-msgstr ""
-
-# smartling.placeholder_format=C
-msgctxt "SERP footer content"
-msgid "We don't save your search history or follow you around the web."
 msgstr ""
 
 # smartling.placeholder_format=C
@@ -8644,11 +9279,6 @@ msgstr ""
 # smartling.placeholder_format=C
 msgctxt "reasons-to-use-duckduckgo"
 msgid "We don't store your personal information."
-msgstr ""
-
-# smartling.placeholder_format=C
-msgctxt "SERP footer content"
-msgid "We don't track you, but others do."
 msgstr ""
 
 # smartling.placeholder_format=C
@@ -8692,11 +9322,6 @@ msgstr ""
 # smartling.placeholder_format=C
 msgctxt "homepage onboarding"
 msgid "We don’t track you in or out of private browsing mode."
-msgstr ""
-
-# smartling.placeholder_format=C
-msgctxt "SERP footer content"
-msgid "We get a ton of searches, and all of them are anonymous."
 msgstr ""
 
 # smartling.placeholder_format=C
@@ -8769,6 +9394,12 @@ msgstr ""
 #. Category of feedback a user can select on a feedback form.
 msgctxt "feedback form"
 msgid "Website is missing"
+msgstr ""
+
+# smartling.placeholder_format=C
+#. Shown as confirmation that a website link was removed from a list.
+msgctxt "new tab page"
+msgid "Website removed"
 msgstr ""
 
 # smartling.placeholder_format=C
@@ -8883,10 +9514,33 @@ msgctxt "maps_places"
 msgid "What people say:"
 msgstr ""
 
+# smartling.placeholder_format=C
+#. Link to a page featuring the most recent updates from DuckDuckGo.
+msgid "What’s New"
+msgstr ""
+
+# smartling.placeholder_format=C
+#. Text of a button that performs a search for the available streaming services that show a particular movie or tv show
+msgctxt "Movie/TV Show Title instant answer"
+msgid "Where To Watch"
+msgstr ""
+
+# smartling.placeholder_format=C
+#. Heading of a module showing what streaming services are showing a movie or series, e.g. Where to Watch The Matrix
+msgctxt "Where to watch instant answer"
+msgid "Where To Watch <strong>%s</strong>"
+msgstr ""
+
 #  Safari homepage instruction
 # smartling.placeholder_format=C
 #. Tells the user where to click in their browser. Part of a list of instructions on how to change the brower's home page.
 msgid "Where it says Homepage click %sSet to Current Page%s."
+msgstr ""
+
+# smartling.placeholder_format=C
+#. Heading of a module showing what streaming services are showing a movie or series, e.g. Where to Watch The Matrix
+msgctxt "Where to watch instant answer"
+msgid "Where to Watch <strong>%s</strong>"
 msgstr ""
 
 # smartling.placeholder_format=C
@@ -8952,6 +9606,12 @@ msgid "Wild Card Games Behind"
 msgstr ""
 
 # smartling.placeholder_format=C
+#. In the context of the National Hockey League (NHL), title for a table of teams ordered based on their classification towards winning a Wild Card slot into playoffs
+msgctxt "Sports module"
+msgid "Wild Card Teams"
+msgstr ""
+
+# smartling.placeholder_format=C
 #. Element title explaining this is the win loss record for team, e.g. 10-5
 msgctxt "Sports module"
 msgid "Win/Loss Record"
@@ -8997,6 +9657,12 @@ msgstr ""
 #. Label for the global number of confirmed Covid 19 cases
 msgctxt "Covid 19 module"
 msgid "World"
+msgstr ""
+
+# smartling.placeholder_format=C
+#. Title of the annual championship series of Major League Baseball (MLB)
+msgctxt "Sports module"
+msgid "World Series"
 msgstr ""
 
 # smartling.placeholder_format=C
@@ -9101,9 +9767,11 @@ msgid "You now have the DuckDuckGo extension!"
 msgstr ""
 
 # smartling.placeholder_format=C
-#. Link to a page where users can select the color scheme and other settings of their search engine.
-msgctxt "SERP footer content"
-msgid "You're in control. Customize the look-and-feel of DuckDuckGo."
+#. The second paragraph of a pop up where we explain how to update the browser manually.
+msgctxt "Update browser banner"
+msgid ""
+"You'll receive automatic DuckDuckGo app updates once you have the latest "
+"version."
 msgstr ""
 
 # smartling.placeholder_format=C
@@ -9124,6 +9792,12 @@ msgstr ""
 msgid ""
 "You're now searching with privacy. %sGet tips to reduce your footprint even "
 "more."
+msgstr ""
+
+# smartling.placeholder_format=C
+#. A few versions of our native macOS browser were broken and did not automatically update. We want to encourage users to update to the latest version. This message will only show for users on an out of date version and will disappear when the browser is updated
+msgctxt "Update browser banner"
+msgid "You're using an outdated version of DuckDuckGo for Mac."
 msgstr ""
 
 # smartling.placeholder_format=C
@@ -9164,6 +9838,19 @@ msgstr ""
 # smartling.placeholder_format=C
 #. Floating text over a tick next to search results which indicates if a link has been visited.
 msgid "Your browser indicates if you've visited this link"
+msgstr ""
+
+# smartling.placeholder_format=C
+msgctxt "new tab page"
+msgid "Your browser provides a list of your most-visited sites."
+msgstr ""
+
+# smartling.placeholder_format=C
+#. Used as a description in a menu
+msgctxt "new tab page"
+msgid ""
+"Your browser provides a list of your most-visited sites. DuckDuckGo never "
+"has access to this data."
 msgstr ""
 
 # smartling.placeholder_format=C
@@ -9214,6 +9901,10 @@ msgid "Yucatec Maya"
 msgstr ""
 
 # smartling.placeholder_format=C
+msgid "Zambia"
+msgstr ""
+
+# smartling.placeholder_format=C
 #. From the guide in the Feedback page.
 msgid "advertising"
 msgstr ""
@@ -9252,6 +9943,12 @@ msgid "for"
 msgstr ""
 
 # smartling.placeholder_format=C
+#. Label that specifies which price the hotel rate starts from, ex: From $237
+msgctxt "Single Place Hotel Offers Module"
+msgid "from"
+msgstr ""
+
+# smartling.placeholder_format=C
 #. An abbreviated form of "hour" that can be displayed in a small space e.g. "1h"
 msgctxt "published date for videos"
 msgid "h"
@@ -9275,6 +9972,12 @@ msgid "k"
 msgstr ""
 
 # smartling.placeholder_format=C
+#. Abbreviation for kilometres per hour
+msgctxt "forecast"
+msgid "kph"
+msgstr ""
+
+# smartling.placeholder_format=C
 #. Indicates this is a team logo, e.g. 'Patriots logo'
 msgctxt "Sports module"
 msgid "logo"
@@ -9293,14 +9996,21 @@ msgid "mo"
 msgstr ""
 
 # smartling.placeholder_format=C
+#. Abbreviation for miles per hour
+msgctxt "forecast"
+msgid "mph"
+msgstr ""
+
+# smartling.placeholder_format=C
 #. https://duckduckgo.com/50x.html?e=2
 #. p.s.(tsester): i found it out by searching "  "
 msgid "no search"
 msgstr ""
 
-#  https://duckduckgo.com/?e=4
 # smartling.placeholder_format=C
-msgid "not %s encoding"
+#. Will be used in the sentence, 'Check official website for rates and availability.' but needs to be a separate token so we can make it a link
+msgctxt "Single Place Hotel Offers Module"
+msgid "official website"
 msgstr ""
 
 # smartling.placeholder_format=C
@@ -9318,12 +10028,6 @@ msgstr ""
 # smartling.placeholder_format=C
 #. Message displayed sometimes at top of results -- in the context of safe search.
 msgid "permanently"
-msgstr ""
-
-# smartling.placeholder_format=C
-#. End of message telling users their precise geolocation remains private. Links to https://help.duckduckgo.com/duckduckgo-help-pages/privacy/anonymous-localized-results/
-msgctxt "local_query_rewrite_experiment"
-msgid "private"
 msgstr ""
 
 # smartling.placeholder_format=C

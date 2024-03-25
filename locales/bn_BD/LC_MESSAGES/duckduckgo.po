@@ -21,6 +21,11 @@ msgstr ""
 msgid "!Bang Search Shortcuts"
 msgstr ""
 
+#. Used to specify the rank of a team/player in a specific ranking in short form. This should be interpreted as 'Ranked number <rankNumber> in the <rankingName> ranking. Here you only need to translate the # symbol for ranked number. If your language doesn't provide a single-letter convention, please leave #.
+msgctxt "Sports module"
+msgid "#%s %s"
+msgstr ""
+
 #. Heading for the table column indicating what percent of the population is fully vaccinated
 msgctxt "Covid 19 module"
 msgid "% Fully Vaccinated"
@@ -31,9 +36,9 @@ msgctxt "Covid 19 module"
 msgid "% Vaccinated"
 msgstr ""
 
-#. The total number of searches that have been made on DuckDuckGo. The placeholder is a number.
-msgctxt "SERP footer content"
-msgid "%s Billion Searches"
+#. In the context of an NHL (hockey) game, indicates in which intermission (break between game periods) an in-progress game is currently in. The number is in ordinal form (e.g. 1st), localized separately. The combination results in e.g. 1st Intermission, 4th Intermission
+msgctxt "Sports module"
+msgid "%s Intermission"
 msgstr ""
 
 #. Indicates the number of players who are out in Baseball, e.g. '3 Out'
@@ -54,6 +59,10 @@ msgstr ""
 #. Number of tracking attempts blocked, when there is more than 1. Eg: '2 attempts' or '302 attempts'
 msgctxt "tracker_stats"
 msgid "%s attempts"
+msgstr ""
+
+#. A summary description of how many tracking attempts where blocked, when there was more than 1. Eg: '1,028 attempts blocked by DuckDuckGo in the last 24 hours'
+msgid "%s attempts blocked by DuckDuckGo in the last 24 hours"
 msgstr ""
 
 #. A label that indicates a specific search result has been blocked by the safe search filter. The placeholder value is the name of the search result that was blocked.
@@ -95,6 +104,11 @@ msgstr "%s মাইল"
 #. Label next to a user review. The placeholders are the user name and the review website. For example: 'John on TripAdvisor'
 msgctxt "maps_places"
 msgid "%s on %s"
+msgstr ""
+
+#. Empty state message to indicate that there are no rankings for a particular ranking yet. For example, for college football, the CFP ranking is typically not released until halfway through the season.
+msgctxt "Sports module"
+msgid "%s rankings are not yet available"
 msgstr ""
 
 #. The main headline indicating that more than 1 attempt has been blocked. Eg: '2 tracking attempts blocked'
@@ -157,6 +171,10 @@ msgstr "সার্চ বারে %sরাইট ক্লিক%s করু�
 #. Number of tracking attempts blocked, when there's only 1
 msgctxt "tracker_stats"
 msgid "1 attempt"
+msgstr ""
+
+#. A summary description of how many tracking attempts where blocked, when only one exists.
+msgid "1 attempt blocked by DuckDuckGo in the last 24 hours"
 msgstr ""
 
 #. We realise this is the incorrect way to handle plurals. Sorry, we are working on a fix.
@@ -316,6 +334,26 @@ msgstr ""
 #. https://duckduckgo.com/params in the end under " Source:"
 msgid "A string to identify the source."
 msgstr "একটি স্ট্রিং উৎস চিহ্নিত করা"
+
+#. Page title for a ChatGPT-like chat bot feature. Translation should include the equivalent term for AI (Artificial Intelligence). It's ok to leave it in English if that's the expectation in your language.
+msgctxt "Page title in browser tab"
+msgid "AI Chat"
+msgstr ""
+
+#. Abbreviation for 'American League Championship Series', the title of the divisional championship series for the American League division of Major League Baseball
+msgctxt "Sports module"
+msgid "ALCS"
+msgstr ""
+
+#. Abbreviation for 'American League Division Series', the title of the divisional semi-final series for the American League division of Major League Baseball
+msgctxt "Sports module"
+msgid "ALDS"
+msgstr ""
+
+#. Abbreviation for 'American League Wild Card Series', the title of the divisional runner-up series for the American League Division in Major League Baseball.
+msgctxt "Sports module"
+msgid "ALWC"
+msgstr ""
 
 msgctxt "settings"
 msgid "ATB Dismiss"
@@ -586,6 +624,21 @@ msgctxt "settingsvalue"
 msgid "Always play on DuckDuckGo"
 msgstr "সবসময় DuckDuckGo-তে চলবে"
 
+#. Title of the divisional championship series for the American League division of Major League Baseball
+msgctxt "Sports module"
+msgid "American League Championship Series"
+msgstr ""
+
+#. Title of the divisional semi-final series for the American League division of Major League Baseball
+msgctxt "Sports module"
+msgid "American League Division Series"
+msgstr ""
+
+#. Title of the divisional runner-up series for the American League Division in Major League Baseball.
+msgctxt "Sports module"
+msgid "American League Wild Card Series"
+msgstr ""
+
 #. The name of the Amharic language
 msgctxt "language_name"
 msgid "Amharic"
@@ -702,6 +755,11 @@ msgctxt "homepage ATB modal"
 msgid "At DuckDuckGo, we agree."
 msgstr ""
 
+#. In the context of the National Hockey League (NHL), label for teams belonging to the Atlantic division
+msgctxt "Sports module"
+msgid "Atlantic"
+msgstr ""
+
 msgid "Audio"
 msgstr "অডিও"
 
@@ -796,6 +854,11 @@ msgctxt "theme"
 msgid "Basic"
 msgstr "বেসিক"
 
+#. The name of the Basque language
+msgctxt "language_name"
+msgid "Basque"
+msgstr ""
+
 msgid "Belgium"
 msgstr ""
 
@@ -850,8 +913,14 @@ msgstr ""
 msgid "Block Trackers"
 msgstr ""
 
-msgctxt "reasons-to-use-duckduckgo"
-msgid "Block advertising trackers."
+#. Item in a list of features of a desktop web browser
+msgctxt "Browser Promo Popover"
+msgid "Block annoying cookie pop-ups"
+msgstr ""
+
+#. DuckDuckGo Email Protection offers the ability to generate random email addresses to protect your personal email address
+msgctxt "SERP footer content"
+msgid "Block email trackers and hide your address."
 msgstr ""
 
 msgctxt "homepage ATB modal"
@@ -869,6 +938,21 @@ msgstr ""
 #. Part of a list of what our app can do. The app can: …
 msgctxt "welcome message eu search preference android"
 msgid "Block unsafe trackers"
+msgstr ""
+
+#. Used as a toggle label in a page customization menu
+msgctxt "customizer_menu"
+msgid "Blocked Tracking Attempts"
+msgstr ""
+
+#. Header above a list of trackers (or tracking companies) that have been blocked in the past 24 hours.
+msgctxt "tracker_stats"
+msgid "Blocked by DuckDuckGo in the last 24 hours"
+msgstr ""
+
+#. Header above a list of trackers (or tracking companies) that have been blocked in the past hour.
+msgctxt "tracker_stats"
+msgid "Blocked by DuckDuckGo in the last hour"
 msgstr ""
 
 #. Given as an option to select when providing feedback
@@ -963,6 +1047,14 @@ msgid ""
 "%smajor browsers%s."
 msgstr ""
 
+#. Sidebar heading displayed above links to DuckDuckGo apps (our 'browser') on platforms such as iOS, Android, Windows, MacOS, and more.
+msgid "Browser Downloads"
+msgstr ""
+
+#. Refers to DuckDuckGo's web extension available on browsers like Chrome, Firefox, etc.
+msgid "Browser Extensions"
+msgstr ""
+
 #. Message indicating that the user's current location isn't available.
 msgctxt "precise_user_location"
 msgid "Browser Location Unavailable"
@@ -971,6 +1063,10 @@ msgstr ""
 #. Label for a menu that lets users select the language for their browser.
 msgctxt "settingsvalue"
 msgid "Browser Preferred Language"
+msgstr ""
+
+msgctxt "settings"
+msgid "Browser Promo Dismissed"
 msgstr ""
 
 #. Label for a menu that lets users select the language for their browser.
@@ -1043,7 +1139,32 @@ msgctxt "language_name"
 msgid "Cantonese (Traditional)"
 msgstr ""
 
+#. Category of feedback for a car advertisement a user can select on a feedback form.
+msgctxt "feedback form for car ads"
+msgid "Car ad content is deceptive"
+msgstr ""
+
+#. Category of feedback for a car advertisement a user can select on a feedback form.
+msgctxt "feedback form for car ads"
+msgid "Car ads aren't relevant"
+msgstr ""
+
+#. Category of feedback for a car advertisement a user can select on a feedback form. Here we mean the location for the car ad, i.e. buy car in New York while the user is in London.
+msgctxt "feedback form for car ads"
+msgid "Car location is wrong"
+msgstr ""
+
+#. Category of feedback for a car advertisement a user can select on a feedback form.
+msgctxt "feedback form for car ads"
+msgid "Car pricing is misleading"
+msgstr ""
+
 msgid "Careers"
+msgstr ""
+
+#. Text of a button that performs a search for the cast of a particular movie or tv show
+msgctxt "Movie/TV Show Title instant answer"
+msgid "Cast"
 msgstr ""
 
 #. The name of the Catalan language
@@ -1062,6 +1183,11 @@ msgstr "বিভাগ"
 msgctxt "settings"
 msgid "Center Alignment"
 msgstr "কেন্দ্র প্রান্তিককরণ"
+
+#. In the context of the National Hockey League (NHL), label for teams belonging to the Central division
+msgctxt "Sports module"
+msgid "Central"
+msgstr ""
 
 #. This is the description of a user setting -- Example image: https://i.imgur.com/yihFekW.png
 msgctxt "settings"
@@ -1093,6 +1219,11 @@ msgstr ""
 msgctxt "settings"
 msgid "Changes the background color when hovering over a result"
 msgstr "রেজাল্টের ওপর মাউস কার্সর আনার সময় যে ব্যাকগ্রাউন্ড রঙ আসে সেটা পরিবর্তন করে"
+
+#. Description of a setting managing the color of search result snippet text.
+msgctxt "settings"
+msgid "Changes the color of descriptive content shown for results"
+msgstr ""
 
 #. This is the description of a user setting
 msgctxt "settings"
@@ -1140,6 +1271,26 @@ msgctxt "settings"
 msgid "Changes the language across the entire site"
 msgstr "সাইটের ভাষা পরিবর্তন করে"
 
+#. Description of a setting.
+msgctxt "settings"
+msgid "Changes the language for buttons and other display text."
+msgstr ""
+
+#. Description of a setting managing the UI language.
+msgctxt "settings"
+msgid "Changes the language for elements like buttons, settings, and labels"
+msgstr ""
+
+#. Description of a setting managing the search result region (country).
+msgctxt "settings"
+msgid "Changes the preferred region for search results"
+msgstr ""
+
+#. Description of a setting that changes the prefer region for search results. Region here is meant to mean Country.
+msgctxt "settings"
+msgid "Changes the preferred region for search results."
+msgstr ""
+
 #. http://i.imgur.com/auITACf.png
 msgctxt "settings"
 msgid "Changes what happens when you click on a video thumbnail"
@@ -1153,19 +1304,19 @@ msgstr ""
 msgid "Chat"
 msgstr "চ্যাট করুন"
 
+#. Will be used as a tab label to switch to the AI Chat bot feature similar to ChatGPT. Translation should not include the word AI (Artificial Intelligence). It's ok to leave it in English if that's the expectation in your language.
+msgctxt "Name in duckbar tab"
+msgid "Chat"
+msgstr ""
+
+#. Message shown when we have no data from upstream to display
+msgctxt "Single Place Hotel Offers Module"
+msgid "Check %s for rates and availability."
+msgstr ""
+
 #. Tells users where in the settings menu they can change their default search engine.
 msgid "Check %sMake this the current search engine%s"
 msgstr "%sMake this the current search engine%s চেকবক্সে চেক দিন"
-
-#. Link to a page with more information about internet privacy.
-msgctxt "SERP footer content"
-msgid "Check out our privacy device guides."
-msgstr ""
-
-#. A link to information about privacy on different kinds of devices, for example, phones, laptops, or tablets.
-msgctxt "showcase_privacy"
-msgid "Check out our privacy device guides."
-msgstr ""
 
 #. A label above a list of other applications DuckDuckGo has made.
 msgctxt "showcase_aria_label"
@@ -1669,10 +1820,6 @@ msgctxt "video-license"
 msgid "Creative Commons"
 msgstr ""
 
-msgctxt "attribution"
-msgid "Credits"
-msgstr "স্বীকৃতি"
-
 msgid "Croatia"
 msgstr ""
 
@@ -1730,6 +1877,18 @@ msgstr ""
 msgid "Custom date range"
 msgstr ""
 
+#. Used as a button label. When clicked, it opens a menu.
+msgid "Customize"
+msgstr ""
+
+#. The heading of a modal that's shown to a user when they ask to customize the page's components. The 'New Tab Page' is the page shown when a user opens a new empty tab in their browser.
+msgid "Customize New Tab Page"
+msgstr ""
+
+#. The help text shown to users to indicate that there's a menu that can be used to customize the layout of the page
+msgid "Customize this page"
+msgstr ""
+
 #. The name of the Czech language
 msgctxt "language_name"
 msgid "Czech"
@@ -1741,6 +1900,10 @@ msgstr ""
 #. Indicates this is the number of draws for this team in e.g. soccer
 msgctxt "Sports module"
 msgid "D"
+msgstr ""
+
+msgctxt "settings"
+msgid "DC: preferred"
 msgstr ""
 
 #. The name of the Danish language
@@ -1834,10 +1997,6 @@ msgctxt "translations_module"
 msgid "Detect language"
 msgstr ""
 
-#. in the Homepage( javasript enabled) in the bottom right. By clicking the "More" button. Under "COMMUNITY" header
-msgid "Develop"
-msgstr "ডেভেলপ"
-
 msgctxt "attribution"
 msgid "Developer"
 msgstr "প্রস্তুতকারক"
@@ -1868,16 +2027,22 @@ msgstr ""
 msgid "Disable"
 msgstr "নিস্ক্রিয় করুন"
 
-msgctxt "SERP footer content"
-msgid "Discover shortcuts to go to search results on other sites."
-msgstr ""
-
 #. This appears on a button that a user clicks to close a notification.
 msgid "Dismiss"
 msgstr "বন্ধ করুন"
 
+#. A button to dismiss seeing the banner altogether
+msgctxt "Update browser banner"
+msgid "Dismiss and Hide Banner"
+msgstr ""
+
 #. This appears on a button that a user clicks to close a notification, and choose to never see that notification again.
 msgid "Dismiss forever"
+msgstr ""
+
+#. Name of a setting that controls the language of the user interface.
+msgctxt "settings"
+msgid "Display Language"
 msgstr ""
 
 #. This is the description of a user setting
@@ -1910,9 +2075,10 @@ msgctxt "settingsvalue"
 msgid "Domains Only"
 msgstr ""
 
-msgctxt "SERP footer content"
-msgid "Don't Track Us"
-msgstr "আমাদের কার্যকলাপ অনুসরণ করা বন্ধ করুন"
+#. A button to dismiss seeing the banner altogether
+msgctxt "Update browser banner"
+msgid "Don't Remind Me"
+msgstr ""
 
 #. A setting for the safe search filter that doesn't remove content inappropriate for children.
 msgctxt "safe search"
@@ -1937,12 +2103,23 @@ msgstr ""
 msgid "Don't see the checkbox? %sFollow these steps%s."
 msgstr ""
 
-msgctxt "SERP footer content"
-msgid "Donating for Privacy"
+#. Setting that hides a user's most visited sites when they open a new browser tab.
+msgctxt "new tab page"
+msgid "Don't show"
 msgstr ""
 
 msgctxt "precise_user_location"
 msgid "Done"
+msgstr ""
+
+#. Text of a button that will install the DuckDuckGo browser when clicked
+msgctxt "Browser Promo Popover"
+msgid "Download Browser"
+msgstr ""
+
+#. Text of a button that will install the DuckDuckGo browser when clicked
+msgctxt "Browser Promo Popover"
+msgid "Download DuckDuckGo Browser"
 msgstr ""
 
 #. Button that downloads a file.
@@ -1990,6 +2167,10 @@ msgstr ""
 msgid "DuckDuckGo Bot"
 msgstr "ডাকডাকগো বট"
 
+#. Link label for DuckDuckGo 'App' page (https://duckduckgo.com/app)
+msgid "DuckDuckGo Browser"
+msgstr ""
+
 #. by opening https://duckduckgo.com/api it shows in the window title
 msgid "DuckDuckGo Instant Answer API"
 msgstr "DuckDuckGo তাৎক্ষণিক উত্তরের API"
@@ -2005,6 +2186,15 @@ msgstr "ডাকডাকগো নতুন !Bang"
 #, fuzzy
 msgid "DuckDuckGo Privacy"
 msgstr "ডাকডাকগো গোপনীয়তা"
+
+#. Links to a page that provides a list of DuckDuckGo product updates
+msgctxt "SERP footer content"
+msgid "DuckDuckGo Releases"
+msgstr ""
+
+#. Sidebar subheading with links to DuckDuckGo homepage, Settings, and more.
+msgid "DuckDuckGo Search"
+msgstr ""
 
 #  Marked fuzzy because of translated trademark
 #. Inside your browser title bar or tab title when visiting the <a href="https://duckduckgo.com/search_box.html">search box page</a>.
@@ -2045,6 +2235,16 @@ msgid ""
 "use it to improve results for that search, and then we promptly throw it "
 "away, such that you remain anonymous. %sLearn more about how we designed "
 "this technology to protect your privacy%s."
+msgstr ""
+
+msgctxt "new tab page"
+msgid "DuckDuckGo never has access to this data."
+msgstr ""
+
+msgctxt ""
+"Appears in the tooltip of the privacy reminder that may appear in the search "
+"filter bar"
+msgid "DuckDuckGo never tracks your searches."
 msgstr ""
 
 msgctxt "settings"
@@ -2165,6 +2365,11 @@ msgctxt "welcome message"
 msgid "Encrypts connections when possible"
 msgstr ""
 
+#. In the context of the clock of a sports game, indicates that a game period is over and we are on a break. E.g. 'End of 1st', 'End of OT' where 1st would be 1st period, and OT would be an overtime period
+msgctxt "Sports module"
+msgid "End of %s"
+msgstr ""
+
 msgid "England"
 msgstr ""
 
@@ -2250,9 +2455,9 @@ msgctxt "cloudsave"
 msgid "Enter your passphrase to load your settings."
 msgstr ""
 
-#. Link to a page with information about how other companies use user data to control what their users see online.
-msgctxt "SERP footer content"
-msgid "Escape The Filter Bubble"
+#. Body text in a popover encouraging the user to try the DuckDuckGo browser
+msgctxt "Browser Promo Popover"
+msgid "Erase your browsing data in a flash with our %sFire Button%s"
 msgstr ""
 
 msgid "Estonia"
@@ -2278,6 +2483,16 @@ msgctxt "Report image modal"
 msgid "Explicit content"
 msgstr ""
 
+#. Links to a page that provides a list of DuckDuckGo product updates
+msgctxt "SERP footer content"
+msgid "Explore DuckDuckGo's latest product and feature updates."
+msgstr ""
+
+#. Links to a page that provides a list of DuckDuckGo product updates
+msgctxt "SERP footer content"
+msgid "Explore DuckDuckGo's latest product updates."
+msgstr ""
+
 #. Link to a page where users can download the DuckDuckGo browser extension and other products.
 msgid "Extensions & More"
 msgstr "এক্সটেনশন এবং আরো অনেক কিছু"
@@ -2287,14 +2502,29 @@ msgctxt "size"
 msgid "Extra Large"
 msgstr ""
 
+#. Title for the FIFA Women's World Cup. Please keep it short and generic (without year nor location), and keep FIFA in it.
+msgctxt "Sports module"
+msgid "FIFA Women's World Cup"
+msgstr ""
+
 #. Title for the FIFA World Cup. Please keep it short and generic (without year nor location), and keep FIFA in it.
 msgctxt "Sports module"
 msgid "FIFA World Cup"
 msgstr ""
 
+#. For some rankings of sports leagues where each team/player is evaluated by pollsters, the ranking results specify the number of pollsters that voted for a team/player to be first place in the rankings. It stands for First Place Votes. Feel free to leave in English unless there's an obvious alternative in your language.
+msgctxt "Sports module"
+msgid "FPV"
+msgstr ""
+
 #. Full-time (match has ended) indicator in a soccer match
 msgctxt "Sports module"
 msgid "FT"
+msgstr ""
+
+#. Tagline in a promotion for a desktop web browser
+msgctxt "Browser Promo Popover"
+msgid "Fast. Secure. Free."
 msgstr ""
 
 #. Label for driving directions with the least amount of travel time.
@@ -2393,17 +2623,17 @@ msgctxt "precise_user_location"
 msgid "Find results closer to you."
 msgstr ""
 
-#. Link to a page with information about how to use advanced web search features.
-msgctxt "SERP footer content"
-msgid "Fine-tune Your Search"
-msgstr ""
-
 msgid "Finland"
 msgstr ""
 
 #. The name of the Finnish language
 msgctxt "language_name"
 msgid "Finnish"
+msgstr ""
+
+#. For some rankings of sports leagues where each team/player is evaluated by pollsters, the ranking results specify the number of pollsters that voted for a team/player to be first place in the rankings. Feel free to leave in English unless there's an obvious alternative in your language.
+msgctxt "Sports module"
+msgid "First Place Votes"
 msgstr ""
 
 #. Instant Answer Tab Name
@@ -2443,6 +2673,16 @@ msgstr ""
 msgid "France"
 msgstr ""
 
+#. Indicates that there is no cost to download DuckDuckGo's browser.
+msgctxt "Browser Promo Popover"
+msgid "Free"
+msgstr ""
+
+#. Indicates that this streaming service is free (no cost) to watch
+msgctxt "Where to watch instant answer"
+msgid "Free"
+msgstr ""
+
 #. a filter for images with the CC BY-NC usage license
 msgctxt "image-licence"
 msgid "Free to Modify, Share, and Use"
@@ -2461,6 +2701,11 @@ msgstr ""
 #. a filter for images with the CC BY-ND usage license
 msgctxt "image-licence"
 msgid "Free to Share and Use Commercially"
+msgstr ""
+
+#. Indicates that this streaming service is free to watch but shows ads
+msgctxt "Where to watch instant answer"
+msgid "Free with ads"
 msgstr ""
 
 #. Description of the daily/hourly weather condition, as returned from the (WeatherKit) API
@@ -2503,6 +2748,23 @@ msgctxt "Weather IA"
 msgid "Frigid"
 msgstr ""
 
+#. Indicates that prices for this product/service start from this value, e.g. From $4.99
+msgid "From %s"
+msgstr ""
+
+#. Indicates that prices for this movie on this streaming service start from this value, e.g. From $4.99
+msgctxt "Where to watch instant answer"
+msgid "From %s"
+msgstr ""
+
+#. Instructions to update the macOS browser. The parts within tags come from the OS itself and must be translated as in the OS itself if possible. Otherwise, make a best effort.
+msgctxt "Update browser banner"
+msgid ""
+"From the app menu bar on Mac, select <strong>DuckDuckGo</strong> > "
+"<strong>Check for Updates...</strong>, then select <strong>Install Update</"
+"strong>."
+msgstr ""
+
 #. This is an option for a user setting. It refers to showing the full URL for a website, including the url path, but made to look like the breadcrumbs of a website (e.g. website.com > this > is > the > path) -- Example image: https://i.imgur.com/roiQBYz.png
 msgctxt "settingsvalue"
 msgid "Full URLs (Breadcrumbs)"
@@ -2538,6 +2800,11 @@ msgctxt "Sports module"
 msgid "GF"
 msgstr ""
 
+#. In the context of a standings table for NHL (hockey), column title that abbreviates 'Games Played' (the number of games lost during overtime of this team)
+msgctxt "Sports module"
+msgid "GP"
+msgstr ""
+
 #. Text indicating the game number
 msgctxt "Sports module"
 msgid "Game %s"
@@ -2559,6 +2826,11 @@ msgstr ""
 #. Indicates this is the gap between a leading team and another team (https://en.wikipedia.org/wiki/Games_behind)
 msgctxt "Sports module"
 msgid "Games Behind"
+msgstr ""
+
+#. In the context of a standings table for NHL (hockey), indicates the total number of games a team has played in total
+msgctxt "Sports module"
+msgid "Games Played"
 msgstr ""
 
 #. Header above a list of search settings.
@@ -2587,26 +2859,32 @@ msgctxt "maps_maps_module"
 msgid "Get Directions"
 msgstr ""
 
-#. Link to a page where users can select the color scheme of their search engine.
-msgctxt "SERP footer content"
-msgid "Get New Themes"
-msgstr ""
-
 #. The title of a page where users can download the DuckDuckGo app or browser extension.
 msgctxt "showcase_app"
 msgid "Get Our App & Extension"
+msgstr ""
+
+#. 'Get' refers to downloading our free browser app
+msgctxt "SERP footer content"
+msgid "Get Our Browser"
 msgstr ""
 
 msgctxt "showcase_privacy"
 msgid "Get Privacy Tips"
 msgstr ""
 
+#. Find answers to common problems in our help documentation
 msgctxt "SERP footer content"
-msgid "Get Started at Duck.com"
+msgid "Get answers at DuckDuckGo Help."
 msgstr ""
 
 msgid ""
 "Get seamless privacy protection on your browser for free with one download:"
+msgstr ""
+
+#. This button will open a dialog that explains how to update the browser version manually
+msgctxt "Update browser banner"
+msgid "Get the Latest Version"
 msgstr ""
 
 #. Label for links to appropriate local health authorities
@@ -2622,10 +2900,6 @@ msgstr "জাভাস্ক্রিপ্ট ছাড়া ভার্শন�
 msgctxt "access_song"
 msgid "Get this song on:"
 msgstr "এই গানটি পাবেনঃ"
-
-msgctxt "SERP footer content"
-msgid "Get to DuckDuckGo faster. Share duck.com with your friends."
-msgstr ""
 
 msgctxt "spread_badge"
 msgid "Get your friends to switch and help us grow!"
@@ -2745,6 +3019,9 @@ msgctxt "Weather IA"
 msgid "Hail"
 msgstr ""
 
+msgid "Haiti"
+msgstr ""
+
 #. The name of the Haitian Creole language
 msgctxt "language_name"
 msgid "Haitian Creole"
@@ -2753,6 +3030,11 @@ msgstr ""
 #. Halftime in a game (like American football or basketball)
 msgctxt "Sports module"
 msgid "Halftime"
+msgstr ""
+
+#. Querying the user if they need assistance
+msgctxt "SERP footer content"
+msgid "Have Questions?"
 msgstr ""
 
 #. Description of the daily/hourly weather condition, as returned from the (WeatherKit) API
@@ -2867,6 +3149,11 @@ msgctxt "directions"
 msgid "Hide Steps"
 msgstr ""
 
+#. Item in a list of features of a desktop web browser
+msgctxt "Browser Promo Popover"
+msgid "Hide your email address"
+msgstr ""
+
 msgctxt "settings"
 msgid "Hides search term from being shown in browser tab/history"
 msgstr ""
@@ -2943,11 +3230,6 @@ msgstr ""
 #. This is the name of a user setting
 msgctxt "settings"
 msgid "Hover, Module, and Dropdown Background Color"
-msgstr ""
-
-#. Link to a page with information about how DuckDuckGo makes money without sacrificing privacy.
-msgctxt "SERP footer content"
-msgid "How We Are Profitable"
 msgstr ""
 
 #. Header above an explanation of how to change a passphrase.
@@ -3077,6 +3359,10 @@ msgstr ""
 msgid "Images"
 msgstr "ছবিগুলো"
 
+#. Title for the section that showcases the image results for a certain query, ex. Images for <b>beach</b>
+msgid "Images for %s%s%s"
+msgstr ""
+
 #. This is the description of a user setting -- Example image: https://i.imgur.com/IqBhHpM.png
 msgctxt "settings"
 msgid ""
@@ -3170,9 +3456,34 @@ msgctxt "settings"
 msgid "Install DuckDuckGo"
 msgstr ""
 
+#. Text of a button to install the DuckDuckGo web browser for Mac
+msgctxt "Browser Promo Popover"
+msgid "Install DuckDuckGo Mac Browser"
+msgstr ""
+
 #. Link to add the DuckDuckGo browser extension to Safari.
 msgid "Install DuckDuckGo Safari Extension?"
 msgstr "DuckDuckGo Safari Extension ইন্সটল করুন ?"
+
+#. Text of a button to install the DuckDuckGo web browser for Mac
+msgctxt "Browser Promo Popover"
+msgid "Install DuckDuckGo for Mac"
+msgstr ""
+
+#. Text of a button to install the DuckDuckGo web browser for Windows
+msgctxt "Browser Promo Popover"
+msgid "Install DuckDuckGo for Windows"
+msgstr ""
+
+#. Text of a button to install the DuckDuckGo web browser for Mac
+msgctxt "Sidemenu browser promo"
+msgid "Install Mac Browser"
+msgstr ""
+
+#. Text of a button to install the DuckDuckGo web browser for Windows
+msgctxt "Sidemenu browser promo"
+msgid "Install Windows Browser"
+msgstr ""
 
 #. in https://duckduckgo.com/api/, topmost header
 msgid "Instant Answer API"
@@ -3251,9 +3562,6 @@ msgstr ""
 msgid "Italy"
 msgstr ""
 
-msgid "Items"
-msgstr ""
-
 #. Tooltip above a list of products, clarifying the nature of the listing and that DuckDuckGo is not compensated for clicks on these products.
 msgid ""
 "Items are ranked based on relevance to your search terms and are delivered "
@@ -3266,6 +3574,9 @@ msgctxt "cloudsave"
 msgid ""
 "It’s easier to remember 4-5 words than 10 random letters and numbers, and "
 "far more secure."
+msgstr ""
+
+msgid "Jamaica"
 msgstr ""
 
 msgid "Japan"
@@ -3309,10 +3620,6 @@ msgstr ""
 
 msgctxt "homepage ATB modal"
 msgid "Keep your search history private"
-msgstr ""
-
-msgctxt "reasons-to-use-duckduckgo"
-msgid "Keep your search history private."
 msgstr ""
 
 #. Section heading (for right column).
@@ -3444,16 +3751,6 @@ msgctxt "frontpage"
 msgid "Learn %sMore%s"
 msgstr "আরো %s জানুন %s"
 
-#. Information on DuckDuckGo's search shortcut feature, called 'Bangs'
-msgctxt "SERP footer content"
-msgid "Learn About Bangs"
-msgstr ""
-
-#. Link to a page with more information about DuckDuckGo.
-msgctxt "SERP footer content"
-msgid "Learn About DuckDuckGo"
-msgstr ""
-
 #. A link to the DuckDuckGo browser extension on the Firefox Add-ons Store
 msgctxt "homepage ATB modal"
 msgid "Learn More at Firefox Add-Ons"
@@ -3461,25 +3758,6 @@ msgstr ""
 
 msgctxt "showcase_newsletter"
 msgid "Learn about online privacy right in your inbox."
-msgstr ""
-
-msgctxt "SERP footer content"
-msgid "Learn how to protect your privacy."
-msgstr ""
-
-#. Link to a page with information about how to use advanced web search features.
-msgctxt "SERP footer content"
-msgid "Learn how to search like the pros."
-msgstr ""
-
-#. Link to a page with more information about DuckDuckGo's privacy protections.
-msgctxt "SERP footer content"
-msgid "Learn how we're dedicated to keeping you safe online."
-msgstr ""
-
-#. Link to a page with information about switching from using Google's search engine to DuckDuckgo.
-msgctxt "SERP footer content"
-msgid "Learn how you can free yourself from Google for good."
 msgstr ""
 
 msgctxt "SERP footer content"
@@ -3517,6 +3795,11 @@ msgstr "হালকা নীল"
 #. Discontinued, don't translate
 msgid "Light green"
 msgstr "হালকা সবুজ"
+
+#. Description of a setting managing the length of search result snippet text.
+msgctxt "settings"
+msgid "Limits the amount of descriptive content shown for results"
+msgstr ""
 
 #. i.e. a type of image comprised of lines without gradiations in shade or hue
 msgctxt "image-type"
@@ -3751,6 +4034,11 @@ msgctxt "Sports module"
 msgid "Matchups"
 msgstr ""
 
+#. Name of a setting managing the length of search result snippet text.
+msgctxt "settings"
+msgid "Max Snippet Length"
+msgstr ""
+
 #. Button that dismisses a message.
 msgctxt "precise_user_location"
 msgid "Maybe later"
@@ -3789,6 +4077,11 @@ msgstr "মেট্রিক সিস্টেম (কিলোগ্রাম
 
 msgctxt "settingsvalue"
 msgid "Metric (kilograms, meters, Celsius)"
+msgstr ""
+
+#. In the context of the National Hockey League (NHL), label for teams belonging to the Metropolitan division
+msgctxt "Sports module"
+msgid "Metropolitan"
 msgstr ""
 
 msgid "Mexico"
@@ -3945,6 +4238,11 @@ msgstr "DuckDuckGo তে %s যোগ করার অন্যান্য উ
 msgid "Morocco"
 msgstr ""
 
+#. Used as a toggle label in a page customization menu
+msgctxt "new tab page"
+msgid "Most-Visited Sites"
+msgstr ""
+
 #. Used when presented as an option in a feedback form
 msgctxt "new tab page"
 msgid "Most-visited sites"
@@ -3995,14 +4293,53 @@ msgctxt "forecast"
 msgid "NE"
 msgstr ""
 
+#. Indicates a new product or feature release
+msgid "NEW"
+msgstr ""
+
+#. Abbreviation for 'National League Championship Series', the title of the divisional championship series for the National League division of Major League Baseball
+msgctxt "Sports module"
+msgid "NLCS"
+msgstr ""
+
+#. Abbreviation for 'National League Division Series', the title of the divisional semi-final series for the National League division of Major League Baseball
+msgctxt "Sports module"
+msgid "NLDS"
+msgstr ""
+
+#. Abbreviation for 'National League Wild Card Series', the title of the divisional runner-up series for the National League Division in Major League Baseball.
+msgctxt "Sports module"
+msgid "NLWC"
+msgstr ""
+
 #. NPM = node.js package manager.
 #. e.g. https://duckduckgo.com/?q=npm+packages
 msgid "NPM"
 msgstr ""
 
+#. For teams that are newly ranked and have no previous rank and therefore no trend, this abbreviation stands for 'not previously ranked' or 'newly ranked'.  Feel free to leave in English unless there's an obvious alternative in your language.
+msgctxt "Sports module"
+msgid "NR"
+msgstr ""
+
 #. Abbreviation for 'Northwest'
 msgctxt "forecast"
 msgid "NW"
+msgstr ""
+
+#. Title of the divisional championship series for the National League division of Major League Baseball
+msgctxt "Sports module"
+msgid "National League Championship Series"
+msgstr ""
+
+#. Title of the divisional semi-final series for the National League division of Major League Baseball
+msgctxt "Sports module"
+msgid "National League Division Series"
+msgstr ""
+
+#. Title of the divisional runner-up series for the National League Division in Major League Baseball.
+msgctxt "Sports module"
+msgid "National League Wild Card Series"
 msgstr ""
 
 #. Link to open driving directions in a different maps app. The name of the maps app appears after this string. For example: 'Navigate in Apple Maps'
@@ -4014,10 +4351,6 @@ msgstr ""
 msgctxt "precise_user_location"
 msgid "Navigate to Setting > Apps."
 msgstr ""
-
-#. Used in 0-click box for local results, e.g. <a href="http://duckduckgo.com/?q=black+lab+bistro">http://duckduckgo.com/?q=black+lab+bistro</a>
-msgid "Nearby"
-msgstr "নিকটবর্তী "
 
 #. The name of the Nepali language
 msgctxt "language_name"
@@ -4056,6 +4389,13 @@ msgstr "সংবাদ"
 #. A label that appears above a list of search results from news sites.
 msgid "News Articles"
 msgstr "সংবাদ শিরোনাম"
+
+#. Title for the section that showcases the news results for a certain query, ex. News for <b>elections</b>
+msgid "News for %s%s%s"
+msgstr ""
+
+msgid "Nigeria"
+msgstr ""
 
 msgid "No"
 msgstr "না"
@@ -4139,6 +4479,11 @@ msgctxt "new user poll"
 msgid "No thanks."
 msgstr ""
 
+#. Heading for the tracker/companies list when we have observed trackers, but none in the last 24 hours
+msgctxt "tracker_stats"
+msgid "No trackers blocked in the last 24 hours"
+msgstr ""
+
 #. Heading for the tracker/companies list when we have observed trackers, but none in the last hour
 msgctxt "tracker_stats"
 msgid "No trackers blocked in the last hour"
@@ -4171,6 +4516,9 @@ msgstr "সাধারণ"
 
 msgctxt "Sports module"
 msgid "North"
+msgstr ""
+
+msgid "Northern Ireland"
 msgstr ""
 
 msgid "Norway"
@@ -4225,6 +4573,11 @@ msgstr ""
 #. Abbreviation indicating this is the score for a game that is in overtime, when there are multiple overtime periods. E.g. OT1, OT2, OT3
 msgctxt "Sports module"
 msgid "OT%s"
+msgstr ""
+
+#. In the context of a standings table for NHL (hockey), column title that abbreviates 'Overtime Losses' (the number of games lost during overtime of this team)
+msgctxt "Sports module"
+msgid "OTL"
 msgstr ""
 
 #. The name of the Odia language
@@ -4453,6 +4806,10 @@ msgctxt "feedback form"
 msgid "Other"
 msgstr ""
 
+#. Sidemenu subheading displayed above links to resources such as Help, Press Kit, and more.
+msgid "Other Resources"
+msgstr ""
+
 msgctxt "homepage onboarding"
 msgid ""
 "Other search engines track your searches even when you’re in private "
@@ -4480,14 +4837,14 @@ msgctxt "showcase_traffic"
 msgid "Over %s Billion anonymous searches."
 msgstr ""
 
-#. The total amount of donations to privacy-related causes DuckDuckGo has made. The placeholder is a number.
-msgctxt "SERP footer content"
-msgid "Over %s in DuckDuckGo privacy donations."
-msgstr ""
-
 #. Element title explaining this is the win loss record for team, e.g. 10-5
 msgctxt "Sports module"
 msgid "Overall Record"
+msgstr ""
+
+#. In the context of a standings table for NHL (hockey), indicates the number of games lost during overtime of this team
+msgctxt "Sports module"
+msgid "Overtime Losses"
 msgstr ""
 
 #. Label above a general description of a business.
@@ -4498,6 +4855,11 @@ msgstr ""
 #. Placeholder can be Apple Maps, TripAdvisor, or Foursquare
 msgctxt "feedback form"
 msgid "Own this business? Manage on %s"
+msgstr ""
+
+#. For some rankings of sports leagues, each team/player is scored with a certain number of points, and the team with the most points is ranked first. The rubric for how these points get calculated can be different for each ranking type and sport/league. The P stands for Points.  Feel free to leave in English unless there's an obvious alternative in your language.
+msgctxt "Sports module"
+msgid "P"
 msgstr ""
 
 #. The price / earnings multiple for the currently selected stock
@@ -4523,6 +4885,11 @@ msgstr ""
 #. Indicates these are the total points of this team, in e.g. the soccer World Cup
 msgctxt "Sports module"
 msgid "PTS"
+msgstr ""
+
+#. In the context of the National Hockey League (NHL), label for teams belonging to the Pacific division
+msgctxt "Sports module"
+msgid "Pacific"
 msgstr ""
 
 #. Instant Answer Tab Name
@@ -4553,6 +4920,9 @@ msgstr ""
 msgctxt "settings"
 msgid "Page Width"
 msgstr "পৃষ্ঠার প্রস্থ"
+
+msgid "Panama"
+msgstr ""
 
 #. Description of the daily/hourly weather condition, as returned from the (WeatherKit) API
 msgctxt "Weather IA"
@@ -4775,6 +5145,11 @@ msgctxt "Anomaly modal"
 msgid "Please try again"
 msgstr ""
 
+#. A link that will allow users to reload the page.
+msgctxt "noresults"
+msgid "Please try again."
+msgstr ""
+
 #. Indicates these are the total points of this team, in e.g. the soccer World Cup
 msgctxt "Sports module"
 msgid "Points"
@@ -4808,6 +5183,11 @@ msgstr ""
 #. The name of the Portuguese (Portugal) language
 msgctxt "language_name"
 msgid "Portuguese (Portugal)"
+msgstr ""
+
+#. Alt text for the poster image of the movie or TV show, displayed next to it in the instant answer
+msgctxt "Movie/TV Show Title instant answer"
+msgid "Poster image for movie or TV show"
 msgstr ""
 
 #. Indicator that a game has been postponed
@@ -4943,16 +5323,17 @@ msgstr ""
 msgid "Private Search"
 msgstr ""
 
+#. Refers to the DuckDuckGo search engine, which allows users to search the internet privately. Please do translate this string.
+msgctxt "translatable"
+msgid "Private Search"
+msgstr ""
+
 msgid "Private Search Engine"
 msgstr ""
 
 #. The device location shared is is not logged by us
 msgctxt "precise_user_location"
 msgid "Private to us and secured on your device"
-msgstr ""
-
-msgctxt "attribution"
-msgid "Producer"
 msgstr ""
 
 #. Category of feedback a user can select on a feedback form.
@@ -4983,19 +5364,24 @@ msgctxt "settings"
 msgid "Prompt me to use my approximate location to get nearby results."
 msgstr ""
 
-#. Link to a page with information about DuckDuckGo's web browsers and extensions.
+#. DuckDuckGo Email Protection removes trackers from emails
 msgctxt "SERP footer content"
-msgid "Protect Your Devices"
+msgid "Protect Your Inbox"
 msgstr ""
 
-#. The title of a section with links to download the DuckDuckGo app for different smartphone or computer operating systems.
-msgctxt "showcase_privacy"
-msgid "Protect Your Devices"
+#. DuckDuckGo's browser app has features to protect your data by keeping it private
+msgctxt "SERP footer content"
+msgid "Protect your data as you search and browse."
 msgstr ""
 
 #. A title above links to download the DuckDuckGo apps.
 msgctxt "showcase_app"
 msgid "Protect your data on every device."
+msgstr ""
+
+#. In the context of a standings table for NHL (hockey), column title that abbreviates 'Total Points' (the total points of this team)
+msgctxt "Sports module"
+msgid "Pts"
 msgstr ""
 
 #. a filter for images with the CC0 usage license
@@ -5047,17 +5433,17 @@ msgctxt "Weather IA"
 msgid "Rain"
 msgstr ""
 
+#. Used to refer to rankings of a team or player in a sports league. For example, the AP 25 rankings for NCAA college football. Rankings are different than standings (win-loss-tie record) for some sports. Most rankings consider the rank number 1 to be the 'best' team/player in the league.
+msgctxt "Sports module"
+msgid "Rankings"
+msgstr ""
+
 #. Placeholder will be a number. This is used to describe extension rating out of 5 stars.
 msgid "Rated %s/5"
 msgstr ""
 
 #. A button that takes users to another page with additional information.
 msgid "Read More"
-msgstr ""
-
-#. Link to a page with information about Google's data collection and ad targeting practices.
-msgctxt "SERP footer content"
-msgid "Read about how Google influences what people click."
 msgstr ""
 
 #. A label that appears above a list of search results from news sites.
@@ -5071,6 +5457,10 @@ msgstr ""
 #. Label above recipe search results.
 msgid "Recipes"
 msgstr "রেসিপি"
+
+#. Title for the section that showcases the recipe results for a certain query, ex. Recipes for <b>cheescake</b>
+msgid "Recipes for %s%s%s"
+msgstr ""
 
 #. Used for various color settings  query parameters values captions into <a =href="https://duckduckgo.com/params.html">query parameters documentation page</a>.
 msgid "Red"
@@ -5137,6 +5527,11 @@ msgid ""
 "relevant searches. Cached answers always display automatically."
 msgstr ""
 
+#. Indicates that this show (movie, series, etc.) is available to either rent or buy from the given streaming service.
+msgctxt "Where to watch instant answer"
+msgid "Rent or buy"
+msgstr ""
+
 #. A button that appears next to an advertisement, allowing a user to send a report for an advertisment they think is spam.
 msgctxt "ads"
 msgid "Report Ad"
@@ -5170,6 +5565,11 @@ msgstr "সব সেটিংস রিসেট করো"
 msgctxt "settings"
 msgid "Reset All Settings"
 msgstr "সব সেটিংস রিসেট করো"
+
+#. Label on the button for restoring all previous website data.
+msgctxt "new tab page"
+msgid "Restore all"
+msgstr ""
 
 #. http://i.imgur.com/kqN8dPT.png
 msgctxt "settings"
@@ -5248,6 +5648,15 @@ msgstr ""
 #. Abbreviation for 'Southeast'
 msgctxt "forecast"
 msgid "SE"
+msgstr ""
+
+msgctxt "settings"
+msgid "SERP promotion for desktop browsers has been dismissed"
+msgstr ""
+
+#. Abbreviation indicating that a game is in shootouts, e.g. in NHL (hockey)
+msgctxt "Sports module"
+msgid "SO"
 msgstr ""
 
 #. Abbreviation for 'Southwest'
@@ -5329,10 +5738,6 @@ msgctxt "settings"
 msgid "Save your settings anonymously to the cloud"
 msgstr "আপনার সেটিংসমূহ নামহীনভাবে ক্লাউডে সংরক্ষণ করুন"
 
-msgctxt "SERP footer content"
-msgid "Say Goodbye To Google"
-msgstr ""
-
 #. Title of a tab that displays a list of the season schedule for a team
 msgctxt "Sports module"
 msgid "Schedule"
@@ -5345,6 +5750,9 @@ msgstr "স্কোর"
 #. Title of a tab that displays a list of scores for a team
 msgctxt "Sports module"
 msgid "Scores"
+msgstr ""
+
+msgid "Scotland"
 msgstr ""
 
 #. Tells users where in the settings menu they can change their default search engine.
@@ -5446,6 +5854,11 @@ msgstr ""
 msgid "Search only for %s?"
 msgstr ""
 
+#. Item in a list of features of a desktop web browser
+msgctxt "Browser Promo Popover"
+msgid "Search privately and block trackers"
+msgstr ""
+
 msgid ""
 "Search privately with our app or extension, add private web search to your "
 "favorite browser, or search directly at %sduckduckgo.com%s."
@@ -5494,6 +5907,11 @@ msgstr ""
 
 #. A link that loads user-uploaded photos of a location on a map.
 msgid "See Photos"
+msgstr ""
+
+#. Links to a page that provides a list of DuckDuckGo product updates
+msgctxt "SERP footer content"
+msgid "See What's New"
 msgstr ""
 
 #. Click "What is this?" - http://i.imgur.com/KhmRHth.png
@@ -5729,6 +6147,11 @@ msgstr ""
 
 #. Link to a feedback form.
 msgctxt "feedback form"
+msgid "Share feedback for these results."
+msgstr ""
+
+#. Link to a feedback form.
+msgctxt "feedback form"
 msgid "Share feedback for this result."
 msgstr ""
 
@@ -5749,6 +6172,10 @@ msgstr ""
 msgid "Shopping"
 msgstr "কেনাকাটা"
 
+#. Title for the section that showcases the product results for a certain query, ex. Shopping for <b>shoes</b>
+msgid "Shopping for %s%s%s"
+msgstr ""
+
 #. Filters the duration of videos in search results.
 msgctxt "video-duration"
 msgid "Short"
@@ -5756,6 +6183,11 @@ msgstr ""
 
 #. Description of an autocomplete function in the search bar.
 msgid "Shortcuts to other sites to search off DuckDuckGo"
+msgstr ""
+
+#. It's a verb on a button.
+msgctxt "visible"
+msgid "Show"
 msgstr ""
 
 #. button to show X>1 more options in a list
@@ -5783,6 +6215,11 @@ msgctxt "expand_text"
 msgid "Show Less"
 msgstr "কম দেখান"
 
+#. Button that allows user to collapse list of rates and just show up to 4 rates and hide the rest
+msgctxt "Single Place Hotel Offers Module"
+msgid "Show Less Rates"
+msgstr ""
+
 #. Button that displays a list of search results
 msgctxt "mobile expanded map"
 msgid "Show List"
@@ -5796,6 +6233,11 @@ msgstr "আরও দেখান"
 msgctxt "load_more"
 msgid "Show More"
 msgstr "আরো দেখান"
+
+#. Button that allows user to expand list of offers and show more than the displayed ones by default
+msgctxt "Single Place Hotel Offers Module"
+msgid "Show More Rates"
+msgstr ""
 
 msgctxt "new tab page"
 msgid "Show Most-Visited Sites"
@@ -5829,11 +6271,6 @@ msgstr ""
 msgctxt "video-duration"
 msgid "Show videos of any length"
 msgstr ""
-
-#. In the Instant Answers box -> viewing images -> the sentence over the first image. Eg. https://duckduckgo.com/?q=duckduckgo&ia=images
-msgctxt "visible"
-msgid "Showing"
-msgstr "দেখাচ্ছি"
 
 msgid "Showing results excluding"
 msgstr ""
@@ -5907,6 +6344,10 @@ msgid "Similar"
 msgstr "একই"
 
 msgid "Singapore"
+msgstr ""
+
+#. Refers to a feature of the DuckDuckGo web browser, which uses encrypted connections to websites to protect user privacy.
+msgid "Site Encryption"
 msgstr ""
 
 msgctxt "settings"
@@ -5991,6 +6432,11 @@ msgctxt "feedback form"
 msgid "Sorry, we weren’t able to submit your feedback. Please try again later."
 msgstr ""
 
+#. Label for the sorting options on a shopping interface. The options will be translated separately and will be presented as a dropdown menu.
+msgctxt "shopping_vertical"
+msgid "Sort by"
+msgstr ""
+
 #. The source of a piece of information, e.g. Wikipedia
 msgctxt "Q&A module attribution"
 msgid "Source"
@@ -6057,10 +6503,10 @@ msgctxt "Covid 19 module"
 msgid "Statistics"
 msgstr ""
 
-#. Link to a page where the user can subscribe to a newsletter.
+#. Prompt to subscribe to a newsletter.
 msgctxt "SERP footer content"
-msgid "Stay Informed"
-msgstr "জেনে রাখুন"
+msgid "Stay protected and informed with our privacy newsletter."
+msgstr ""
 
 #. Prompt to subscribe to a newsletter.
 msgctxt "SERP footer content"
@@ -6114,6 +6560,11 @@ msgstr "প্রদান করুন"
 #. Button that subscribes the user to an email newsletter.
 msgctxt "email newsletter"
 msgid "Subscribe"
+msgstr ""
+
+#. Indicates that this streaming service requires a subscription
+msgctxt "Where to watch instant answer"
+msgid "Subscription"
 msgstr ""
 
 #. Button that suggests a random passphrase for the user.
@@ -6269,10 +6720,6 @@ msgctxt "homepage ATB modal"
 msgid "Take control of your personal data!"
 msgstr ""
 
-msgctxt "reasons-to-use-duckduckgo"
-msgid "Take control of your personal data."
-msgstr ""
-
 #. Filters the shape of images in search results.
 msgctxt "image-layout"
 msgid "Tall"
@@ -6317,6 +6764,10 @@ msgstr ""
 msgctxt "theme"
 msgid "Terminal"
 msgstr "টার্মিনাল"
+
+#. A link to a terms and conditions page that is one word and is as short as possible
+msgid "Terms"
+msgstr ""
 
 msgid "Terms of Service"
 msgstr ""
@@ -6367,11 +6818,6 @@ msgctxt "settings"
 msgid "The rendering method to use for interactive maps"
 msgstr ""
 
-#. 'Collect-it-all' refers to the practice of data collection by companies such as Google.
-msgctxt "SERP footer content"
-msgid "The world needs an alternative to the collect-it-all business model."
-msgstr ""
-
 #. Title for the theme menu:
 #. https://duck.co/media/files/theme.png
 msgid "Theme"
@@ -6389,6 +6835,18 @@ msgstr "থিম পরিবর্তন করা হয়েছে"
 #. Header above settings that change the color scheme of the search engine.
 msgid "Themes"
 msgstr "থিম"
+
+#. Inform the users that "something" went wrong and we are unable to show any results.
+msgctxt "noresults"
+msgid "There was an error displaying the search results."
+msgstr ""
+
+#. Inform the users that "something" went wrong and discourage the user from immediately reloading the page.
+msgctxt "noresults"
+msgid ""
+"There was still an error displaying the search results. Please wait a few "
+"minutes before you try again."
+msgstr ""
 
 #. Instant Answer Tab Name
 msgid "Thesaurus"
@@ -6558,6 +7016,11 @@ msgctxt "Sports module"
 msgid "Total"
 msgstr ""
 
+#. In the context of a standings table for NHL (hockey), indicates these are the total points of this team
+msgctxt "Sports module"
+msgid "Total Points"
+msgstr ""
+
 #. Indicates this is the total points scored against this team
 msgctxt "Sports module"
 msgid "Total Points Against"
@@ -6575,6 +7038,10 @@ msgctxt "frontpage"
 msgid "Tour"
 msgstr "পরিদর্শন"
 
+#. Refers to the feature of the DuckDuckGo web browser, which blocks websites from tracking users.
+msgid "Tracker Blocking"
+msgstr ""
+
 #. Header above a list of trackers (or tracking companies) that have been blocked in the past hour.
 msgctxt "tracker_stats"
 msgid "Trackers blocked in the last hour"
@@ -6585,10 +7052,17 @@ msgctxt "tracker_stats"
 msgid "Trackers that DuckDuckGo blocks will appear here"
 msgstr ""
 
-#. Part of the sentence: "<b>Translate</b> us."
-msgctxt "translateus"
-msgid "Translate"
-msgstr "অনুবাদ"
+#. Placeholder for when we cannot report any blocked trackers yet
+msgctxt "tracker_stats"
+msgid ""
+"Tracking attempts blocked by DuckDuckGo appear here. Keep browsing to see "
+"how many we block."
+msgstr ""
+
+#. Placeholder for when we cannot report any blocked trackers yet
+msgctxt "tracker_stats"
+msgid "Tracking attempts blocked by DuckDuckGo will appear here"
+msgstr ""
 
 #. Placeholder text for a region that will display translated text.
 msgctxt "translations_module"
@@ -6603,6 +7077,11 @@ msgstr ""
 #. Filters the type of images in search results.
 msgctxt "image-type"
 msgid "Transparent"
+msgstr ""
+
+#. For rankings of sports leagues that come out on a periodic basis such as weekly, this represents the change in the rank of the team/player over that time period. For example, if in week 1 team A was ranked #5 but in week 2 team A was ranked #11, the trend would be -6.
+msgctxt "Sports module"
+msgid "Trend"
 msgstr ""
 
 #. Description of the daily/hourly weather condition, as returned from the (WeatherKit) API
@@ -6658,6 +7137,11 @@ msgstr ""
 #. Prompt for the user to indicate their location on a map, to enable more relevant search results.
 msgctxt "precise_user_location"
 msgid "Try setting your location manually."
+msgstr ""
+
+#. Body text in a popover encouraging the user to try the DuckDuckGo browser
+msgctxt "Browser Promo Popover"
+msgid "Try the %sDuckDuckGo Browser.%s Fast. Free. Private."
 msgstr ""
 
 #. Link to a page where users can download the DuckDuckGo app for iOS or Android.
@@ -6821,6 +7305,11 @@ msgctxt "settings"
 msgid "Underlines result titles"
 msgstr ""
 
+#. Label on the button that allows the previous action to be undone. For example, after removing a website this is shown.
+msgctxt "new tab page"
+msgid "Undo"
+msgstr ""
+
 #. Title of modal shown when we believe a user to be a bot
 msgctxt "Anomaly modal"
 msgid "Unfortunately, bots use DuckDuckGo too."
@@ -6851,9 +7340,34 @@ msgctxt "precise_user_location"
 msgid "Update Location"
 msgstr ""
 
+#. The title of a pop up where we explain how to update the browser manually.
+msgctxt "Update browser banner"
+msgid "Update Your Browser"
+msgstr ""
+
 #. Waiting for the device to send an updated location
 msgctxt "precise_user_location"
 msgid "Updating location..."
+msgstr ""
+
+#. Heading in a promotion for a desktop web browser
+msgctxt "Sidemenu browser promo"
+msgid "Upgrade to our Private Browser"
+msgstr ""
+
+#. Heading in a promotion for a desktop web browser
+msgctxt "Browser Promo Popover"
+msgid "Upgrade to our Private Browser for Mac"
+msgstr ""
+
+#. Heading in a promotion for a desktop web browser
+msgctxt "Browser Promo Popover"
+msgid "Upgrade to our Private Browser for Windows"
+msgstr ""
+
+#. Header for a call to action to install the DuckDuckGo browser
+msgctxt "Browser Promo Popover"
+msgid "Upgrade to our browser."
 msgstr ""
 
 #. Response a user can select in a feedback form, indicating that they want to use DuckDuckGo as their primary search engine.
@@ -6919,6 +7433,10 @@ msgstr "ভিডিও প্লেব্যাক"
 #. Label above video search results.
 msgid "Videos"
 msgstr "ভিডিও সমূহ"
+
+#. Title for the section that showcases the video results for a certain query, ex. Videos for <b>japan</b>
+msgid "Videos for %s%s%s"
+msgstr ""
 
 msgid "Vietnam"
 msgstr ""
@@ -6992,6 +7510,11 @@ msgctxt "Sports module"
 msgid "WCGB"
 msgstr ""
 
+#. Abbreviation for 'World Series', the title of the annual championship series of Major League Baseball (MLB)
+msgctxt "Sports module"
+msgid "WS"
+msgstr ""
+
 #. Waiting for the device location sensor to return data
 msgctxt "precise_user_location"
 msgid "Waiting for Location..."
@@ -7019,6 +7542,11 @@ msgstr ""
 msgid "Watch Here"
 msgstr "এখানে দেখুন"
 
+#. Item in a list of features of a desktop web browser
+msgctxt "Browser Promo Popover"
+msgid "Watch YouTube without targeted ads"
+msgstr ""
+
 #. This is a button that lets the user play a video in our custom video player
 msgid "Watch in Duck Player"
 msgstr ""
@@ -7037,8 +7565,12 @@ msgstr ""
 msgid "Watch on YouTube"
 msgstr "YouTube এ দেখুন"
 
-msgctxt "SERP footer content"
-msgid "We Protect Your Privacy"
+#. A privacy disclaimer that appears above YouTube videos.
+msgid ""
+"Watching a video here means the website where it is hosted can track you "
+"because we have to stream the content from there. DuckDuckGo is an "
+"independent company and has no relationship with YouTube, where most videos "
+"are hosted."
 msgstr ""
 
 #. Explains how location service is used to show users search results near their current location.
@@ -7048,10 +7580,6 @@ msgstr ""
 
 msgctxt "reasons-to-use-duckduckgo"
 msgid "We don't follow you around with ads."
-msgstr ""
-
-msgctxt "SERP footer content"
-msgid "We don't save your search history or follow you around the web."
 msgstr ""
 
 #. Text explaining how the cloud save feature works.
@@ -7074,10 +7602,6 @@ msgstr ""
 
 msgctxt "reasons-to-use-duckduckgo"
 msgid "We don't store your personal information."
-msgstr ""
-
-msgctxt "SERP footer content"
-msgid "We don't track you, but others do."
 msgstr ""
 
 #. Message prompting users to fill out a feedback form.
@@ -7114,10 +7638,6 @@ msgstr ""
 
 msgctxt "homepage onboarding"
 msgid "We don’t track you in or out of private browsing mode."
-msgstr ""
-
-msgctxt "SERP footer content"
-msgid "We get a ton of searches, and all of them are anonymous."
 msgstr ""
 
 msgctxt "homepage ATB modal"
@@ -7178,6 +7698,11 @@ msgstr ""
 #. Category of feedback a user can select on a feedback form.
 msgctxt "feedback form"
 msgid "Website is missing"
+msgstr ""
+
+#. Shown as confirmation that a website link was removed from a list.
+msgctxt "new tab page"
+msgid "Website removed"
 msgstr ""
 
 #. Weekday abbreviation (short for 'Wednesday')
@@ -7273,9 +7798,28 @@ msgctxt "maps_places"
 msgid "What people say:"
 msgstr ""
 
+#. Link to a page featuring the most recent updates from DuckDuckGo.
+msgid "What’s New"
+msgstr ""
+
+#. Text of a button that performs a search for the available streaming services that show a particular movie or tv show
+msgctxt "Movie/TV Show Title instant answer"
+msgid "Where To Watch"
+msgstr ""
+
+#. Heading of a module showing what streaming services are showing a movie or series, e.g. Where to Watch The Matrix
+msgctxt "Where to watch instant answer"
+msgid "Where To Watch <strong>%s</strong>"
+msgstr ""
+
 #. Tells the user where to click in their browser. Part of a list of instructions on how to change the brower's home page.
 msgid "Where it says Homepage click %sSet to Current Page%s."
 msgstr "যেখানে Homepage লেখা আছে সেখানে %sSet to Current Page%s-এ ক্লিক করুন।"
+
+#. Heading of a module showing what streaming services are showing a movie or series, e.g. Where to Watch The Matrix
+msgctxt "Where to watch instant answer"
+msgid "Where to Watch <strong>%s</strong>"
+msgstr ""
 
 #. https://duckduckgo.com/params under "Color Settings" under "Header: " and under "Background: "
 msgid "White"
@@ -7328,6 +7872,11 @@ msgctxt "Sports module"
 msgid "Wild Card Games Behind"
 msgstr ""
 
+#. In the context of the National Hockey League (NHL), title for a table of teams ordered based on their classification towards winning a Wild Card slot into playoffs
+msgctxt "Sports module"
+msgid "Wild Card Teams"
+msgstr ""
+
 #. Element title explaining this is the win loss record for team, e.g. 10-5
 msgctxt "Sports module"
 msgid "Win/Loss Record"
@@ -7366,6 +7915,11 @@ msgstr ""
 #. Label for the global number of confirmed Covid 19 cases
 msgctxt "Covid 19 module"
 msgid "World"
+msgstr ""
+
+#. Title of the annual championship series of Major League Baseball (MLB)
+msgctxt "Sports module"
+msgid "World Series"
 msgstr ""
 
 #. Link to map
@@ -7455,9 +8009,11 @@ msgctxt "welcome message"
 msgid "You now have the DuckDuckGo extension!"
 msgstr ""
 
-#. Link to a page where users can select the color scheme and other settings of their search engine.
-msgctxt "SERP footer content"
-msgid "You're in control. Customize the look-and-feel of DuckDuckGo."
+#. The second paragraph of a pop up where we explain how to update the browser manually.
+msgctxt "Update browser banner"
+msgid ""
+"You'll receive automatic DuckDuckGo app updates once you have the latest "
+"version."
 msgstr ""
 
 #. shown when DDG is selected after eu preference menu on android
@@ -7475,6 +8031,11 @@ msgstr ""
 msgid ""
 "You're now searching with privacy. %sGet tips to reduce your footprint even "
 "more."
+msgstr ""
+
+#. A few versions of our native macOS browser were broken and did not automatically update. We want to encourage users to update to the latest version. This message will only show for users on an out of date version and will disappear when the browser is updated
+msgctxt "Update browser banner"
+msgid "You're using an outdated version of DuckDuckGo for Mac."
 msgstr ""
 
 #. A privacy disclaimer that appears above YouTube videos.
@@ -7511,6 +8072,17 @@ msgstr ""
 #. Floating text over a tick next to search results which indicates if a link has been visited.
 msgid "Your browser indicates if you've visited this link"
 msgstr "আপনি এই লিঙ্কে পরিদর্শন করলে আপনার ব্রাউজার ইঙ্গিত দিবে"
+
+msgctxt "new tab page"
+msgid "Your browser provides a list of your most-visited sites."
+msgstr ""
+
+#. Used as a description in a menu
+msgctxt "new tab page"
+msgid ""
+"Your browser provides a list of your most-visited sites. DuckDuckGo never "
+"has access to this data."
+msgstr ""
 
 msgctxt "new tab page"
 msgid ""
@@ -7552,6 +8124,9 @@ msgctxt "language_name"
 msgid "Yucatec Maya"
 msgstr ""
 
+msgid "Zambia"
+msgstr ""
+
 #. From the guide in the Feedback page.
 msgid "advertising"
 msgstr "বিজ্ঞাপন"
@@ -7583,6 +8158,11 @@ msgstr "ইমেইল"
 msgid "for"
 msgstr ""
 
+#. Label that specifies which price the hotel rate starts from, ex: From $237
+msgctxt "Single Place Hotel Offers Module"
+msgid "from"
+msgstr ""
+
 #. An abbreviated form of "hour" that can be displayed in a small space e.g. "1h"
 msgctxt "published date for videos"
 msgid "h"
@@ -7602,6 +8182,11 @@ msgctxt "Stocks module"
 msgid "k"
 msgstr ""
 
+#. Abbreviation for kilometres per hour
+msgctxt "forecast"
+msgid "kph"
+msgstr ""
+
 #. Indicates this is a team logo, e.g. 'Patriots logo'
 msgctxt "Sports module"
 msgid "logo"
@@ -7617,13 +8202,20 @@ msgctxt "published date for videos"
 msgid "mo"
 msgstr ""
 
+#. Abbreviation for miles per hour
+msgctxt "forecast"
+msgid "mph"
+msgstr ""
+
 #. https://duckduckgo.com/50x.html?e=2
 #. p.s.(tsester): i found it out by searching "  "
 msgid "no search"
 msgstr "কোন অনুসন্ধান নয়"
 
-msgid "not %s encoding"
-msgstr "%s এনকোডিং  নয়"
+#. Will be used in the sentence, 'Check official website for rates and availability.' but needs to be a separate token so we can make it a link
+msgctxt "Single Place Hotel Offers Module"
+msgid "official website"
+msgstr ""
 
 #. Used for the <em>color settings</em> into the <a href="https://duckduckgo.com/params.html">URL params page</a> as the last available value for the color parameter.
 #. <em>%s</em> is for a hexadecimal color code as <em>#395323</em>, but it has to be safe encoded, and as <em>#</em> seems not safe, <em>%23</em> must be used in place of the sharp symbol, but they are the same for your browser.
@@ -7639,11 +8231,6 @@ msgstr "অথবা আপনার পছন্দের ফন্ট এর �
 #. Message displayed sometimes at top of results -- in the context of safe search.
 msgid "permanently"
 msgstr "স্থায়ীভাবে"
-
-#. End of message telling users their precise geolocation remains private. Links to https://help.duckduckgo.com/duckduckgo-help-pages/privacy/anonymous-localized-results/
-msgctxt "local_query_rewrite_experiment"
-msgid "private"
-msgstr ""
 
 msgid "private search"
 msgstr ""
@@ -7697,5 +8284,34 @@ msgctxt "published date for videos"
 msgid "yr"
 msgstr ""
 
+#~ msgctxt "attribution"
+#~ msgid "Credits"
+#~ msgstr "স্বীকৃতি"
+
+#~ msgid "Develop"
+#~ msgstr "ডেভেলপ"
+
+#~ msgctxt "SERP footer content"
+#~ msgid "Don't Track Us"
+#~ msgstr "আমাদের কার্যকলাপ অনুসরণ করা বন্ধ করুন"
+
 #~ msgid "Load Cloud Settings"
 #~ msgstr "ক্লাউড সেটিংস লোড করুন"
+
+#~ msgid "Nearby"
+#~ msgstr "নিকটবর্তী "
+
+#~ msgctxt "visible"
+#~ msgid "Showing"
+#~ msgstr "দেখাচ্ছি"
+
+#~ msgctxt "SERP footer content"
+#~ msgid "Stay Informed"
+#~ msgstr "জেনে রাখুন"
+
+#~ msgctxt "translateus"
+#~ msgid "Translate"
+#~ msgstr "অনুবাদ"
+
+#~ msgid "not %s encoding"
+#~ msgstr "%s এনকোডিং  নয়"
